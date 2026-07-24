@@ -29,9 +29,9 @@ Domain Namecheap'ten satın alındı ve DNS ayarları yapıldı:
 | A Record | @ | 185.199.111.153 |
 | CNAME Record | www | alperenaydiner.github.io |
 
-Repo kökündeki `CNAME` dosyası (içeriği tek satır `alperenaydiner.com`) GitHub Pages'e hangi custom domain'i sunacağını söylüyor. DNS doğrulaması geçtikten sonra repo → **Settings → Pages** ekranında **"Enforce HTTPS"** kutusu işaretlenebilir hale gelir (GitHub'ın Let's Encrypt sertifikası otomatik oluşur, birkaç saat sürebilir).
+Repo kökündeki `CNAME` dosyası (içeriği tek satır `www.alperenaydiner.com`) GitHub Pages'e hangi custom domain'in birincil olduğunu söylüyor. DNS doğrulaması geçtikten sonra repo → **Settings → Pages** ekranında **"Enforce HTTPS"** kutusu işaretlenebilir hale gelir (GitHub'ın Let's Encrypt sertifikası otomatik oluşur, birkaç saat sürebilir).
 
-Sonuç: **https://alperenaydiner.com** birincil adres, **www.alperenaydiner.com** ona yönleniyor.
+Sonuç: **https://www.alperenaydiner.com** birincil adres, **alperenaydiner.com** ona yönleniyor.
 
 ## Yeni proje/yazı eklemek
 Bu klasör artık git deposu ve GitHub'daki `aaydiner` reposuna bağlı. Bana "şu projeyi ekle" dediğinde ilgili dosyayı düzenlerim, ardından değişikliği `git commit` + `git push` ile GitHub'a gönderirim (her push öncesi senden onay alarak) — birkaç dakika içinde site otomatik güncellenir.
