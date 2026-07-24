@@ -8,6 +8,7 @@ blog.html       → Blog (şu an boş)
 about.html      → Hakkımda
 css/style.css   → Tüm tasarım
 js/script.js    → Menü + tema geçişi
+CNAME           → Özel alan adı (GitHub Pages için)
 ```
 
 ## GitHub Pages ile yayınlama
@@ -15,14 +16,22 @@ Site şu repoda tutuluyor: [github.com/AlperenAydiner/aaydiner](https://github.c
 
 1. Repo → **Settings → Pages** sekmesine git.
 2. **Source**: "Deploy from a branch" · **Branch**: `main` · **Folder**: `/ (root)` seç, kaydet.
-3. Birkaç dakika içinde site **https://alperenaydiner.github.io/aaydiner/** adresinde yayında olur.
+3. Birkaç dakika içinde site **https://alperenaydiner.github.io/aaydiner/** adresinde yayında olur (repo adı `alperenaydiner.github.io` olmadığı için kök domainde değil, `/aaydiner/` alt yolunda).
 
-Repo adı `alperenaydiner.github.io` olmadığı için site kök domainde değil, `/aaydiner/` alt yolunda yayınlanır.
+## Özel alan adı: alperenaydiner.com
+Domain Namecheap'ten satın alındı ve DNS ayarları yapıldı:
 
-## Kendi alan adını bağlamak
-1. Bir alan adı satın al (Namecheap, GoDaddy, natro vb.).
-2. Alan adı sağlayıcında DNS ayarlarına git, GitHub Pages'in IP adreslerini A kaydı olarak ekle (GitHub'ın "Settings → Pages → Custom domain" bölümü sana tam adımları gösterir).
-3. Aynı ekranda custom domain kutusuna alan adını yaz, kaydet.
+| Type | Host | Value |
+|---|---|---|
+| A Record | @ | 185.199.108.153 |
+| A Record | @ | 185.199.109.153 |
+| A Record | @ | 185.199.110.153 |
+| A Record | @ | 185.199.111.153 |
+| CNAME Record | www | alperenaydiner.github.io |
+
+Repo kökündeki `CNAME` dosyası (içeriği tek satır `alperenaydiner.com`) GitHub Pages'e hangi custom domain'i sunacağını söylüyor. DNS doğrulaması geçtikten sonra repo → **Settings → Pages** ekranında **"Enforce HTTPS"** kutusu işaretlenebilir hale gelir (GitHub'ın Let's Encrypt sertifikası otomatik oluşur, birkaç saat sürebilir).
+
+Sonuç: **https://alperenaydiner.com** birincil adres, **www.alperenaydiner.com** ona yönleniyor.
 
 ## Yeni proje/yazı eklemek
 Bu klasör artık git deposu ve GitHub'daki `aaydiner` reposuna bağlı. Bana "şu projeyi ekle" dediğinde ilgili dosyayı düzenlerim, ardından değişikliği `git commit` + `git push` ile GitHub'a gönderirim (her push öncesi senden onay alarak) — birkaç dakika içinde site otomatik güncellenir.
