@@ -55,11 +55,51 @@
     <p>Proje olmayan, kısa ve dağınık notlar burada birikecek. Konu serbest — istatistik olabilir, olmayabilir.</p>
   </div>
 
-  <ul class="post-list" style="list-style:none; margin:0; padding:0;">
-    <li class="log-empty">
-      <span class="idx">— boş liste —</span>
-      <h2>Henüz yazı yok</h2>
-      <p>İlk yazı eklendiğinde burada tarih, başlık ve kısa özetiyle listelenecek.</p>
+  <ul class="post-list">
+    <li class="post">
+      <div class="post-meta">
+        <span class="idx">Kayıt</span>
+        <span class="post-date">24 Tem 2026</span>
+      </div>
+      <h2>xG (Beklenen Gol) Nasıl Belirlenir?</h2>
+      <div class="post-body">
+        <p>Futbol istatistiklerinde son yıllarda en çok konuşulan kavramlardan biri xG — yani "expected goals" (beklenen gol). Bir maç sonrası "3 gol attılar ama xG'leri 1.2'ydi" gibi cümleler duyuyorsun ve bu sayı aslında oyunun "gerçek" kalitesini, skor tablosundan daha iyi anlatıyor. Peki bu sayı nereden çıkıyor?</p>
+
+        <h3>Temel fikir</h3>
+        <p>xG, bir şutun gol olma olasılığını 0 ile 1 arasında bir değerle ifade eder. 0.05 xG'lik bir şut, benzer pozisyonlardan atılan şutların yaklaşık %5'inin gol olduğu anlamına gelir; 0.8 xG'lik bir şut ise neredeyse kesin gol sayılacak bir pozisyondur (örneğin boş kaleye yakın mesafeden vuruş).</p>
+        <p>Bir maçtaki toplam xG, o maçtaki tüm şutların xG değerlerinin toplamıdır. Yani xG, "kaç gol atmalıydılar" sorusuna istatistiksel bir cevap verir.</p>
+
+        <h3>Modelin girdileri (features)</h3>
+        <p>xG modelleri, geçmişte atılan on binlerce şutu inceleyerek her şutun hangi özelliklerinin gol olasılığını etkilediğini öğrenir. En çok kullanılan değişkenler:</p>
+        <ul>
+          <li><strong>Şut mesafesi</strong> — kaleye ne kadar yakın, gol olasılığı o kadar yüksek.</li>
+          <li><strong>Şut açısı</strong> — kale çizgisine göre şutun geldiği açı ne kadar dar (örneğin çok keskin bir açıdan vuruş), olasılık o kadar düşük.</li>
+          <li><strong>Vücut bölgesi</strong> — ayakla mı, kafayla mı, yoksa daha az güvenilir bir bölgeyle mi (göğüs, sırt vb.) vuruldu.</li>
+          <li><strong>Asist tipi</strong> — pas mı, orta mı, taç mı, korner mi, yoksa bireysel bir çalımdan mı geldi.</li>
+          <li><strong>Oyun durumu</strong> — normal oyun akışı mı, penaltı mı, serbest vuruş mu.</li>
+          <li><strong>Kaleci ve defans konumu</strong> — şut anında kaç savunmacı ve kaleci arada, şutu bloklama ihtimalleri.</li>
+          <li><strong>Şut hızı ve baskı</strong> — oyuncu baskı altında mı vuruyor, yoksa rahat bir pozisyondan mı.</li>
+        </ul>
+
+        <h3>Nasıl hesaplanıyor</h3>
+        <ol>
+          <li><strong>Veri toplama:</strong> Binlerce geçmiş maçtan şut verileri (konum, sonuç, yukarıdaki özellikler) toplanır. Bu veriler genelde olay bazlı (event-level) izleme sistemlerinden gelir.</li>
+          <li><strong>Etiketleme:</strong> Her şut "gol" ya da "gol değil" olarak işaretlenir.</li>
+          <li><strong>Model eğitimi:</strong> Bu veri üzerinde genelde lojistik regresyon, gradient boosting (XGBoost gibi) ya da sinir ağları kullanılır. Model, girdi özelliklerine bakarak her şut tipi için gol olma olasılığını öğrenir.</li>
+          <li><strong>Tahmin:</strong> Yeni bir şut geldiğinde, model o şutun özelliklerine bakıp bir olasılık (xG değeri) üretir.</li>
+        </ol>
+        <p>Basitleştirilmiş bir örnek: ceza sahası içinden, dar olmayan bir açıyla, ayakla ve baskısız şekilde atılan bir şutun xG'si 0.3 civarında olabilirken; ceza yayının dışından, dar açıyla atılan bir şut 0.02-0.05 aralığında kalabilir.</p>
+
+        <h3>Neden önemli</h3>
+        <p>xG, tek bir maçın sonucundan çok, bir takımın veya oyuncunun uzun vadeli performansını değerlendirmek için güçlü bir araç. Bir forvet az gol atıyor ama xG'si yüksekse, muhtemelen doğru pozisyonlara giriyor ve bitiriciliği (finishing) zayıf ya da şanssız. Tam tersi durumda, düşük xG'yle çok gol atan bir oyuncu, sürdürülebilir olmayan bir formda olabilir.</p>
+
+        <h3>Modellerin sınırları</h3>
+        <ul>
+          <li>Farklı veri sağlayıcıların (Opta, StatsBomb, Understat vb.) xG modelleri birbirinden farklı sonuçlar verebilir, çünkü kullandıkları değişkenler ve eğitim verisi farklı.</li>
+          <li>Model, oyuncunun o anki formunu, kalecinin özel yeteneklerini ya da hava koşullarını genelde hesaba katmaz.</li>
+          <li>Bazı gelişmiş modeller artık şut öncesi pas dizisini de (ne kadar hızlı bir hücumdan geldiği gibi) dahil ediyor, buna bazen "xG chain" ya da "possession value" modelleri deniyor.</li>
+        </ul>
+      </div>
     </li>
   </ul>
 </main>

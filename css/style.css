@@ -301,6 +301,29 @@ html[data-theme="light"] .theme-btn .icon-moon{ display: block; }
 .log-empty h2{ font-family: var(--font-display); font-weight: 500; font-size: 1.4rem; margin: 14px 0 10px; }
 .log-empty p{ color: var(--fg-muted); max-width: 48ch; margin: 0; }
 
+/* ---------- blog posts ---------- */
+
+.post-list{ list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 32px; }
+
+.post{
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  background: var(--bg-raised);
+  padding: 32px;
+}
+.post-meta{ display: flex; align-items: baseline; gap: 12px; margin-bottom: 10px; }
+.post-meta .idx{ font-family: var(--font-mono); font-size: 12px; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; }
+.post-date{ font-family: var(--font-mono); font-size: 12px; color: var(--fg-muted); }
+.post > h2{ font-family: var(--font-display); font-weight: 500; font-size: 1.6rem; margin: 0 0 22px; }
+
+.post-body{ max-width: 68ch; }
+.post-body p{ color: var(--fg); font-size: .97rem; margin: 0 0 16px; }
+.post-body h3{ font-family: var(--font-display); font-weight: 500; font-size: 1.15rem; color: var(--fg); margin: 28px 0 12px; }
+.post-body ul, .post-body ol{ margin: 0 0 16px; padding-left: 22px; color: var(--fg); font-size: .95rem; }
+.post-body li{ margin-bottom: 8px; }
+.post-body li::marker{ color: var(--accent); }
+.post-body li:last-child{ margin-bottom: 0; }
+
 /* ---------- footer ---------- */
 
 .site-footer{
