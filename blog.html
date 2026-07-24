@@ -4,7 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Blog — alperenaydiner</title>
-<link rel="icon" type="image/png" href="img/favicon.png">
+<link rel="icon" type="image/png" href="img/logo-light.png" media="(prefers-color-scheme: light)">
+<link rel="icon" type="image/png" href="img/logo-dark.png" media="(prefers-color-scheme: dark)">
 <link rel="apple-touch-icon" href="img/favicon.png">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -63,7 +64,32 @@
   <ul class="post-list">
     <li class="post">
       <div class="post-meta">
-        <span class="idx">Kayıt</span>
+        <span class="post-date">24 Tem 2026</span>
+      </div>
+      <h2>EA Sports FC Oyuncu Puanları Nasıl Belirlenir?</h2>
+      <div class="post-body">
+        <p>Her yıl aynı tartışma kopuyor: "Bu oyuncu neden bu kadar yüksek?" Bu yazıda işin sayısal tarafına bakalım: hangi metrikler kullanılıyor, bunlardan genel puana (OVR) nasıl gidiliyor?</p>
+
+        <h3>Her oyuncu aslında 35 sayıdan ibaret</h3>
+        <p>Her oyuncu için 35 ayrı öznitelik (bitiricilik, top kontrolü, çeviklik, uzun pas gibi) tek tek 1-99 arasında puanlanıyor. Bu 35 sayı, kartlarda gördüğümüz 6 özet kategoriye gruplanıyor: Pace, Shooting, Passing, Dribbling, Defending, Physical.</p>
+        <p>Ama can alıcı nokta şu: OVR, bu 6 sayının ortalaması değil. OVR, doğrudan 35 alt-özniteliğin, pozisyona özel ağırlıklarla toplanmasından çıkıyor. Bu yüzden bazen "bu oyuncunun istatistikleri OVR'siyle uyuşmuyor" tartışmaları çıkıyor.</p>
+
+        <h3>Aynı öznitelik, pozisyona göre farklı ağırlık taşıyor</h3>
+        <p>Formülün mantığı bildiğimiz bir ağırlıklı ortalama: her öznitelik bir katsayıyla çarpılıyor, hepsi toplanıyor — ama katsayılar pozisyona göre kökten değişiyor.</p>
+        <p>Bir santrfor için bitiricilik ve pozisyon alma en ağır basan öznitelikler (topluluğun tersine mühendislikle çıkardığı yaklaşık değerlere göre bitiricilik ~%18, pozisyon alma ~%13); defans öznitelikleri neredeyse hiç sayılmıyor. Bir stoper için tam tersi geçerli: markaj, müdahale ve hava topu en yüksek ağırlığı alırken şut ve çalım neredeyse etkisiz kalıyor.</p>
+        <p>Somut bir örnek: paylaşılan bir hesaplamada Van Dijk'in stoper katsayılarıyla çarpılıp toplanan öznitelikleri ham puan olarak 87,66 çıkarmış, bu da yukarı yuvarlanarak 88 olmuş. Kartındaki nihai 90'a ulaşmak için aşağıdaki düzeltmeler devreye giriyor.</p>
+
+        <h3>Sayının tamamı matematik değil: düzeltmeler</h3>
+        <p>Uluslararası itibar (international reputation) diye bir kalem var — medyada çok tanınan oyunculara ham hesaba ek küçük bir puan payı ekleniyor. Editör müdahalesi de var: Thomas Müller örneği klasikleşmiştir — kart istatistikleri mütevazı görünse de, gerçek performansı ve rolü nedeniyle OVR'si yukarı çekiliyor. Lig/takım bağlamı da etkili; bir oyuncu daha güçlü kabul edilen bir lige transfer olduğunda teknik özniteliklerinde küçük artışlar görülebiliyor.</p>
+        <p>Özetle formül şöyle işliyor: önce pozisyona göre ağırlıklandırılmış öznitelikler toplanıp bir ham puan çıkıyor, sonra buna itibar ve editör düzeltmeleri ekleniyor, en son yuvarlanarak nihai OVR ortaya çıkıyor.</p>
+
+        <h3>Formül neden "gizli"</h3>
+        <p>EA'nin tam katsayı tablosu resmi olarak hiç yayınlanmadı. İnternetteki hesaplayıcı siteler bu katsayıları eski oyun verilerinden tersine mühendislikle tahmin ediyor — yukarıdaki yüzdeler de kesin değil, yaklaşık. Gerçek formül yıldan yıla, pozisyondan pozisyona değişen ve EA'nin kapalı tuttuğu bir sistem.</p>
+        <p>Sonuçta ortaya çıkan şey ağırlıklı doğrusal bir model gibi çalışıyor — ama ağırlıkları veriden öğrenen bir algoritma değil, EA'nin oyun tasarım ekibinin insan kararıyla belirlediği sabit katsayılar.</p>
+      </div>
+    </li>
+    <li class="post">
+      <div class="post-meta">
         <span class="post-date">24 Tem 2026</span>
       </div>
       <h2>xG (Beklenen Gol) Nasıl Belirlenir?</h2>

@@ -310,7 +310,6 @@ html[data-theme="light"] .theme-btn .icon-moon{ display: block; }
   padding: 32px;
 }
 .post-meta{ display: flex; align-items: baseline; gap: 12px; margin-bottom: 10px; }
-.post-meta .idx{ font-family: var(--font-mono); font-size: 12px; color: var(--accent); text-transform: uppercase; letter-spacing: .06em; }
 .post-date{ font-family: var(--font-mono); font-size: 12px; color: var(--fg-muted); }
 .post > h2{ font-family: var(--font-display); font-weight: 500; font-size: 1.6rem; margin: 0 0 22px; }
 
