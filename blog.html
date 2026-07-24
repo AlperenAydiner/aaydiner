@@ -55,43 +55,8 @@
     <p>Proje olmayan, kısa ve dağınık notlar burada birikecek. Konu serbest — istatistik olabilir, olmayabilir.</p>
   </div>
 
-  <section class="idea-share">
-    <div class="idea-share-head">
-      <span class="idx">Katkı</span>
-      <h2>Fikrini paylaş</h2>
-      <p>Bir başlık, birkaç cümle ve istersen bir fotoğraf — fikrin burada, defterin geri kalanıyla birlikte yer alsın.</p>
-    </div>
-    <form id="idea-form" class="idea-form" novalidate>
-      <label class="field">
-        <span>Başlık</span>
-        <input type="text" id="idea-title" name="title" maxlength="80" required placeholder="Örn. Küçük veri setleriyle ne yapılabilir?">
-      </label>
-      <label class="field">
-        <span>Yazı</span>
-        <textarea id="idea-body" name="body" rows="5" maxlength="2000" required placeholder="Fikrini birkaç cümleyle anlat..."></textarea>
-      </label>
-      <label class="field field-file">
-        <span>Fotoğraf <em>(opsiyonel)</em></span>
-        <input type="file" id="idea-photo" name="photo" accept="image/*">
-      </label>
-      <div class="idea-photo-preview" id="idea-photo-preview" hidden>
-        <img id="idea-photo-preview-img" alt="Seçilen fotoğraf önizlemesi">
-        <button type="button" class="idea-photo-remove" id="idea-photo-remove" aria-label="Fotoğrafı kaldır">&times;</button>
-      </div>
-      <div class="idea-form-foot">
-        <span class="idea-form-msg" id="idea-form-msg" role="status" aria-live="polite"></span>
-        <button type="submit" class="idea-submit">Yayınla</button>
-      </div>
-    </form>
-  </section>
-
-  <div class="page-head posts-head">
-    <span class="idx">Kayıtlar</span>
-    <h2>Paylaşılan yazılar</h2>
-  </div>
-
-  <ul class="post-list" id="post-list">
-    <li class="log-empty" id="post-list-empty">
+  <ul class="post-list" style="list-style:none; margin:0; padding:0;">
+    <li class="log-empty">
       <span class="idx">— boş liste —</span>
       <h2>Henüz yazı yok</h2>
       <p>İlk yazı eklendiğinde burada tarih, başlık ve kısa özetiyle listelenecek.</p>
