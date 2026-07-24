@@ -115,7 +115,7 @@ a{ color: inherit; text-decoration: none; }
   cursor: pointer;
 }
 .wordmark strong{ color: var(--fg); font-weight: 500; }
-.wordmark .logo{ display: block; width: 17px; height: auto; }
+.wordmark .logo{ display: block; width: 10px; height: auto; }
 .wordmark .logo-light{ display: none; }
 html[data-theme="light"] .wordmark .logo-dark{ display: none; }
 html[data-theme="light"] .wordmark .logo-light{ display: block; }
