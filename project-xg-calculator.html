@@ -63,12 +63,37 @@
     <div class="project-detail-info">
       <span class="idx">Proje</span>
       <h1>Expected Goal Calculator</h1>
-      <p class="project-detail-lede">Sahanın herhangi bir noktasına tıkla ya da sürükle — o pozisyondan çekilen bir şutun gol olma olasılığını (xG) anında hesaplasın.</p>
+      <p class="project-detail-lede">Futbolda bir maçın istatistiğine baktığında genelde şut sayısını görürsün. Ama 30 metreden umutsuzca denenen bir vuruş ile boş kaleye yapılan bir dokunuş aynı satırda "1 şut" olarak yazılınca, o sayı pek bir şey anlatmaz.</p>
 
       <div class="project-detail-body">
-        <p>Bu araç, <a href="blog.html">blogdaki xG yazısında</a> anlatılan mantığı uygulamalı hale getiriyor: şutun mesafesi, kale çizgisine göre açısı ve vuruş türü (ayak / kafa / penaltı) bir araya gelip 0 ile 1 arasında bir olasılığa dönüşüyor.</p>
-        <p>Hesaplama, elle ayarlanmış bir formül yerine referans bir xG ızgarasından (grid) çift yönlü enterpolasyonla okunuyor — yani saha üzerindeki her nokta, o bölgeden atılan gerçek şutların yaklaşık ne kadarının gol olduğunu yansıtıyor. Kafa vuruşları, ayakla atılan şutlara göre sistematik olarak daha düşük bir dönüşüm oranıyla ayarlanıyor; penaltı ise sabit 0.79 xG olarak işaretleniyor.</p>
-        <p>Saha fare, dokunma veya ok tuşlarıyla kullanılabiliyor; hazır pozisyonlar (kaçırılmayacak fırsat, ceza sahası kenarı, dar açı, içe kesiş, uzun mesafe) tek tıkla denenebiliyor.</p>
+        <p><strong>xG (expected goals)</strong>, tam olarak bunu düzeltmek için var. Bir şutu, benzer pozisyonlardan atılmış geçmiş şutların gol olma oranıyla etiketliyor. 0.30 xG demek şu: <em>bu pozisyondan atılan şutların yaklaşık %30'u gol oluyor.</em></p>
+        <p>Bu araç, sahadaki herhangi bir noktanın xG değerini gösteriyor.</p>
+
+        <h3>Nasıl kullanılır</h3>
+        <p>Sahaya dokun ya da işaretçiyi sürükle. Ekranda üç şey anlık güncelleniyor:</p>
+        <ul>
+          <li><strong>Mesafe</strong> — kaleye olan uzaklık</li>
+          <li><strong>Açı</strong> — kale ağzının o noktadan ne kadar geniş göründüğü</li>
+          <li><strong>xG</strong> — gol olma olasılığı</li>
+        </ul>
+        <p>Sarı koni, şutörün gördüğü kaleyi gösteriyor. Kaleye yaklaştıkça ya da ortaya doğru geldikçe koninin genişlediğini, direğin dibine gittikçe daralıp neredeyse kapandığını fark edeceksin. xG'nin neye tepki verdiğini en iyi anlatan şey bu koni.</p>
+        <p>Hazır pozisyonlar için alttaki butonları kullanabilirsin. Vuruş tipini de değiştirebiliyorsun — aynı noktadan kafayla vurmak, ayakla vurmaktan belirgin şekilde daha az gol getiriyor.</p>
+
+        <h3>Denemeye değer birkaç şey</h3>
+        <p><strong>Mesafe her şey değil.</strong> İşaretçiyi direğin hemen yanına, kale çizgisinin dibine götür. Kaleye 4 metre mesafedesin — ama xG düşük. Çünkü o noktadan kale ağzını neredeyse hiç görmüyorsun. Sonra aynı mesafede ortaya kay: değer birkaç katına çıkıyor. <strong>Açı, mesafe kadar önemli.</strong></p>
+        <p><strong>Penaltı sabit.</strong> Penaltıyı seçtiğinde değer her zaman 0.79. Bu bir tahmin değil, penaltıların yıllar içindeki gerçekleşmiş gol oranı. Penaltı standart bir olay olduğu için konuma göre değişmiyor.</p>
+        <p><strong>Ceza sahası kenarı sandığından düşük.</strong> "Tehlikeli bölge" diye düşündüğümüz yerlerin çoğu 0.04 civarında — yani yirmi beş şuttan biri. Maç izlerken kaçırılan fırsatlara verdiğimiz tepki, genelde gerçek olasılıklardan biraz kopuk.</p>
+
+        <h3>Arkasında ne var</h3>
+        <p>Araç, mesafe ve açıyı girdi olarak alan bir <strong>lojistik regresyon</strong> modeli çalıştırıyor — istatistikte sonucu ikili olan (gol / gol değil) durumlar için kullanılan standart yöntem. Model Python'da kuruldu, katsayıları xG araştırmalarında yaygın olarak kullanılan referans değerlere kalibre edildi.</p>
+        <p>Bir not: bu model sadece konumu ve vuruş tipini biliyor. Savunmacıların nerede olduğunu, kalecinin yerleşimini, şuttan önceki pası görmüyor. Gerçek xG modelleri bunları da hesaba katar, dolayısıyla buradaki sayılar bir yaklaşımdır, profesyonel bir sağlayıcının değeri değil.</p>
+        <p>Teknik detaylar, model denklemi ve kod için aşağıdan indirebilirsin:</p>
+      </div>
+
+      <div class="download-row">
+        <a class="download-link" href="downloads/xg-calculator/README.md" download>README.md ↓</a>
+        <a class="download-link" href="downloads/xg-calculator/xg_model.py" download>xg_model.py ↓</a>
+        <a class="download-link" href="xg-calculator.html" download>xg-calculator.html ↓</a>
       </div>
 
       <div class="project-tags">
@@ -76,6 +101,7 @@
         <span class="tag">CSS</span>
         <span class="tag">JavaScript</span>
         <span class="tag">SVG</span>
+        <span class="tag">Python</span>
       </div>
 
       <a class="project-fullscreen-link" href="xg-calculator.html" target="_blank" rel="noopener">Aracı tam ekranda aç ↗</a>

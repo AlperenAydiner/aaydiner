@@ -315,6 +315,15 @@ html[data-theme="light"] .theme-btn .icon-moon{ display: block; }
 .project-detail-body p{ color: var(--fg-muted); font-size: .93rem; margin: 0 0 16px; }
 .project-detail-body a{ color: var(--accent); text-decoration: underline; text-underline-offset: 2px; }
 
+.download-row{ display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 26px; }
+.download-link{
+  font-family: var(--font-mono); font-size: 12.5px; color: var(--fg);
+  background: var(--bg-alt);
+  border: 1px solid var(--border); border-radius: 8px; padding: 8px 13px;
+  transition: border-color .18s ease, color .18s ease;
+}
+.download-link:hover{ border-color: var(--accent); color: var(--accent); }
+
 .project-tags{ display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0 26px; }
 .project-tags .tag{
   font-family: var(--font-mono); font-size: 11.5px; color: var(--fg-muted);
