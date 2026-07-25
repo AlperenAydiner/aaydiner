@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Projeler — alperenaydiner</title>
+<title>Expected Goal Calculator — alperenaydiner</title>
+<meta name="description" content="Sahaya tıklayarak şutun beklenen gol (xG) değerini anında hesaplayan interaktif araç.">
 <link rel="icon" type="image/png" href="img/logo-light.png" media="(prefers-color-scheme: light)">
 <link rel="icon" type="image/png" href="img/logo-dark.png" media="(prefers-color-scheme: dark)">
 <link rel="apple-touch-icon" href="img/favicon.png">
@@ -56,15 +57,33 @@
 </nav>
 
 <main class="page page-wide">
-  <div class="page-head">
-    <h1>Projeler</h1>
-    <p>Bitmiş ve devam eden işlerin listesi. Her proje kısa açıklama, kullanılan teknolojiler ve ilgili linklerle burada yer alacak.</p>
-  </div>
+  <a class="back-to-projects" href="projects.html">← Projelere dön</a>
 
-  <div class="projects-grid">
-    <a class="project-card" href="project-xg-calculator.html"><div class="project-thumb"><img src="img/project-xg-calculator.png" alt="xG Calculator önizlemesi"></div><h3>Expected Goal Calculator</h3><p>Sahaya tıklayarak şutun beklenen gol (xG) değerini anında hesaplayan interaktif bir araç.</p></a>
-    <a class="project-card" href="#"><div class="project-thumb"><span>02</span></div><h3>Proje 2</h3><p>Kısa açıklama yakında eklenecek.</p></a>
-    <a class="project-card" href="#"><div class="project-thumb"><span>03</span></div><h3>Proje 3</h3><p>Kısa açıklama yakında eklenecek.</p></a>
+  <div class="project-detail-grid">
+    <div class="project-detail-info">
+      <span class="idx">Proje</span>
+      <h1>Expected Goal Calculator</h1>
+      <p class="project-detail-lede">Sahanın herhangi bir noktasına tıkla ya da sürükle — o pozisyondan çekilen bir şutun gol olma olasılığını (xG) anında hesaplasın.</p>
+
+      <div class="project-detail-body">
+        <p>Bu araç, <a href="blog.html">blogdaki xG yazısında</a> anlatılan mantığı uygulamalı hale getiriyor: şutun mesafesi, kale çizgisine göre açısı ve vuruş türü (ayak / kafa / penaltı) bir araya gelip 0 ile 1 arasında bir olasılığa dönüşüyor.</p>
+        <p>Hesaplama, elle ayarlanmış bir formül yerine referans bir xG ızgarasından (grid) çift yönlü enterpolasyonla okunuyor — yani saha üzerindeki her nokta, o bölgeden atılan gerçek şutların yaklaşık ne kadarının gol olduğunu yansıtıyor. Kafa vuruşları, ayakla atılan şutlara göre sistematik olarak daha düşük bir dönüşüm oranıyla ayarlanıyor; penaltı ise sabit 0.79 xG olarak işaretleniyor.</p>
+        <p>Saha fare, dokunma veya ok tuşlarıyla kullanılabiliyor; hazır pozisyonlar (kaçırılmayacak fırsat, ceza sahası kenarı, dar açı, içe kesiş, uzun mesafe) tek tıkla denenebiliyor.</p>
+      </div>
+
+      <div class="project-tags">
+        <span class="tag">HTML</span>
+        <span class="tag">CSS</span>
+        <span class="tag">JavaScript</span>
+        <span class="tag">SVG</span>
+      </div>
+
+      <a class="project-fullscreen-link" href="xg-calculator.html" target="_blank" rel="noopener">Aracı tam ekranda aç ↗</a>
+    </div>
+
+    <div class="project-detail-frame">
+      <iframe src="xg-calculator.html" title="xG Calculator interaktif aracı" loading="eager"></iframe>
+    </div>
   </div>
 </main>
 
