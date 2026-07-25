@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>xG Calculator — alperenaydiner</title>
+<link rel="icon" type="image/png" href="img/logo-light.png" media="(prefers-color-scheme: light)">
+<link rel="icon" type="image/png" href="img/logo-dark.png" media="(prefers-color-scheme: dark)">
+<link rel="apple-touch-icon" href="img/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,450;0,9..144,560;0,9..144,650;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0a0b0d;
+    --net-top: #1c2846;
+    --net-bottom: #0f1728;
+    --pitch-1: #2f6b4a;
+    --pitch-2: #285f40;
+    --gold: #dab875;
+    --line: rgba(255,255,255,0.85);
+    --text: #f1eee6;
+    --muted: #90939c;
+    --dim: #5c5f6a;
+    --card-edge: rgba(255,255,255,0.07);
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+  }
+
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 28px 16px 44px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .app { width: 100%; max-width: 440px; }
+
+  .back-link {
+    position: fixed;
+    top: 16px;
+    left: 16px;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    color: var(--dim);
+    text-decoration: none;
+    z-index: 10;
+    transition: color 0.15s ease;
+  }
+  .back-link:hover { color: var(--text); }
+
+  header { text-align: center; margin-bottom: 18px; }
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--dim);
+    font-weight: 600;
+  }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 560;
+    font-size: clamp(30px, 8vw, 38px);
+    color: var(--gold);
+    margin: 6px 0 0;
+    letter-spacing: 0.005em;
+  }
+  h1 em { font-style: italic; font-weight: 500; opacity: 0.92; }
+
+  .pitch-card {
+    position: relative;
+    border-radius: 22px;
+    overflow: hidden;
+    background: var(--net-bottom);
+    box-shadow: 0 24px 60px -24px rgba(0,0,0,0.7), inset 0 0 0 1px var(--card-edge);
+  }
+
+  svg#pitch {
+    display: block;
+    width: 100%;
+    height: auto;
+    touch-action: none;
+    cursor: crosshair;
+  }
+  svg#pitch:focus-visible {
+    outline: 2px solid var(--gold);
+    outline-offset: -3px;
+  }
+
+  .hint {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 10.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: rgba(255,255,255,0.55);
+    background: rgba(0,0,0,0.35);
+    padding: 4px 10px;
+    border-radius: 999px;
+    pointer-events: none;
+    backdrop-filter: blur(2px);
+  }
+
+  .readout {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 14px;
+    margin: 24px 0 4px;
+  }
+  .xg-number {
+    font-family: 'Fraunces', serif;
+    font-variant-numeric: tabular-nums;
+    font-size: 56px;
+    font-weight: 650;
+    line-height: 1;
+  }
+  .badge {
+    font-size: 12.5px;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 999px;
+    color: #0a0b0d;
+    white-space: nowrap;
+  }
+
+  .stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 16px 0 20px;
+    font-size: 14px;
+  }
+  .stats-row .stat { text-align: center; }
+  .stats-row .label {
+    display: block;
+    color: var(--dim);
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.09em;
+    margin-bottom: 3px;
+  }
+  .stats-row .value { font-weight: 600; font-variant-numeric: tabular-nums; }
+
+  .chance-bar-wrap { margin: 6px 0 22px; }
+  .chance-bar-track {
+    position: relative;
+    height: 5px;
+    border-radius: 3px;
+    background: linear-gradient(90deg, hsl(206,58%,56%), hsl(40,68%,58%), hsl(12,72%,55%));
+  }
+  .chance-dot {
+    position: absolute;
+    top: 50%;
+    width: 15px; height: 15px;
+    border-radius: 50%;
+    background: #fff;
+    border: 2.5px solid #0a0b0d;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  }
+  .chance-labels {
+    display: flex; justify-content: space-between;
+    font-size: 10.5px; color: var(--dim); margin-top: 8px;
+    text-transform: uppercase; letter-spacing: 0.07em;
+  }
+
+  .section-label {
+    font-size: 10.5px;
+    text-transform: uppercase;
+    letter-spacing: 0.11em;
+    color: var(--dim);
+    margin: 22px 2px 9px;
+    font-weight: 600;
+  }
+
+  .chip-row { display: flex; flex-wrap: wrap; gap: 8px; }
+
+  button.chip {
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 9px 15px;
+    border-radius: 999px;
+    border: 1px solid rgba(255,255,255,0.14);
+    background: rgba(255,255,255,0.02);
+    color: var(--text);
+    cursor: pointer;
+    transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+  }
+  button.chip:hover { border-color: rgba(255,255,255,0.32); }
+  button.chip.active {
+    border-color: var(--gold);
+    background: rgba(218,184,117,0.14);
+    color: var(--gold);
+  }
+  button.chip:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+  .sentence {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 16.5px;
+    text-align: center;
+    margin: 28px 6px 6px;
+    line-height: 1.55;
+  }
+
+  .credit {
+    margin-top: 24px;
+    text-align: center;
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-size: 12.5px;
+    letter-spacing: 0.03em;
+    color: var(--dim);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+<a class="back-link" href="index.html">← alperenaydiner.com</a>
+<div class="app">
+
+  <header>
+    <div class="eyebrow">Expected Goals</div>
+    <h1>xG <em>Calculator</em></h1>
+  </header>
+
+  <div class="pitch-card">
+    <svg id="pitch" viewBox="0 -8 68 48" role="img" aria-label="Interactive shot map. Drag, tap, or use arrow keys to place the shot." tabindex="0">
+      <defs>
+        <pattern id="net" width="2.3" height="2.3" patternUnits="userSpaceOnUse">
+          <path d="M0,0 L2.3,0 M0,0 L0,2.3" stroke="rgba(255,255,255,0.16)" stroke-width="0.08" fill="none"/>
+        </pattern>
+        <linearGradient id="netFade" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0" stop-color="#12335e"/>
+          <stop offset="1" stop-color="#182846"/>
+        </linearGradient>
+      </defs>
+
+      <!-- net backdrop -->
+      <rect x="0" y="-8" width="68" height="8" fill="url(#netFade)"/>
+      <rect x="0" y="-8" width="68" height="8" fill="url(#net)"/>
+
+      <!-- pitch stripes -->
+      <g id="stripes"></g>
+
+      <!-- pitch markings -->
+      <rect x="13.85" y="0" width="40.3" height="16.5" fill="none" stroke="var(--line)" stroke-width="0.22"/>
+      <rect x="25.84" y="0" width="18.32" height="5.5" fill="none" stroke="var(--line)" stroke-width="0.22"/>
+      <path id="arc" fill="none" stroke="var(--line)" stroke-width="0.22"/>
+      <circle cx="34" cy="11" r="0.28" fill="var(--line)"/>
+      <line x1="0" y1="0" x2="68" y2="0" stroke="var(--line)" stroke-width="0.22"/>
+
+      <!-- posts + crossbar -->
+      <line x1="30.34" y1="0" x2="30.34" y2="-2.44" stroke="#fff" stroke-width="0.35"/>
+      <line x1="37.66" y1="0" x2="37.66" y2="-2.44" stroke="#fff" stroke-width="0.35"/>
+      <line x1="30.34" y1="-2.44" x2="37.66" y2="-2.44" stroke="#fff" stroke-width="0.35"/>
+
+      <!-- goalkeeper (decorative) -->
+      <g id="keeper">
+        <ellipse cx="34" cy="0.08" rx="0.55" ry="0.11" fill="rgba(0,0,0,0.35)"/>
+        <line x1="33.85" y1="-0.62" x2="33.68" y2="0" stroke="#1a1d24" stroke-width="0.16" stroke-linecap="round"/>
+        <line x1="34.15" y1="-0.62" x2="34.32" y2="0" stroke="#1a1d24" stroke-width="0.16" stroke-linecap="round"/>
+        <line x1="33.78" y1="-1.32" x2="33.1" y2="-1.58" stroke="#c9922e" stroke-width="0.14" stroke-linecap="round"/>
+        <line x1="34.22" y1="-1.32" x2="34.9" y2="-1.58" stroke="#c9922e" stroke-width="0.14" stroke-linecap="round"/>
+        <circle cx="33.05" cy="-1.6" r="0.09" fill="#e8c9a0"/>
+        <circle cx="34.95" cy="-1.6" r="0.09" fill="#e8c9a0"/>
+        <rect x="33.72" y="-1.42" width="0.56" height="0.82" rx="0.14" fill="#c9922e"/>
+        <circle cx="34" cy="-1.62" r="0.21" fill="#e8c9a0"/>
+      </g>
+
+      <!-- dynamic cone -->
+      <g id="cone"></g>
+
+      <!-- shot marker -->
+      <g id="marker">
+        <circle r="1.35" fill="rgba(0,0,0,0.35)" cy="0.15"/>
+        <circle id="markerRing" r="1.15" fill="#fff" stroke="#0a0b0d" stroke-width="0.22"/>
+        <circle r="0.34" fill="#0a0b0d"/>
+      </g>
+    </svg>
+    <div class="hint">Drag on the pitch to move the shot</div>
+  </div>
+
+  <div class="readout">
+    <div class="xg-number" id="xgNumber">0.18</div>
+    <div class="badge" id="badge">Medium chance</div>
+  </div>
+
+  <div class="stats-row">
+    <div class="stat"><span class="label">Distance</span><span class="value" id="distStat">14.0 m</span></div>
+    <div class="stat"><span class="label">Angle</span><span class="value" id="angleStat">29°</span></div>
+    <div class="stat"><span class="label">Goal chance</span><span class="value" id="chanceStat">18%</span></div>
+  </div>
+
+  <div class="chance-bar-wrap">
+    <div class="chance-bar-track">
+      <div class="chance-dot" id="chanceDot"></div>
+    </div>
+    <div class="chance-labels"><span>Unlikely</span><span>Likely</span></div>
+  </div>
+
+  <div class="section-label">Shot type</div>
+  <div class="chip-row" id="typeRow">
+    <button class="chip active" data-type="foot">Foot</button>
+    <button class="chip" data-type="head">Header</button>
+    <button class="chip" data-type="penalty">Penalty</button>
+  </div>
+
+  <div class="section-label">Presets</div>
+  <div class="chip-row" id="presetRow">
+    <button class="chip" data-preset="tapin">Tap-in (6yd)</button>
+    <button class="chip active" data-preset="edge">Edge of box</button>
+    <button class="chip" data-preset="tight">Tight angle</button>
+    <button class="chip" data-preset="cutin">Cut-in</button>
+    <button class="chip" data-preset="long">Long range</button>
+  </div>
+
+  <p class="sentence" id="sentence">14.0m at 29°, shot — about 1 in 6 shots like this go in.</p>
+
+  <div class="credit">Alperen Aydıner</div>
+
+</div>
+
+<script>
+(function () {
+  const GOAL_CX = 34, GOAL_HALF_W = 3.66, GOAL_W = 7.32;
+  const B_HEAD = -1.30;
+  const PENALTY_XG = 0.79;
+  const PITCH_1 = '#2f6b4a', PITCH_2 = '#285f40';
+
+  // reference xG grid (row 1 = nearest goal, col 5 = center) — calibrated so the
+  // calculator's numbers match this published grid rather than a hand-tuned formula
+  const XG_GRID = [
+    [0.000, 0.016, 0.045, 0.147, 0.438, 0.169, 0.049, 0.026, 0.011],
+    [0.010, 0.021, 0.048, 0.111, 0.173, 0.112, 0.050, 0.022, 0.020],
+    [0.006, 0.022, 0.040, 0.081, 0.187, 0.083, 0.041, 0.016, 0.016],
+    [0.000, 0.017, 0.027, 0.039, 0.054, 0.039, 0.028, 0.014, 0.011],
+    [0.009, 0.014, 0.021, 0.028, 0.029, 0.027, 0.022, 0.014, 0.011],
+    [0.010, 0.015, 0.016, 0.020, 0.020, 0.020, 0.016, 0.010, 0.000],
+    [0.008, 0.014, 0.014, 0.014, 0.013, 0.017, 0.013, 0.011, 0.004],
+    [0.007, 0.008, 0.009, 0.004, 0.008, 0.009, 0.002, 0.009, 0.006],
+    [0.000, 0.007, 0.007, 0.007, 0.007, 0.005, 0.008, 0.000, 0.006],
+  ];
+  const GRID_COLS = 9, GRID_ROWS = 9;
+  // scale derived from the reference image: the thick box spans 3 rows of the
+  // penalty area's 16.5m depth, and the 9 columns span the pitch's 68m width.
+  // Cross-checked against the penalty arc (peak 20.15m -> row 4) and the
+  // centre-circle edge (43.35m -> row 8) drawn in that image.
+  const GRID_COL_W = 68 / 9;
+  const GRID_ROW_H = 16.5 / 3;
+
+  const presets = {
+    tapin: { x: 34, y: 3  },
+    edge:  { x: 34, y: 14 },
+    tight: { x: 49, y: 1.5 },
+    cutin: { x: 41, y: 9  },
+    long:  { x: 41, y: 22 },
+  };
+  const PENALTY_SPOT = { x: 34, y: 11 };
+
+  const state = { x: 34, y: 14, shotType: 'foot' };
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const svg = document.getElementById('pitch');
+  const marker = document.getElementById('marker');
+  const cone = document.getElementById('cone');
+  const stripesG = document.getElementById('stripes');
+  const arcPath = document.getElementById('arc');
+
+  // --- static geometry built once ---
+  function buildStripes() {
+    const bands = 11, total = 44, h = total / bands;
+    let html = '';
+    for (let i = 0; i < bands; i++) {
+      html += `<rect x="0" y="${(i*h).toFixed(2)}" width="68" height="${(h+0.4).toFixed(2)}" fill="${i % 2 === 0 ? PITCH_1 : PITCH_2}"/>`;
+    }
+    stripesG.innerHTML = html;
+  }
+  function buildArc() {
+    const cx = 34, cy = 11, r = 9.15, phiMax = Math.acos(5.5 / r), steps = 28;
+    let d = '';
+    for (let i = 0; i <= steps; i++) {
+      const phi = -phiMax + (2 * phiMax) * (i / steps);
+      const x = cx + r * Math.sin(phi), y = cy + r * Math.cos(phi);
+      d += (i === 0 ? 'M' : 'L') + x.toFixed(2) + ',' + y.toFixed(2) + ' ';
+    }
+    arcPath.setAttribute('d', d);
+  }
+  buildStripes();
+  buildArc();
+
+  // --- math ---
+  function distance(x, y) { return Math.hypot(x - GOAL_CX, y); }
+  function angleDeg(x, y) {
+    const p1x = GOAL_CX - GOAL_HALF_W, p2x = GOAL_CX + GOAL_HALF_W;
+    const a = Math.hypot(x - p1x, y), b = Math.hypot(x - p2x, y), c = GOAL_W;
+    let cosA = (a * a + b * b - c * c) / (2 * a * b);
+    cosA = Math.max(-1, Math.min(1, cosA));
+    return Math.acos(cosA) * 180 / Math.PI;
+  }
+  function gridLookup(xOffset, y) {
+    const colF = xOffset / GRID_COL_W + (GRID_COLS - 1) / 2;
+    const rowF = y / GRID_ROW_H - 0.5;
+    const colC = Math.max(0, Math.min(GRID_COLS - 1, colF));
+    const rowC = Math.max(0, Math.min(GRID_ROWS - 1, rowF));
+    const c0 = Math.floor(colC), c1 = Math.min(GRID_COLS - 1, c0 + 1);
+    const r0 = Math.floor(rowC), r1 = Math.min(GRID_ROWS - 1, r0 + 1);
+    const tx = colC - c0, ty = rowC - r0;
+    const v00 = XG_GRID[r0][c0], v01 = XG_GRID[r0][c1];
+    const v10 = XG_GRID[r1][c0], v11 = XG_GRID[r1][c1];
+    const v0 = v00 + (v01 - v00) * tx;
+    const v1 = v10 + (v11 - v10) * tx;
+    return v0 + (v1 - v0) * ty;
+  }
+  function computeXG(x, y, shotType) {
+    if (shotType === 'penalty') return PENALTY_XG;
+    const pFoot = gridLookup(x - GOAL_CX, y);
+    if (shotType === 'head') {
+      const p = Math.min(0.999, Math.max(0.001, pFoot));
+      const z = Math.log(p / (1 - p)) + B_HEAD;
+      return 1 / (1 + Math.exp(-z));
+    }
+    return pFoot;
+  }
+  function chanceColor(xg) {
+    let hue;
+    if (xg <= 0.5) hue = 206 + (40 - 206) * (xg / 0.5);
+    else hue = 40 + (12 - 40) * ((xg - 0.5) / 0.5);
+    return `hsl(${hue.toFixed(0)}, 62%, 57%)`;
+  }
+  function chanceLabel(xg) {
+    if (xg < 0.15) return 'Low chance';
+    if (xg < 0.5) return 'Medium chance';
+    return 'High chance';
+  }
+  function buildSentence(dist, ang, xg, shotType) {
+    if (shotType === 'penalty') {
+      return `Penalty — fixed at 0.79 xG, football's well-established conversion rate.`;
+    }
+    const shotWord = shotType === 'head' ? 'header' : 'shot';
+    const lead = `${dist.toFixed(1)}m at ${Math.round(ang)}°, ${shotWord} — `;
+    if (xg >= 0.5) return lead + `better than a coin flip, about ${Math.round(xg * 100)}% go in.`;
+    const n = Math.max(2, Math.round(1 / xg));
+    return lead + `about 1 in ${n} shots like this go in.`;
+  }
+
+  // --- rendering ---
+  function updateCone(x, y) {
+    const p1x = GOAL_CX - GOAL_HALF_W, p2x = GOAL_CX + GOAL_HALF_W;
+    cone.innerHTML =
+      `<path d="M ${x.toFixed(2)} ${y.toFixed(2)} L ${p1x} 0 L ${p2x} 0 Z" fill="rgba(232,169,58,0.20)"/>` +
+      `<line x1="${x.toFixed(2)}" y1="${y.toFixed(2)}" x2="${p1x}" y2="0" stroke="rgba(232,169,58,0.85)" stroke-width="0.16"/>` +
+      `<line x1="${x.toFixed(2)}" y1="${y.toFixed(2)}" x2="${p2x}" y2="0" stroke="rgba(232,169,58,0.85)" stroke-width="0.16"/>` +
+      `<line x1="${x.toFixed(2)}" y1="${y.toFixed(2)}" x2="34" y2="0" stroke="rgba(232,169,58,0.55)" stroke-width="0.1" stroke-dasharray="0.5 0.5"/>`;
+  }
+
+  const typeButtons = document.querySelectorAll('#typeRow .chip');
+
+  function setActiveTypeButton() {
+    typeButtons.forEach(b => b.classList.toggle('active', b.dataset.type === state.shotType));
+  }
+
+  function render() {
+    setActiveTypeButton();
+
+    marker.setAttribute('transform', `translate(${state.x.toFixed(2)}, ${state.y.toFixed(2)})`);
+    updateCone(state.x, state.y);
+
+    const dist = distance(state.x, state.y);
+    const ang = angleDeg(state.x, state.y);
+    const xg = computeXG(state.x, state.y, state.shotType);
+    const color = chanceColor(xg);
+
+    const xgEl = document.getElementById('xgNumber');
+    xgEl.textContent = xg.toFixed(2);
+    xgEl.style.color = color;
+
+    const badgeEl = document.getElementById('badge');
+    badgeEl.textContent = chanceLabel(xg);
+    badgeEl.style.background = color;
+
+    document.getElementById('distStat').textContent = dist.toFixed(1) + ' m';
+    document.getElementById('angleStat').textContent = Math.round(ang) + '°';
+    document.getElementById('chanceStat').textContent = Math.round(xg * 100) + '%';
+    document.getElementById('chanceDot').style.left = (xg * 100) + '%';
+
+    const sentenceEl = document.getElementById('sentence');
+    sentenceEl.textContent = buildSentence(dist, ang, xg, state.shotType);
+    sentenceEl.style.color = color;
+  }
+
+  // --- animated transitions for preset jumps ---
+  let animId = null;
+  function animateTo(tx, ty) {
+    if (reduceMotion) { state.x = tx; state.y = ty; render(); return; }
+    if (animId) cancelAnimationFrame(animId);
+    const sx = state.x, sy = state.y, start = performance.now(), dur = 380;
+    function step(now) {
+      const t = Math.min(1, (now - start) / dur);
+      const e = 1 - Math.pow(1 - t, 3);
+      state.x = sx + (tx - sx) * e;
+      state.y = sy + (ty - sy) * e;
+      render();
+      animId = t < 1 ? requestAnimationFrame(step) : null;
+    }
+    animId = requestAnimationFrame(step);
+  }
+
+  function clearPresetActive() {
+    document.querySelectorAll('#presetRow .chip').forEach(b => b.classList.remove('active'));
+  }
+  function revertPenaltyOnMove() {
+    if (state.shotType === 'penalty') state.shotType = 'foot';
+  }
+
+  // --- pointer interaction ---
+  function clientToSvg(clientX, clientY) {
+    const pt = svg.createSVGPoint();
+    pt.x = clientX; pt.y = clientY;
+    const ctm = svg.getScreenCTM();
+    if (!ctm) return { x: state.x, y: state.y };
+    const p = pt.matrixTransform(ctm.inverse());
+    return { x: p.x, y: p.y };
+  }
+  function clampX(x) { return Math.max(-3, Math.min(71, x)); }
+  function clampY(y) { return Math.max(0.6, Math.min(44, y)); }
+
+  let dragging = false;
+  svg.addEventListener('pointerdown', (e) => {
+    dragging = true;
+    if (animId) { cancelAnimationFrame(animId); animId = null; }
+    svg.setPointerCapture(e.pointerId);
+    clearPresetActive();
+    revertPenaltyOnMove();
+    const p = clientToSvg(e.clientX, e.clientY);
+    state.x = clampX(p.x); state.y = clampY(p.y);
+    render();
+  });
+  svg.addEventListener('pointermove', (e) => {
+    if (!dragging) return;
+    const p = clientToSvg(e.clientX, e.clientY);
+    state.x = clampX(p.x); state.y = clampY(p.y);
+    render();
+  });
+  svg.addEventListener('pointerup', () => { dragging = false; });
+  svg.addEventListener('pointercancel', () => { dragging = false; });
+
+  svg.addEventListener('keydown', (e) => {
+    const step = e.shiftKey ? 4 : 1;
+    let { x, y } = state;
+    if (e.key === 'ArrowLeft') x -= step;
+    else if (e.key === 'ArrowRight') x += step;
+    else if (e.key === 'ArrowUp') y -= step;
+    else if (e.key === 'ArrowDown') y += step;
+    else return;
+    e.preventDefault();
+    clearPresetActive();
+    revertPenaltyOnMove();
+    state.x = clampX(x); state.y = clampY(y);
+    render();
+  });
+
+  // --- presets ---
+  document.querySelectorAll('#presetRow .chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      clearPresetActive();
+      btn.classList.add('active');
+      state.shotType = 'foot';
+      const p = presets[btn.dataset.preset];
+      animateTo(p.x, p.y);
+    });
+  });
+
+  // --- shot type: foot / header / penalty ---
+  typeButtons.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const type = btn.dataset.type;
+      state.shotType = type;
+      if (type === 'penalty') {
+        clearPresetActive();
+        animateTo(PENALTY_SPOT.x, PENALTY_SPOT.y);
+      } else {
+        render();
+      }
+    });
+  });
+
+  render();
+})();
+</script>
+</body>
+</html>
