@@ -2,7 +2,7 @@
 <html lang="tr">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1, user-scalable=no">
 <title>HARMAN — iki takımın ortak oyuncusu</title>
 <meta name="description" content="İki kişilik sözlü futbol oyunu. İki takımda da oynamış futbolcuyu ilk kim söyler?">
 <style>
@@ -13,14 +13,15 @@
     --pad:20px; --p:100%;
   }
   :root{color-scheme:dark}
-  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-  html{margin:0;padding:0;height:100%;background:var(--bg,#0B1B4A)}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+  html{margin:0;padding:0;height:100%;background:var(--bg,#0B1B4A);touch-action:manipulation}
   body{
     margin:0;padding:0;min-height:100%;
     background:var(--bg,#0B1B4A); color:var(--text,#fff);
     font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
     transition:background .3s; overflow:hidden;
     -webkit-user-select:none; user-select:none;
+    touch-action:manipulation;
   }
   #app{height:100vh;height:100dvh;min-height:480px;max-width:900px;margin:0 auto;
        position:relative;overflow:hidden;background:var(--bg,#0B1B4A);color:var(--text,#fff)}
@@ -33,7 +34,7 @@
   .home-split{display:flex;flex-direction:column;flex:1 0 auto}
   .eyebrow{font-size:11px;font-weight:800;letter-spacing:2.4px;text-transform:uppercase;color:var(--muted)}
   .hint{color:var(--muted);font-size:13px;line-height:19px;margin-top:8px}
-  .link{background:none;border:0;color:var(--muted);font-size:15px;font-weight:700;padding:0}
+  .link{background:none;border:0;color:var(--muted);font-size:15px;font-weight:700;padding:0;text-decoration:none;display:inline-block}
 
   .btn{width:100%;height:58px;border:0;border-radius:14px;background:var(--accent);color:var(--on-accent);
        font-size:17px;font-weight:800;letter-spacing:.4px}
@@ -262,7 +263,7 @@ const STR = {
     launch:"Turu başlat",launchHint:"İkiniz de hazır olunca dokunun",round:"Tur",
     timeUp:"Süre doldu",whoWon:"Kim buldu?",draw:"Berabere",winner:"kazandı",
     rematch:"Tekrar oyna",home:"Ana ekran",duration:"Tur süresi",target:"Kazanma puanı",
-    lang:"Dil",theme:"Tema",sec:"sn",point:"puan",country:"Ülke",done:"Bitti",howTo:"Nasıl oynanır",
+    lang:"Dil",theme:"Tema",sec:"sn",point:"puan",country:"Ülke",done:"Bitti",howTo:"Nasıl oynanır",toSite:"&larr; Siteye dön",
     howToBody:"Telefonu ikinizin arasına koyun — yan çevirirseniz ekran sol/sağ bölünür. Geri sayımdan sonra iki taraf belirir. Cevabı yüksek sesle söyleyin; uygulama ses kaydetmez, doğruluğuna siz karar verirsiniz."},
   en:{title:"HARMAN",tagline:"One player, two clubs. Who names him first?",play:"Play",
     two:"2 players",settings:"Settings",mode:"Game mode",tt:"Club – Club",tc:"Club – Country",
@@ -274,7 +275,7 @@ const STR = {
     launch:"Start round",launchHint:"Tap when you are both ready",round:"Round",
     timeUp:"Time's up",whoWon:"Who got it?",draw:"Draw",winner:"wins",
     rematch:"Play again",home:"Home",duration:"Round length",target:"Points to win",
-    lang:"Language",theme:"Theme",sec:"s",point:"points",country:"Country",done:"Done",howTo:"How to play",
+    lang:"Language",theme:"Theme",sec:"s",point:"points",country:"Country",done:"Done",howTo:"How to play",toSite:"&larr; Back to site",
     howToBody:"Put the phone between you — turn it sideways and the screen splits left/right. After the countdown two sides appear. Say your answer out loud; the app records no audio, you two judge it."}
 };
 
@@ -400,7 +401,9 @@ function scoreCell(i, cls){
 function home(){
   const t = txt();
   const dh = S.diff === "easy" ? t.easyHint : S.diff === "mid" ? t.midHint : t.hardHint;
-  return '<div class="pad"><div class="home-split">' +
+  return '<div class="pad">' +
+    '<a class="link" href="projects.html" style="align-self:flex-start">' + t.toSite + "</a>" +
+    '<div class="home-split">' +
     '<div class="grow">' +
       '<div style="display:flex;align-items:center;margin-bottom:18px"><i class="dash"></i><span class="eyebrow">' + t.two + "</span></div>" +
       '<div class="brand">' + t.title + "</div>" +
