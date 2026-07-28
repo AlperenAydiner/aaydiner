@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<title>HARMAN — iki takımın ortak oyuncusu</title>
+<meta name="description" content="İki kişilik sözlü futbol oyunu. İki takımda da oynamış futbolcuyu ilk kim söyler?">
+<style>
+  :root{
+    --bg:#0B1B4A; --accent:#FFE600; --on-accent:#0B0B0B; --text:#fff;
+    --muted:rgba(255,255,255,.58); --line:rgba(255,255,255,.20);
+    --line-soft:rgba(255,255,255,.10); --signal:#FF4D2E;
+    --pad:20px; --p:100%;
+  }
+  :root{color-scheme:dark}
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html{margin:0;padding:0;height:100%;background:var(--bg,#0B1B4A)}
+  body{
+    margin:0;padding:0;min-height:100%;
+    background:var(--bg,#0B1B4A); color:var(--text,#fff);
+    font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+    transition:background .3s; overflow:hidden;
+    -webkit-user-select:none; user-select:none;
+  }
+  #app{height:100vh;height:100dvh;min-height:480px;max-width:900px;margin:0 auto;
+       position:relative;overflow:hidden;background:var(--bg,#0B1B4A);color:var(--text,#fff)}
+  button{font-family:inherit;cursor:pointer}
+
+  .pad{min-height:100%;background:var(--bg,#0B1B4A);
+       padding:calc(28px + env(safe-area-inset-top)) var(--pad) calc(24px + env(safe-area-inset-bottom));
+       display:flex;flex-direction:column;overflow-y:auto;-webkit-overflow-scrolling:touch}
+  .grow{flex:1 0 auto;display:flex;flex-direction:column;justify-content:center}
+  .home-split{display:flex;flex-direction:column;flex:1 0 auto}
+  .eyebrow{font-size:11px;font-weight:800;letter-spacing:2.4px;text-transform:uppercase;color:var(--muted)}
+  .hint{color:var(--muted);font-size:13px;line-height:19px;margin-top:8px}
+  .link{background:none;border:0;color:var(--muted);font-size:15px;font-weight:700;padding:0}
+
+  .btn{width:100%;height:58px;border:0;border-radius:14px;background:var(--accent);color:var(--on-accent);
+       font-size:17px;font-weight:800;letter-spacing:.4px}
+  .btn.ghost{background:transparent;color:var(--text);border:1.5px solid var(--line)}
+  .btn:active{opacity:.78;transform:scale(.99)}
+
+  .seg{display:flex;border:1.5px solid var(--line);border-radius:14px;overflow:hidden}
+  .seg button{flex:1;padding:14px 4px;border:0;background:transparent;color:var(--muted);font-size:14px;font-weight:800}
+  .seg button.on{background:var(--accent);color:var(--on-accent)}
+
+  .brand{font-size:74px;line-height:1;font-weight:800;letter-spacing:-3.4px;color:var(--accent)}
+  .tag{color:var(--muted);font-size:15px;line-height:22px;margin-top:14px;max-width:320px}
+  .dash{width:26px;height:5px;border-radius:3px;background:var(--accent);margin-right:10px}
+
+  .field{display:flex;align-items:center;border-bottom:1.5px solid var(--line);margin-bottom:18px}
+  .field span{width:24px;height:24px;border-radius:12px;background:var(--accent);color:var(--bg);
+              display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:800;margin-right:12px;flex:none}
+  .field input{flex:1;background:none;border:0;outline:none;color:var(--text);font-size:22px;font-weight:800;padding:12px 0;min-width:0}
+
+  .row{display:flex;align-items:center;justify-content:space-between}
+  .step{width:50px;height:50px;border-radius:14px;border:1.5px solid var(--line);background:none;color:var(--text);font-size:24px;font-weight:800}
+  .stepval{font-size:28px;font-weight:800;letter-spacing:-.6px}
+  .stepval i{color:var(--muted);font-size:14px;font-weight:600;font-style:normal}
+  .rule{height:1px;background:var(--line)}
+
+  .themes{display:flex;flex-wrap:wrap;margin-top:12px}
+  .swatch{width:33.33%;padding:8px;background:none;border:1.5px solid var(--line);border-radius:14px}
+  .swatch.on{border-width:2.5px;border-color:var(--accent)}
+  .swatch .bars{display:flex;height:40px;border-radius:10px;overflow:hidden;margin-bottom:8px}
+  .swatch .bars i{flex:1}
+  .swatch label{font-size:11px;font-weight:700;color:var(--muted)}
+  .swatch.on label{color:var(--text)}
+
+  /* --- oyun --- */
+  .game{height:100%;display:flex;flex-direction:column;position:relative;overflow:hidden}
+  .panel{flex:1;display:flex;align-items:center;justify-content:center;padding:0 20px;
+         background:var(--bg);transition:background .25s;text-align:center;min-height:0}
+  .panel .name{font-size:40px;font-weight:800;letter-spacing:-1.4px;line-height:1.05}
+  .panel .name.long{font-size:30px}
+  .panel .kind{font-size:11px;font-weight:800;letter-spacing:3px;text-transform:uppercase;opacity:.7;margin-bottom:6px}
+  .panel .in{animation:downIn .38s cubic-bezier(.2,.8,.2,1)}
+  .panel-b .in{animation-name:upIn}
+
+  .seam{background:var(--bg);flex:none}
+  .bar{height:6px;width:100%;background:var(--line-soft)}
+  .bar i{display:block;height:6px;width:var(--p);background:var(--accent)}
+  .bar.hot i{background:var(--signal)}
+  .seam-row{display:flex;align-items:center;padding:10px 20px;gap:10px}
+  .sc{flex:1;display:flex;flex-direction:column;min-width:0}
+  .sc.r{align-items:flex-end}
+  .sc b{color:var(--muted);font-size:11px;font-weight:800;letter-spacing:1.2px;
+        white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+  .sc u{font-size:26px;font-weight:800;letter-spacing:-.5px;text-decoration:none}
+  .chip{min-width:30px;height:30px;border-radius:15px;border:1.5px solid var(--line);
+        display:flex;align-items:center;justify-content:center;padding:0 8px;
+        font-size:13px;font-weight:800;color:var(--muted);flex:none}
+
+  .badges{display:none}
+  .badge{position:absolute;bottom:12px;min-width:74px;max-width:150px;border-radius:14px;
+         border:1.5px solid var(--line);background:var(--bg);padding:6px 12px}
+  .badge.l{left:20px} .badge.r{right:20px}
+  .badge b{display:block;color:var(--muted);font-size:10px;font-weight:800;letter-spacing:1.2px;
+           white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .badge u{font-size:20px;font-weight:800;letter-spacing:-.5px;text-decoration:none}
+  .roundfloat{position:absolute;bottom:14px;left:0;right:0;display:flex;justify-content:center;pointer-events:none}
+  .roundfloat .chip{background:var(--bg)}
+
+  .hud{position:absolute;top:calc(14px + env(safe-area-inset-top));left:0;right:0;
+       display:flex;justify-content:space-between;align-items:flex-start;padding:0 20px;pointer-events:none;z-index:5}
+  .hud > *{pointer-events:auto}
+  .pill{height:48px;border-radius:16px;border:1.5px solid var(--line);background:var(--bg);
+        color:var(--muted);font-size:13px;font-weight:800;letter-spacing:.4px;padding:0 14px;
+        display:flex;align-items:center;justify-content:center}
+  .count{min-width:48px;padding:0 10px;color:var(--text);font-size:22px;font-weight:800}
+  .count.hot{background:var(--signal);border-color:var(--signal);color:var(--on-signal,#fff);animation:beat .6s infinite}
+  .hud .spacer{width:48px;height:1px;visibility:hidden}
+
+  .curtain{position:absolute;inset:0;background:var(--bg);display:flex;flex-direction:column;
+           align-items:center;justify-content:center;padding:20px;z-index:4;overflow-y:auto}
+  .big{font-size:190px;font-weight:800;letter-spacing:-10px;color:var(--accent);animation:pop .75s ease-out forwards}
+  .ready{width:100%;max-width:520px;animation:rise .38s ease-out}
+  .ready .head{text-align:center}
+  .ready .rnd{font-size:46px;font-weight:800;letter-spacing:-1.8px;margin-top:4px}
+  .ready .board{display:flex;align-items:center;margin:28px 0 36px}
+  .ready .board .sc u{font-size:52px;letter-spacing:-2px}
+  .ready .board em{font-size:30px;font-weight:700;color:var(--muted);padding:0 12px;font-style:normal}
+  .launch{width:100%;border:0;border-radius:20px;padding:24px 0;background:var(--accent);color:var(--on-accent)}
+  .launch b{display:block;font-size:24px;font-weight:800;letter-spacing:-.4px}
+  .launch i{display:block;font-size:12px;font-weight:700;opacity:.72;margin-top:4px;font-style:normal}
+  .judge{width:100%;max-width:520px;animation:rise .3s ease-out}
+  .judge .up{font-size:13px;font-weight:800;letter-spacing:2.4px;text-transform:uppercase;color:var(--signal);text-align:center}
+  .judge h2{font-size:36px;font-weight:800;letter-spacing:-1px;margin:6px 0 28px;text-align:center}
+  .judge .opts{display:flex;flex-direction:column;gap:10px}
+  .judge .opts .btn{height:60px;border-radius:16px;font-size:18px}
+
+  @keyframes downIn{from{opacity:0;transform:translateY(-40px) scale(.9)}to{opacity:1;transform:none}}
+  @keyframes upIn{from{opacity:0;transform:translateY(40px) scale(.9)}to{opacity:1;transform:none}}
+  @keyframes leftIn{from{opacity:0;transform:translateX(-40px) scale(.9)}to{opacity:1;transform:none}}
+  @keyframes rightIn{from{opacity:0;transform:translateX(40px) scale(.9)}to{opacity:1;transform:none}}
+  @keyframes pop{0%{opacity:0;transform:scale(.4)}45%{opacity:1;transform:scale(1.12)}100%{opacity:.75;transform:scale(.8)}}
+  @keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+  @keyframes beat{0%,100%{transform:scale(1)}30%{transform:scale(1.14)}}
+
+  /* --- yatay --- */
+  @media (max-height:720px){ .brand{font-size:56px} .tag{font-size:14px;margin-top:10px} }
+  @media (max-height:600px){ .brand{font-size:44px} }
+
+  @media (orientation:landscape){
+    :root{--pad:44px}
+    .game{flex-direction:row}
+    .seam{width:6px;height:100%}
+    .bar{width:6px;height:100%}
+    .bar i{width:6px;height:var(--p)}
+    .seam-row{display:none}
+    .badges{display:block}
+    .panel .name{font-size:34px}
+    .panel .name.long{font-size:26px}
+    .panel .in{animation-name:rightIn}
+    .panel-b .in{animation-name:leftIn}
+    .big{font-size:140px}
+    .ready .rnd{font-size:34px}
+    .ready .board{margin:14px 0 20px}
+    .ready .board .sc u{font-size:34px}
+    .launch{padding:16px 0}
+    .judge h2{font-size:26px;margin-bottom:18px}
+    .judge .opts{flex-direction:row}
+    .home-split{flex-direction:row;align-items:center;gap:40px}
+    .home-split > div{flex:1}
+    .brand{font-size:60px}
+    .pad{padding-top:calc(20px + env(safe-area-inset-top))}
+  }
+</style>
+</head>
+<body>
+<div id="app"></div>
+<noscript><div style="padding:40px 24px;color:#fff;background:#0B1B4A;min-height:100vh;font:16px/1.5 system-ui"><b style="font-size:28px;display:block;margin-bottom:12px">HARMAN</b>Bu oyun çalışmak için JavaScript gerektiriyor. Tarayıcı ayarlarından JavaScript'i açıp sayfayı yenile.</div></noscript>
+
+<script>
+const TEAMS = [
+  ["Arsenal", "#EF0107", 1], ["Aston Villa", "#670E36", 2], ["Bournemouth", "#B50E12", 2],
+  ["Brentford", "#E30613", 2], ["Brighton", "#0057B8", 2], ["Chelsea", "#034694", 1],
+  ["Coventry City", "#7EC0EE", 2], ["Crystal Palace", "#1B458F", 2], ["Everton", "#003399", 2],
+  ["Fulham", "#151515", 2], ["Hull City", "#F18A00", 2], ["Ipswich Town", "#0E4C96", 2],
+  ["Leeds United", "#FFCD00", 2], ["Liverpool", "#C8102E", 1], ["Manchester City", "#6CABDD", 1],
+  ["Manchester United", "#DA291C", 1], ["Newcastle United", "#241F20", 2], ["Nottingham Forest", "#DD0000", 2],
+  ["Sunderland", "#C8102E", 2], ["Tottenham", "#132257", 1], ["Alavés", "#0761AF", 2],
+  ["Athletic Bilbao", "#EE2523", 2], ["Atlético Madrid", "#CB3524", 1], ["Barcelona", "#A50044", 1],
+  ["Celta Vigo", "#8AC3EE", 2], ["Deportivo La Coruña", "#0072CE", 2], ["Elche", "#00874E", 2],
+  ["Espanyol", "#007FC8", 2], ["Getafe", "#005999", 2], ["Levante", "#0B4EA2", 2],
+  ["Málaga", "#005BAC", 2], ["Osasuna", "#B4151E", 2], ["Racing Santander", "#00A94F", 2],
+  ["Rayo Vallecano", "#E4002B", 2], ["Real Betis", "#009B3A", 2], ["Real Madrid", "#FEBE10", 1],
+  ["Real Sociedad", "#0067B1", 2], ["Sevilla", "#D91A21", 1], ["Valencia", "#F18E00", 1],
+  ["Villarreal", "#FFE667", 2], ["Atalanta", "#1B2A63", 2], ["Bologna", "#9F1B32", 2],
+  ["Cagliari", "#B01B2E", 2], ["Como", "#005BAB", 2], ["Fiorentina", "#482E92", 2],
+  ["Frosinone", "#F4C400", 2], ["Genoa", "#8C2131", 2], ["Inter", "#0068A8", 1],
+  ["Juventus", "#111111", 1], ["Lazio", "#87D8F7", 1], ["Lecce", "#F5C518", 2],
+  ["AC Milan", "#FB090B", 1], ["Monza", "#E20E17", 2], ["Napoli", "#12A0D7", 1],
+  ["Parma", "#FFD700", 2], ["Roma", "#8E1F2F", 1], ["Sassuolo", "#00A650", 2],
+  ["Torino", "#8B1A1A", 2], ["Udinese", "#2B2B2B", 2], ["Venezia", "#0F5C3A", 2],
+  ["Augsburg", "#BA3733", 2], ["Bayern München", "#DC052D", 1], ["Bayer Leverkusen", "#E32221", 1],
+  ["Borussia Dortmund", "#FDE100", 1], ["Eintracht Frankfurt", "#E1000F", 2], ["Freiburg", "#E2001A", 2],
+  ["Hamburger SV", "#0069B4", 2], ["Hoffenheim", "#1C63B7", 2], ["Köln", "#ED1C24", 2],
+  ["Mainz 05", "#C3141E", 2], ["Mönchengladbach", "#222222", 2], ["RB Leipzig", "#DD0741", 2],
+  ["Schalke 04", "#004D9D", 2], ["SV Elversberg", "#262626", 2], ["SC Paderborn", "#004F9F", 2],
+  ["VfB Stuttgart", "#E32219", 2], ["Union Berlin", "#EB1923", 2], ["Werder Bremen", "#1D9053", 2],
+  ["Angers", "#1F1F1F", 2], ["Auxerre", "#1B4F9C", 2], ["Brest", "#D4001E", 2],
+  ["Le Havre", "#0B2A5B", 2], ["Le Mans", "#F2C300", 2], ["Lens", "#FFCC00", 2],
+  ["Lille", "#E01E13", 2], ["Lorient", "#F26522", 2], ["Lyon", "#143A85", 1],
+  ["Marseille", "#2FAEE0", 1], ["Monaco", "#E63329", 1], ["Nice", "#C8102E", 2],
+  ["Paris FC", "#1D3B93", 2], ["Paris Saint-Germain", "#004170", 1], ["Rennes", "#E2231A", 2],
+  ["Strasbourg", "#009FE3", 2], ["Toulouse", "#6B2C91", 2], ["Troyes", "#0F3D91", 2],
+  ["Alanyaspor", "#FF6600", 2], ["Amed SK", "#009639", 2], ["Başakşehir", "#F26522", 2],
+  ["Beşiktaş", "#1A1A1A", 1], ["Çaykur Rizespor", "#0F8A3C", 2], ["Çorum FK", "#B0121A", 2],
+  ["Erzurumspor FK", "#0057B8", 2], ["Eyüpspor", "#582C83", 2], ["Fenerbahçe", "#FFED00", 1],
+  ["Galatasaray", "#A90432", 1], ["Gaziantep FK", "#B01116", 2], ["Gençlerbirliği", "#C0161C", 2],
+  ["Göztepe", "#FFD100", 2], ["Kasımpaşa", "#003DA5", 2], ["Kocaelispor", "#0F7B3E", 2],
+  ["Konyaspor", "#0F8A3C", 2], ["Samsunspor", "#C8102E", 2], ["Trabzonspor", "#6A0F26", 1],
+];
+
+const COUNTRIES = [
+  ["Brezilya", "Brazil", 1], ["Arjantin", "Argentina", 1], ["Fransa", "France", 1],
+  ["Almanya", "Germany", 1], ["İtalya", "Italy", 1], ["İspanya", "Spain", 1],
+  ["İngiltere", "England", 1], ["Portekiz", "Portugal", 1], ["Hollanda", "Netherlands", 1],
+  ["Belçika", "Belgium", 1], ["Türkiye", "Türkiye", 1], ["Hırvatistan", "Croatia", 1],
+  ["Sırbistan", "Serbia", 1], ["Danimarka", "Denmark", 1], ["İsveç", "Sweden", 1],
+  ["Norveç", "Norway", 1], ["Polonya", "Poland", 1], ["Ukrayna", "Ukraine", 1],
+  ["Rusya", "Russia", 2], ["Çekya", "Czechia", 2], ["Avusturya", "Austria", 1],
+  ["İsviçre", "Switzerland", 1], ["Yunanistan", "Greece", 2], ["İskoçya", "Scotland", 2],
+  ["İrlanda", "Ireland", 2], ["Galler", "Wales", 2], ["İzlanda", "Iceland", 2],
+  ["Finlandiya", "Finland", 2], ["Romanya", "Romania", 2], ["Bulgaristan", "Bulgaria", 2],
+  ["Macaristan", "Hungary", 2], ["Uruguay", "Uruguay", 1], ["Şili", "Chile", 2],
+  ["Kolombiya", "Colombia", 2], ["Peru", "Peru", 2], ["Paraguay", "Paraguay", 2],
+  ["Ekvador", "Ecuador", 2], ["Meksika", "Mexico", 2], ["ABD", "USA", 2],
+  ["Kanada", "Canada", 2], ["Japonya", "Japan", 2], ["Güney Kore", "South Korea", 2],
+  ["Avustralya", "Australia", 2], ["İran", "Iran", 2], ["Suudi Arabistan", "Saudi Arabia", 2],
+  ["Fas", "Morocco", 1], ["Cezayir", "Algeria", 1], ["Tunus", "Tunisia", 2],
+  ["Mısır", "Egypt", 2], ["Nijerya", "Nigeria", 1], ["Gana", "Ghana", 1],
+  ["Senegal", "Senegal", 1], ["Fildişi Sahili", "Ivory Coast", 1], ["Kamerun", "Cameroon", 1],
+  ["Güney Afrika", "South Africa", 2],
+];
+
+
+const THEMES = [
+  {id:"sari-lacivert",tr:"Sarı – Lacivert",en:"Yellow – Navy",sw:["#FFE600","#10225A"],
+   bg:"#0B1B4A",accent:"#FFE600",signal:"#FF4D2E",muted:"rgba(255,255,255,.58)",line:"rgba(255,255,255,.20)",soft:"rgba(255,255,255,.10)"},
+  {id:"sari-kirmizi",tr:"Sarı – Kırmızı",en:"Yellow – Red",sw:["#FFC700","#A31621"],
+   bg:"#8E1119",accent:"#FFC700",signal:"#FFFFFF",muted:"rgba(255,255,255,.62)",line:"rgba(255,255,255,.24)",soft:"rgba(255,255,255,.12)"},
+  {id:"siyah-beyaz",tr:"Siyah – Beyaz",en:"Black – White",sw:["#0D0D0D","#FFFFFF"],
+   bg:"#0B0B0B",accent:"#FFFFFF",signal:"#FF3B30",muted:"rgba(255,255,255,.52)",line:"rgba(255,255,255,.18)",soft:"rgba(255,255,255,.09)"},
+  {id:"kirmizi-beyaz",tr:"Kırmızı – Beyaz",en:"Red – White",sw:["#C8102E","#FFFFFF"],
+   bg:"#A50D24",accent:"#FFFFFF",signal:"#FFD400",muted:"rgba(255,255,255,.66)",line:"rgba(255,255,255,.26)",soft:"rgba(255,255,255,.13)"},
+  {id:"yesil-beyaz",tr:"Yeşil – Beyaz",en:"Green – White",sw:["#0B6E3B","#FFFFFF"],
+   bg:"#075C31",accent:"#FFFFFF",signal:"#FFD400",muted:"rgba(255,255,255,.66)",line:"rgba(255,255,255,.26)",soft:"rgba(255,255,255,.13)"},
+  {id:"kirmizi-siyah",tr:"Kırmızı – Siyah",en:"Red – Black",sw:["#E01020","#111111"],
+   bg:"#0F0F0F",accent:"#E01020",signal:"#FFFFFF",muted:"rgba(255,255,255,.54)",line:"rgba(255,255,255,.18)",soft:"rgba(255,255,255,.09)"}
+];
+
+const STR = {
+  tr:{title:"HARMAN",tagline:"İki takımın harmanında duran futbolcuyu ilk kim söyler?",play:"Oyna",
+    two:"2 kişilik",settings:"Ayarlar",mode:"Oyun modu",tt:"Takım – Takım",tc:"Takım – Ülke",
+    ttHint:"İki takımda da oynamış bir futbolcu söyle.",tcHint:"O takımda oynamış, o ülkeden bir futbolcu söyle.",
+    difficulty:"Zorluk",easy:"Kolay",mid:"Orta",hard:"Zor",
+    easyHint:"Sadece dev kulüpler — herkes bilir.",midHint:"En az bir taraf dev kulüp.",hardHint:"Her şey çıkabilir. Uyarıldın.",
+    names:"Oyuncu isimleri",namesHint:"Boş bırakırsan varsayılan isimler kullanılır.",
+    p1:"Oyuncu 1",p2:"Oyuncu 2",next:"Devam",back:"Geri",newTeams:"Yeni takım",
+    launch:"Turu başlat",launchHint:"İkiniz de hazır olunca dokunun",round:"Tur",
+    timeUp:"Süre doldu",whoWon:"Kim buldu?",draw:"Berabere",winner:"kazandı",
+    rematch:"Tekrar oyna",home:"Ana ekran",duration:"Tur süresi",target:"Kazanma puanı",
+    lang:"Dil",theme:"Tema",sec:"sn",point:"puan",country:"Ülke",done:"Bitti",howTo:"Nasıl oynanır",
+    howToBody:"Telefonu ikinizin arasına koyun — yan çevirirseniz ekran sol/sağ bölünür. Geri sayımdan sonra iki taraf belirir. Cevabı yüksek sesle söyleyin; uygulama ses kaydetmez, doğruluğuna siz karar verirsiniz."},
+  en:{title:"HARMAN",tagline:"One player, two clubs. Who names him first?",play:"Play",
+    two:"2 players",settings:"Settings",mode:"Game mode",tt:"Club – Club",tc:"Club – Country",
+    ttHint:"Name a footballer who played for both clubs.",tcHint:"Name a footballer from that country who played for that club.",
+    difficulty:"Difficulty",easy:"Easy",mid:"Medium",hard:"Hard",
+    easyHint:"Only the giants — everyone knows these.",midHint:"At least one side is a giant.",hardHint:"Anything goes. You were warned.",
+    names:"Player names",namesHint:"Leave blank to use the default names.",
+    p1:"Player 1",p2:"Player 2",next:"Continue",back:"Back",newTeams:"New clubs",
+    launch:"Start round",launchHint:"Tap when you are both ready",round:"Round",
+    timeUp:"Time's up",whoWon:"Who got it?",draw:"Draw",winner:"wins",
+    rematch:"Play again",home:"Home",duration:"Round length",target:"Points to win",
+    lang:"Language",theme:"Theme",sec:"s",point:"points",country:"Country",done:"Done",howTo:"How to play",
+    howToBody:"Put the phone between you — turn it sideways and the screen splits left/right. After the countdown two sides appear. Say your answer out loud; the app records no audio, you two judge it."}
+};
+
+const BIG_TEAMS = TEAMS.filter(x => x[2] === 1);
+const BIG_COUNTRIES = COUNTRIES.filter(x => x[2] === 1);
+
+const S = {
+  route:"home", phase:"ready", mode:"tt", diff:"mid",
+  raw:["",""], lang:"tr", theme:"sari-lacivert",
+  duration:10, target:3, scores:[0,0], roundNo:1, winner:null,
+  pair:null, count:3, remaining:10
+};
+
+const SAVE_KEY = "harman.settings.v1";
+function loadSettings(){
+  try {
+    const raw = localStorage.getItem(SAVE_KEY);
+    if (!raw) return;
+    const v = JSON.parse(raw);
+    if (v.mode === "tt" || v.mode === "tc") S.mode = v.mode;
+    if (["easy","mid","hard"].includes(v.diff)) S.diff = v.diff;
+    if (v.lang === "tr" || v.lang === "en") S.lang = v.lang;
+    if (THEMES.some(t => t.id === v.theme)) S.theme = v.theme;
+    if (Number.isFinite(v.duration)) S.duration = Math.min(30, Math.max(5, v.duration));
+    if (Number.isFinite(v.target)) S.target = Math.min(15, Math.max(1, v.target));
+    if (Array.isArray(v.raw) && v.raw.length === 2) S.raw = [String(v.raw[0]).slice(0,14), String(v.raw[1]).slice(0,14)];
+  } catch (e) {}
+}
+function saveSettings(){
+  try {
+    localStorage.setItem(SAVE_KEY, JSON.stringify({
+      mode:S.mode, diff:S.diff, lang:S.lang, theme:S.theme,
+      duration:S.duration, target:S.target, raw:S.raw
+    }));
+  } catch (e) {}
+}
+
+const $ = s => document.querySelector(s);
+const app = $("#app");
+const pick = a => a[Math.floor(Math.random()*a.length)];
+const esc = s => String(s).replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function readableOn(hex){
+  const h = hex.replace("#","");
+  const v = [0,2,4].map(i => parseInt(h.substr(i,2),16)/255);
+  const lin = c => c <= .03928 ? c/12.92 : Math.pow((c+.055)/1.055, 2.4);
+  const L = .2126*lin(v[0]) + .7152*lin(v[1]) + .0722*lin(v[2]);
+  return L > .45 ? "#0B0B0B" : "#FFFFFF";
+}
+
+function theme(){ return THEMES.find(x => x.id === S.theme) || THEMES[0]; }
+function txt(){ return STR[S.lang]; }
+function names(){
+  const t = txt();
+  return [S.raw[0].trim() || t.p1, S.raw[1].trim() || t.p2];
+}
+
+function applyTheme(){
+  const th = theme(), r = document.documentElement.style;
+  r.setProperty("--bg", th.bg);
+  r.setProperty("--accent", th.accent);
+  r.setProperty("--on-accent", readableOn(th.accent));
+  r.setProperty("--signal", th.signal);
+  r.setProperty("--on-signal", readableOn(th.signal));
+  r.setProperty("--muted", th.muted);
+  r.setProperty("--line", th.line);
+  r.setProperty("--line-soft", th.soft);
+  document.documentElement.style.background = th.bg;
+  document.body.style.background = th.bg;
+  document.body.style.color = "#fff";
+}
+
+/* ---------- eşleşme ---------- */
+let recent = [];
+function makePair(){
+  for (let i = 0; i < 40; i++){
+    const a = S.diff === "easy" ? pick(BIG_TEAMS) : pick(TEAMS);
+    let side;
+
+    if (S.mode === "tt"){
+      let b;
+      if (S.diff === "easy") b = pick(BIG_TEAMS);
+      else if (S.diff === "mid") b = a[2] === 1 ? pick(TEAMS) : pick(BIG_TEAMS);
+      else b = pick(TEAMS);
+      if (b[0] === a[0]) continue;
+      side = {name:b[0], color:b[1]};
+    } else {
+      let c;
+      if (S.diff === "easy") c = pick(BIG_COUNTRIES);
+      else if (S.diff === "mid") c = a[2] === 1 ? pick(COUNTRIES) : pick(BIG_COUNTRIES);
+      else c = pick(COUNTRIES);
+      side = {name: S.lang === "tr" ? c[0] : c[1], country:true};
+    }
+
+    const sig = a[0] + "|" + side.name;
+    if (recent.indexOf(sig) !== -1 && i < 30) continue;
+    recent.push(sig);
+    if (recent.length > 12) recent.shift();
+    return {a:{name:a[0], color:a[1]}, b:side};
+  }
+  return {a:{name:BIG_TEAMS[0][0], color:BIG_TEAMS[0][1]}, b:{name:BIG_TEAMS[1][0], color:BIG_TEAMS[1][1]}};
+}
+
+/* ---------- zamanlayıcılar ---------- */
+let tick = null, raf = null;
+function stopTimers(){
+  if (tick) { clearTimeout(tick); tick = null; }
+  if (raf) { cancelAnimationFrame(raf); raf = null; }
+}
+
+/* ---------- parçacıklar ---------- */
+function seg(id, value, opts){
+  return '<div class="seg" data-seg="' + id + '">' +
+    opts.map(o => '<button data-v="' + o[0] + '" class="' + (o[0] === value ? "on" : "") + '">' + esc(o[1]) + "</button>").join("") +
+  "</div>";
+}
+function scoreCell(i, cls){
+  const n = names();
+  return '<div class="sc ' + (cls || "") + '"><b>' + esc(n[i]) + "</b><u>" + S.scores[i] + "</u></div>";
+}
+
+/* ---------- ekranlar ---------- */
+function home(){
+  const t = txt();
+  const dh = S.diff === "easy" ? t.easyHint : S.diff === "mid" ? t.midHint : t.hardHint;
+  return '<div class="pad"><div class="home-split">' +
+    '<div class="grow">' +
+      '<div style="display:flex;align-items:center;margin-bottom:18px"><i class="dash"></i><span class="eyebrow">' + t.two + "</span></div>" +
+      '<div class="brand">' + t.title + "</div>" +
+      '<div class="tag">' + t.tagline + "</div>" +
+    "</div>" +
+    "<div>" +
+      '<div class="eyebrow" style="margin-bottom:10px">' + t.mode + "</div>" +
+      seg("mode", S.mode, [["tt", t.tt], ["tc", t.tc]]) +
+      '<div class="hint">' + (S.mode === "tt" ? t.ttHint : t.tcHint) + "</div>" +
+      '<div class="eyebrow" style="margin:18px 0 10px">' + t.difficulty + "</div>" +
+      seg("diff", S.diff, [["easy", t.easy], ["mid", t.mid], ["hard", t.hard]]) +
+      '<div class="hint">' + dh + "</div>" +
+      '<button class="btn" data-go="setup" style="margin-top:18px">' + t.play + "</button>" +
+      '<button class="link" data-go="settings" style="width:100%;padding:16px 0;text-align:center">' + t.settings + "</button>" +
+    "</div>" +
+  "</div></div>";
+}
+
+function setup(){
+  const t = txt();
+  return '<div class="pad">' +
+    '<button class="link" data-go="home" style="align-self:flex-start">&larr; ' + t.back + "</button>" +
+    '<div class="grow">' +
+      '<div class="eyebrow">' + t.names + "</div>" +
+      '<div style="font-size:34px;font-weight:800;letter-spacing:-1.2px;margin:6px 0 28px">' + (S.mode === "tt" ? t.tt : t.tc) + "</div>" +
+      '<div class="field"><span>1</span><input id="n0" maxlength="14" placeholder="' + t.p1 + '" value="' + esc(S.raw[0]) + '"></div>' +
+      '<div class="field"><span>2</span><input id="n1" maxlength="14" placeholder="' + t.p2 + '" value="' + esc(S.raw[1]) + '"></div>' +
+      '<div class="hint">' + t.namesHint + "</div>" +
+    "</div>" +
+    "<div>" +
+      '<div style="font-size:12px;font-weight:800;letter-spacing:1.8px;text-transform:uppercase;color:var(--accent);margin-bottom:6px">' + t.howTo + "</div>" +
+      '<div class="hint" style="margin-top:0">' + t.howToBody + "</div>" +
+      '<button class="btn" data-start="1" style="margin-top:18px">' + t.next + "</button>" +
+    "</div>" +
+  "</div>";
+}
+
+function settings(){
+  const t = txt();
+  const cards = THEMES.map(x =>
+    '<button class="swatch ' + (x.id === S.theme ? "on" : "") + '" data-theme="' + x.id + '">' +
+      '<span class="bars"><i style="background:' + x.sw[0] + '"></i><i style="background:' + x.sw[1] + '"></i></span>' +
+      "<label>" + esc(x[S.lang] || x.en) + "</label>" +
+    "</button>").join("");
+
+  const stepper = (key, val, suffix) =>
+    '<div class="row">' +
+      '<button class="step" data-step="' + key + '" data-d="-1">&ndash;</button>' +
+      '<div class="stepval">' + val + " <i>" + suffix + "</i></div>" +
+      '<button class="step" data-step="' + key + '" data-d="1">+</button>' +
+    "</div>";
+
+  return '<div class="pad">' +
+    '<button class="link" data-go="home" style="align-self:flex-start">&larr; ' + t.back + "</button>" +
+    '<div style="font-size:38px;font-weight:800;letter-spacing:-1.4px;margin:6px 0 12px">' + t.settings + "</div>" +
+    '<div style="flex:1">' +
+      '<div style="padding:12px 0"><div class="eyebrow">' + t.theme + '</div><div class="themes">' + cards + "</div></div>" +
+      '<div class="rule"></div>' +
+      '<div style="padding:16px 0"><div class="eyebrow" style="margin-bottom:12px">' + t.duration + "</div>" + stepper("duration", S.duration, t.sec) + "</div>" +
+      '<div class="rule"></div>' +
+      '<div style="padding:16px 0"><div class="eyebrow" style="margin-bottom:12px">' + t.target + "</div>" + stepper("target", S.target, t.point) + "</div>" +
+      '<div class="rule"></div>' +
+      '<div style="padding:16px 0"><div class="eyebrow" style="margin-bottom:12px">' + t.lang + "</div>" +
+        seg("lang", S.lang, [["tr", "Türkçe"], ["en", "English"]]) + "</div>" +
+    "</div>" +
+    '<button class="btn" data-go="home" style="margin-top:12px">' + t.done + "</button>" +
+  "</div>";
+}
+
+function panel(side, cls){
+  if (!side) return '<div class="panel ' + cls + '"></div>';
+  const t = txt();
+  const bg = side.country ? theme().accent : side.color;
+  const fg = side.country ? readableOn(theme().accent) : readableOn(side.color);
+  const long = side.name.length > 16 ? " long" : "";
+  return '<div class="panel ' + cls + '" style="background:' + bg + ';color:' + fg + '">' +
+    '<div class="in">' +
+      (side.country ? '<div class="kind">' + t.country + "</div>" : "") +
+      '<div class="name' + long + '">' + esc(side.name) + "</div>" +
+    "</div></div>";
+}
+
+function game(){
+  const t = txt(), n = names();
+  const revealed = S.phase === "live" || S.phase === "judge";
+  const a = revealed ? S.pair.a : null;
+  const b = revealed ? S.pair.b : null;
+  const live = S.phase === "live";
+
+  let curtain = "";
+  if (S.phase === "ready"){
+    const dl = S.diff === "easy" ? t.easy : S.diff === "mid" ? t.mid : t.hard;
+    curtain = '<div class="curtain"><div class="ready">' +
+      '<div class="head"><div class="eyebrow">' + (S.mode === "tt" ? t.tt : t.tc) + " &middot; " + dl + "</div>" +
+      '<div class="rnd">' + t.round + " " + S.roundNo + "</div></div>" +
+      '<div class="board">' + scoreCell(0) + "<em>&ndash;</em>" + scoreCell(1, "r") + "</div>" +
+      '<button class="launch" data-launch="1"><b>' + t.launch + "</b><i>" + t.launchHint + "</i></button>" +
+    "</div></div>";
+  } else if (S.phase === "countdown"){
+    curtain = '<div class="curtain"><div class="big">' + S.count + "</div></div>";
+  } else if (S.phase === "judge"){
+    curtain = '<div class="curtain"><div class="judge">' +
+      '<div class="up">' + t.timeUp + "</div><h2>" + t.whoWon + "</h2>" +
+      '<div class="opts">' +
+        '<button class="btn" data-judge="0">' + esc(n[0]) + "</button>" +
+        '<button class="btn ghost" data-judge="x">' + t.draw + "</button>" +
+        '<button class="btn" data-judge="1">' + esc(n[1]) + "</button>" +
+      "</div></div></div>";
+  }
+
+  return '<div class="game">' +
+    panel(a, "panel-a") +
+    '<div class="seam"><div class="bar" id="bar"><i></i></div>' +
+      '<div class="seam-row">' + scoreCell(0) + '<div class="chip">' + S.roundNo + "</div>" + scoreCell(1, "r") + "</div>" +
+    "</div>" +
+    panel(b, "panel-b") +
+    '<div class="badges">' +
+      '<div class="badge l"><b>' + esc(n[0]) + "</b><u>" + S.scores[0] + "</u></div>" +
+      '<div class="badge r"><b>' + esc(n[1]) + "</b><u>" + S.scores[1] + "</u></div>" +
+      '<div class="roundfloat"><div class="chip">' + S.roundNo + "</div></div>" +
+    "</div>" +
+    curtain +
+    '<div class="hud">' +
+      (live ? '<div class="pill count" id="count">' + Math.ceil(S.remaining) + "</div>" : '<div class="spacer"></div>') +
+      '<button class="pill" data-go="home">' + t.home + "</button>" +
+      (live ? '<button class="pill" data-skip="1">' + t.newTeams + "</button>" : '<div class="spacer"></div>') +
+    "</div>" +
+  "</div>";
+}
+
+function winner(){
+  const t = txt(), n = names();
+  return '<div class="pad">' +
+    '<div class="grow">' +
+      '<div class="dash" style="width:44px;height:6px;margin-bottom:18px"></div>' +
+      '<div class="eyebrow">' + t.winner + "</div>" +
+      '<div style="font-size:58px;line-height:60px;font-weight:800;letter-spacing:-2.6px;margin-top:12px;color:var(--accent)">' + esc(n[S.winner]) + "</div>" +
+      '<div style="color:var(--muted);font-size:30px;font-weight:800;margin-top:18px">' + S.scores[0] + " &ndash; " + S.scores[1] + "</div>" +
+    "</div>" +
+    '<button class="btn" data-rematch="1">' + t.rematch + "</button>" +
+    '<button class="btn ghost" data-go="home" style="margin-top:12px">' + t.home + "</button>" +
+  "</div>";
+}
+
+/* ---------- akış ---------- */
+function render(){
+  applyTheme();
+  const map = {home:home, setup:setup, settings:settings, game:game, winner:winner};
+  app.innerHTML = map[S.route]();
+  if (S.route === "game" && S.phase === "live") runRound();
+}
+
+function goto(route){
+  stopTimers();
+  S.route = route;
+  render();
+}
+
+function beginMatch(){
+  S.scores = [0,0]; S.winner = null; S.roundNo = 1;
+  newRound();
+  S.route = "game";
+  render();
+}
+
+function newRound(){
+  stopTimers();
+  S.phase = "ready";
+  S.remaining = S.duration;
+  S.count = 3;
+}
+
+function startCountdown(){
+  stopTimers();
+  S.pair = makePair();
+  S.remaining = S.duration;
+  S.count = 3;
+  S.phase = "countdown";
+  render();
+  step();
+}
+
+function step(){
+  tick = setTimeout(() => {
+    if (S.count > 1){ S.count--; render(); step(); }
+    else { S.phase = "live"; render(); }
+  }, 750);
+}
+
+function runRound(){
+  const bar = $("#bar"), counter = $("#count");
+  const deadline = Date.now() + S.duration * 1000;
+  const loop = () => {
+    const left = Math.max(0, (deadline - Date.now()) / 1000);
+    S.remaining = left;
+    const pct = (left / S.duration) * 100;
+    if (bar){
+      bar.style.setProperty("--p", pct + "%");
+      bar.classList.toggle("hot", left <= 3);
+    }
+    if (counter){
+      counter.textContent = Math.ceil(left);
+      counter.classList.toggle("hot", left <= 3);
+    }
+    if (left <= 0){ S.phase = "judge"; render(); return; }
+    raf = requestAnimationFrame(loop);
+  };
+  loop();
+}
+
+function judge(res){
+  if (res === 0 || res === 1) S.scores[res]++;
+  if (S.scores[0] >= S.target || S.scores[1] >= S.target){
+    S.winner = S.scores[0] >= S.target ? 0 : 1;
+    goto("winner");
+    return;
+  }
+  S.roundNo++;
+  newRound();
+  render();
+}
+
+/* ---------- olaylar ---------- */
+app.addEventListener("click", e => {
+  const hit = sel => e.target.closest(sel);
+  let el;
+
+  if ((el = hit("[data-go]"))) { goto(el.dataset.go); return; }
+  if ((el = hit("[data-start]"))) {
+    const a = $("#n0"), b = $("#n1");
+    if (a && b) { S.raw = [a.value, b.value]; saveSettings(); }
+    beginMatch(); return;
+  }
+  if ((el = hit("[data-launch]")) || (el = hit("[data-skip]"))) { startCountdown(); return; }
+  if ((el = hit("[data-judge]"))) { judge(el.dataset.judge === "x" ? null : +el.dataset.judge); return; }
+  if ((el = hit("[data-rematch]"))) { beginMatch(); return; }
+  if ((el = hit("[data-theme]"))) { S.theme = el.dataset.theme; saveSettings(); render(); return; }
+
+  if ((el = hit("[data-step]"))) {
+    const k = el.dataset.step, d = +el.dataset.d;
+    const lo = k === "duration" ? 5 : 1, hi = k === "duration" ? 30 : 15;
+    S[k] = Math.min(hi, Math.max(lo, S[k] + d));
+    saveSettings(); render(); return;
+  }
+
+  if ((el = hit(".seg button"))) {
+    const key = el.parentElement.dataset.seg;
+    if (key === "mode") S.mode = el.dataset.v;
+    if (key === "diff") S.diff = el.dataset.v;
+    if (key === "lang") S.lang = el.dataset.v;
+    saveSettings(); render();
+  }
+});
+
+// isim alanları yeniden çizimde kaybolmasın
+app.addEventListener("input", e => {
+  if (e.target.id === "n0") S.raw[0] = e.target.value;
+  if (e.target.id === "n1") S.raw[1] = e.target.value;
+  if (e.target.id === "n0" || e.target.id === "n1") saveSettings();
+});
+
+loadSettings();
+applyTheme();
+render();
+</script>
+</body>
+</html>
