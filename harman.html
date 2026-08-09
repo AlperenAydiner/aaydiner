@@ -401,10 +401,9 @@ function scoreCell(i, cls){
 function home(){
   const t = txt();
   const dh = S.diff === "easy" ? t.easyHint : S.diff === "mid" ? t.midHint : t.hardHint;
-  return '<div class="pad">' +
-    '<a class="link" href="projects.html" style="align-self:flex-start">' + t.toSite + "</a>" +
-    '<div class="home-split">' +
+  return '<div class="pad"><div class="home-split">' +
     '<div class="grow">' +
+      '<a class="link" href="projects.html" style="align-self:flex-start;margin-bottom:10px">' + t.toSite + "</a>" +
       '<div style="display:flex;align-items:center;margin-bottom:18px"><i class="dash"></i><span class="eyebrow">' + t.two + "</span></div>" +
       '<div class="brand">' + t.title + "</div>" +
       '<div class="tag">' + t.tagline + "</div>" +
