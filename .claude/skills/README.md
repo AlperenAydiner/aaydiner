@@ -15,7 +15,11 @@ sürümü).
 (t-test/ANOVA/regresyon/SEM vb.) ve APA formatında rapor üretimi. Dağıtım için paketlenmiş
 `.zip` dosyası (kaynakların birebir kopyası) alınmadı; skill zaten açık kaynak dosyalarıyla kuruldu.
 
-## 3. [embeddedlayers/mcp-analytics](https://github.com/embeddedlayers/mcp-analytics)
+## 3. [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)
+`stop-slop` skill'i: yazılan/düzenlenen metinden tipik AI yazım kalıplarını (dolgu ifadeler,
+formülsel yapılar, pasif çatı, em-dash aşırı kullanımı, jenerik "quotable" cümleler vb.) temizler.
+
+## 4. [embeddedlayers/mcp-analytics](https://github.com/embeddedlayers/mcp-analytics)
 Bu bir skill değil, hosted bir MCP sunucusu (ücretli/kredi bazlı SaaS — mcpanalytics.ai).
 Bağlantı ayarı repo köküne `.mcp.json` olarak eklendi:
 
