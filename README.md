@@ -35,3 +35,9 @@ Sonuç: **https://www.alperenaydiner.com** birincil adres, **alperenaydiner.com*
 
 ## Yeni proje/yazı eklemek
 Bu klasör artık git deposu ve GitHub'daki `aaydiner` reposuna bağlı. Bana "şu projeyi ekle" dediğinde ilgili dosyayı düzenlerim, ardından değişikliği `git commit` + `git push` ile GitHub'a gönderirim (her push öncesi senden onay alarak) — birkaç dakika içinde site otomatik güncellenir.
+
+## Claude Code skill kurulumu
+Bu oturumda üç dış repo Claude Code araç setine eklendi — detaylar `.claude/skills/README.md` içinde:
+- [nimrodfisher/data-analytics-skills](https://github.com/nimrodfisher/data-analytics-skills) → `.claude/skills/` altına 31 veri analitiği skill'i
+- [Giro03k/claude-statistical-analysis-skill](https://github.com/Giro03k/claude-statistical-analysis-skill) → `.claude/skills/statistical-analysis/`
+- [embeddedlayers/mcp-analytics](https://github.com/embeddedlayers/mcp-analytics) → `.mcp.json` (hosted MCP sunucusu, kullanım için ayrı OAuth girişi gerekir)
