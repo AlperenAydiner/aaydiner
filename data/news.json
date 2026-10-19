@@ -1,1 +1,39 @@
-[]
+[
+  {
+    "date": "2026-10-18",
+    "title": "Microsoft, Essex'teki AI veri merkezi anlaşmasından çekildi",
+    "category": "Sektör",
+    "summary": "The Guardian'ın haberine göre Microsoft, enerji arzı konusundaki belirsizlik nedeniyle Nscale'in İngiltere'deki Loughton veri merkezi projesinden çekildi.",
+    "body": [
+      { "type": "p", "text": "İngiltere'nin Essex bölgesindeki büyük yapay zekâ veri merkezi projesi, planlanan ana müşterilerinden birini kaybetti. The Guardian'ın aktardığına göre Microsoft, yeterli elektrik sağlanmasına ilişkin endişeler nedeniyle Nscale ile Loughton projesi için yaptığı anlaşmadan çekildi. Nscale ise projeye bağlılığını sürdürdüğünü ve alternatif enerji kaynaklarını araştırdığını söylüyor." },
+      { "type": "h3", "text": "Neden önemli?" },
+      { "type": "p", "text": "Yapay zekâ altyapısı için yalnızca çip ve finansman yeterli değil: şebekeye zamanında bağlanmak da kritik. Habere göre yerel şebeke işletmecisinin yeterli gücü 2030'ların başı ile ortası arasında sağlayabilmesi bekleniyor; bu da büyük ölçekli projelerin takvimini doğrudan etkileyebilir." }
+    ],
+    "source": { "name": "The Guardian", "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns" }
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Dünya Bankası, yerel ihtiyaçlara uyarlanmış 'küçük AI' modellerini öneriyor",
+    "category": "Yapay Zeka",
+    "summary": "Dünya Bankası'nın bilgi yöneticisi, düşük bağlantıyla telefonda çalışabilen ve yerel dilleri destekleyen özel amaçlı modellerin kalkınmaya katkı sağlayabileceğini söyledi.",
+    "body": [
+      { "type": "p", "text": "The Guardian'a konuşan Dünya Bankası bilgi yöneticisi Paschal Donohoe, gelişmekte olan ülkelerin yalnızca en büyük genel amaçlı modellere odaklanmak yerine yerel ihtiyaçlara uyarlanmış küçük yapay zekâ sistemleri geliştirmesini savundu. Daha dar bir görev için eğitilen bu modellerin, düşük internet bağlantısıyla cep telefonunda ve toplumun kendi dilinde kullanılabilmesi hedefleniyor." },
+      { "type": "p", "text": "Donohoe, örnek olarak çiftçilerin kendi dillerinde toprak analizi bilgisine ulaşmasını gösterdi. Bu yaklaşımın yararı, modelin büyüklüğünden çok erişilebilirliğine ve gerçek bir ihtiyacı karşılamasına bağlı." },
+      { "type": "h3", "text": "Neden önemli?" },
+      { "type": "p", "text": "AI'ın etkisi yalnızca bulut altyapısı güçlü ülkelerle sınırlı kalmayabilir. Ancak elektrik, bağlantı ve yerel dil desteği gibi temel koşullar sağlanmadan bu potansiyelin hayata geçmesi zor." }
+    ],
+    "source": { "name": "The Guardian", "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies" }
+  },
+  {
+    "date": "2026-10-18",
+    "title": "Anthropic, hisselerinin %5'ini kamu yararı fonuna ayıracağını açıkladı",
+    "category": "Sektör",
+    "summary": "Şirket, toplumsal faydaya dönük projeleri desteklemek üzere kendi bünyesinde bir fon oluşturacağını duyurdu; yönetim ayrıntıları henüz açıklanmadı.",
+    "body": [
+      { "type": "p", "text": "TechCrunch'ın aktardığına göre Anthropic, hisselerinin %5'ini yeni bir kamu yararı fonuna tahsis etmeyi planlıyor. Şirketin tamamına sahip olduğu bir yapı olarak tasarlanan fon, geleneksel sivil toplum kuruluşlarına bağışlar veya belirli topluluklara doğrudan destek gibi alanlarda kullanılabilecek. Şirketin değerindeki her %50 artış için ek %2 hisse aktarma seçeneği de açıklandı." },
+      { "type": "h3", "text": "Neden önemli?" },
+      { "type": "p", "text": "Yapay zekânın istihdam ve toplum üzerindeki etkilerine ilişkin vaatlerin nasıl finanse edileceği somut bir soru. Bu açıklama bir kaynak ayırma taahhüdü olsa da fonun karar alma ve denetim yapısı henüz net değil; şirket daha fazla ayrıntıyı ilerleyen aylarda paylaşacağını söylüyor." }
+    ],
+    "source": { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/" }
+  }
+]
