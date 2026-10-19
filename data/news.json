@@ -5,11 +5,23 @@
     "category": "Sektör",
     "summary": "The Guardian'ın haberine göre Microsoft, enerji arzı konusundaki belirsizlik nedeniyle Nscale'in İngiltere'deki Loughton veri merkezi projesinden çekildi.",
     "body": [
-      { "type": "p", "text": "İngiltere'nin Essex bölgesindeki büyük yapay zekâ veri merkezi projesi, planlanan ana müşterilerinden birini kaybetti. The Guardian'ın aktardığına göre Microsoft, yeterli elektrik sağlanmasına ilişkin endişeler nedeniyle Nscale ile Loughton projesi için yaptığı anlaşmadan çekildi. Nscale ise projeye bağlılığını sürdürdüğünü ve alternatif enerji kaynaklarını araştırdığını söylüyor." },
-      { "type": "h3", "text": "Neden önemli?" },
-      { "type": "p", "text": "Yapay zekâ altyapısı için yalnızca çip ve finansman yeterli değil: şebekeye zamanında bağlanmak da kritik. Habere göre yerel şebeke işletmecisinin yeterli gücü 2030'ların başı ile ortası arasında sağlayabilmesi bekleniyor; bu da büyük ölçekli projelerin takvimini doğrudan etkileyebilir." }
+      {
+        "type": "p",
+        "text": "İngiltere'nin Essex bölgesindeki büyük yapay zekâ veri merkezi projesi, planlanan ana müşterilerinden birini kaybetti. The Guardian'ın aktardığına göre Microsoft, yeterli elektrik sağlanmasına ilişkin endişeler nedeniyle Nscale ile Loughton projesi için yaptığı anlaşmadan çekildi. Nscale ise projeye bağlılığını sürdürdüğünü ve alternatif enerji kaynaklarını araştırdığını söylüyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yapay zekâ altyapısı için yalnızca çip ve finansman yeterli değil: şebekeye zamanında bağlanmak da kritik. Habere göre yerel şebeke işletmecisinin yeterli gücü 2030'ların başı ile ortası arasında sağlayabilmesi bekleniyor; bu da büyük ölçekli projelerin takvimini doğrudan etkileyebilir."
+      }
     ],
-    "source": { "name": "The Guardian", "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns" }
+    "source": {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/uk-news/2026/oct/18/microsoft-drops-huge-ai-datacentre-project-in-essex-over-power-supply-concerns"
+    }
   },
   {
     "date": "2026-10-18",
@@ -17,12 +29,27 @@
     "category": "Yapay Zeka",
     "summary": "Dünya Bankası'nın bilgi yöneticisi, düşük bağlantıyla telefonda çalışabilen ve yerel dilleri destekleyen özel amaçlı modellerin kalkınmaya katkı sağlayabileceğini söyledi.",
     "body": [
-      { "type": "p", "text": "The Guardian'a konuşan Dünya Bankası bilgi yöneticisi Paschal Donohoe, gelişmekte olan ülkelerin yalnızca en büyük genel amaçlı modellere odaklanmak yerine yerel ihtiyaçlara uyarlanmış küçük yapay zekâ sistemleri geliştirmesini savundu. Daha dar bir görev için eğitilen bu modellerin, düşük internet bağlantısıyla cep telefonunda ve toplumun kendi dilinde kullanılabilmesi hedefleniyor." },
-      { "type": "p", "text": "Donohoe, örnek olarak çiftçilerin kendi dillerinde toprak analizi bilgisine ulaşmasını gösterdi. Bu yaklaşımın yararı, modelin büyüklüğünden çok erişilebilirliğine ve gerçek bir ihtiyacı karşılamasına bağlı." },
-      { "type": "h3", "text": "Neden önemli?" },
-      { "type": "p", "text": "AI'ın etkisi yalnızca bulut altyapısı güçlü ülkelerle sınırlı kalmayabilir. Ancak elektrik, bağlantı ve yerel dil desteği gibi temel koşullar sağlanmadan bu potansiyelin hayata geçmesi zor." }
+      {
+        "type": "p",
+        "text": "The Guardian'a konuşan Dünya Bankası bilgi yöneticisi Paschal Donohoe, gelişmekte olan ülkelerin yalnızca en büyük genel amaçlı modellere odaklanmak yerine yerel ihtiyaçlara uyarlanmış küçük yapay zekâ sistemleri geliştirmesini savundu. Daha dar bir görev için eğitilen bu modellerin, düşük internet bağlantısıyla cep telefonunda ve toplumun kendi dilinde kullanılabilmesi hedefleniyor."
+      },
+      {
+        "type": "p",
+        "text": "Donohoe, örnek olarak çiftçilerin kendi dillerinde toprak analizi bilgisine ulaşmasını gösterdi. Bu yaklaşımın yararı, modelin büyüklüğünden çok erişilebilirliğine ve gerçek bir ihtiyacı karşılamasına bağlı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI'ın etkisi yalnızca bulut altyapısı güçlü ülkelerle sınırlı kalmayabilir. Ancak elektrik, bağlantı ve yerel dil desteği gibi temel koşullar sağlanmadan bu potansiyelin hayata geçmesi zor."
+      }
     ],
-    "source": { "name": "The Guardian", "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies" }
+    "source": {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/oct/18/world-bank-artificial-intelligence-developing-economies"
+    }
   },
   {
     "date": "2026-10-18",
@@ -30,10 +57,1342 @@
     "category": "Sektör",
     "summary": "Şirket, toplumsal faydaya dönük projeleri desteklemek üzere kendi bünyesinde bir fon oluşturacağını duyurdu; yönetim ayrıntıları henüz açıklanmadı.",
     "body": [
-      { "type": "p", "text": "TechCrunch'ın aktardığına göre Anthropic, hisselerinin %5'ini yeni bir kamu yararı fonuna tahsis etmeyi planlıyor. Şirketin tamamına sahip olduğu bir yapı olarak tasarlanan fon, geleneksel sivil toplum kuruluşlarına bağışlar veya belirli topluluklara doğrudan destek gibi alanlarda kullanılabilecek. Şirketin değerindeki her %50 artış için ek %2 hisse aktarma seçeneği de açıklandı." },
-      { "type": "h3", "text": "Neden önemli?" },
-      { "type": "p", "text": "Yapay zekânın istihdam ve toplum üzerindeki etkilerine ilişkin vaatlerin nasıl finanse edileceği somut bir soru. Bu açıklama bir kaynak ayırma taahhüdü olsa da fonun karar alma ve denetim yapısı henüz net değil; şirket daha fazla ayrıntıyı ilerleyen aylarda paylaşacağını söylüyor." }
+      {
+        "type": "p",
+        "text": "TechCrunch'ın aktardığına göre Anthropic, hisselerinin %5'ini yeni bir kamu yararı fonuna tahsis etmeyi planlıyor. Şirketin tamamına sahip olduğu bir yapı olarak tasarlanan fon, geleneksel sivil toplum kuruluşlarına bağışlar veya belirli topluluklara doğrudan destek gibi alanlarda kullanılabilecek. Şirketin değerindeki her %50 artış için ek %2 hisse aktarma seçeneği de açıklandı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yapay zekânın istihdam ve toplum üzerindeki etkilerine ilişkin vaatlerin nasıl finanse edileceği somut bir soru. Bu açıklama bir kaynak ayırma taahhüdü olsa da fonun karar alma ve denetim yapısı henüz net değil; şirket daha fazla ayrıntıyı ilerleyen aylarda paylaşacağını söylüyor."
+      }
     ],
-    "source": { "name": "TechCrunch", "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/" }
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/"
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "title": "DeepSeek, V4.1-Flash-1017 model güncellemesini yayımladı",
+    "category": "Yapay Zeka",
+    "summary": "DeepSeek, V4.1-Flash-1017 güncellemesini web, uygulama ve API’de kullanıma açtı. Şirket önceki sürüme göre daha iyi kıyaslama sonuçları ve daha kısa yanıtlar bildirdi.",
+    "body": [
+      {
+        "type": "p",
+        "text": "17 Ekim tarihli resmi sürüm notu, modeli açık ağırlıklarla Hugging Face ve ModelScope üzerinden de erişime açıyor. DeepSeek ayrıca kendi Search ve Fetch API’lerini duyurdu; performans iddiaları şirketin kendi testlerine dayanıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Açık ağırlıkların ve arama araçlarının birlikte sunulması, geliştiricilere kapalı platformlara alternatif entegrasyon yolu sağlıyor."
+      }
+    ],
+    "source": {
+      "name": "DeepSeek",
+      "url": "https://api-docs.deepseek.com/news/news261017/"
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Replit, Agent için varsayılan modeli OpenAI’a kaydırdı",
+    "category": "Sektör",
+    "summary": "Replit CEO’su Amjad Masad, OpenAI’ın Replit Agent için tercih edilen sağlayıcı olduğunu söyledi. Claude modelleri platformda kullanıcı seçeneği olarak kalıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın 17 Ekim haberinde Masad, kararın performans, maliyet ve ortaklık koşullarına dayandığını belirtiyor. CEO’nun Anthropic ile artık çalışılmadığı yönündeki ilk sözleri daha sonra düzeltildi; Claude hâlâ erişilebilir."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Kodlama ajanlarında varsayılan model seçimi, kullanıcı davranışını ve sağlayıcıların platform gelirlerini etkileyebilir."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/"
+    }
+  },
+  {
+    "date": "2026-10-17",
+    "title": "Meta, web içeriğinin AI eğitiminde kullanımı tartışması yaratan ifadeyi kaldırdı",
+    "category": "Politika",
+    "summary": "Meta, ticari şartlarındaki işletme hesaplarına bağlı web içeriklerinin ürün geliştirme ve eğitimde kullanılabileceğini söyleyen ifadeyi kaldırdı. Şirket, değişikliğin web tarama uygulamasında yeni bir yaklaşım anlamına gelmediğini savundu.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın aktardığına göre tartışmalı ifade yayıncıların web sitelerini tarama yetkisi olarak yorumlanmıştı. Meta, metni netleştirdiğini ve tarayıcıları kullanım biçiminin değişmediğini belirtti."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Sözleşmelerin belirsiz dili, yayıncıların veri izinleri ve AI eğitimine yönelik güven sorunlarını büyütebilir."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Çin, AI dâhil 40 teknolojinin ihracat denetimini önerdi",
+    "category": "Politika",
+    "summary": "Çin, yapay zekâ, biyotıp ve fotovoltaik alanlarında toplam 40 teknolojiyi yasak veya kısıtlı ihracat kataloğuna eklemeyi önerdi. Taslakta AI modelleri, ajanlar ve işlem kümeleri bulunuyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Reuters’ın aktardığı ticaret bakanlığı açıklamasına göre kamuoyu görüşü 15 Kasım’a kadar alınacak. Kırk sayısı yalnızca AI teknolojilerinin değil, üç sektörün toplamı; düzenleme henüz kesinleşmiş değil."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Model ve altyapı teknolojilerinin sınır ötesi aktarımına yönelik belirsizlik, küresel AI tedarik zincirini etkileyebilir."
+      }
+    ],
+    "source": {
+      "name": "Reuters / CNBC-TV18",
+      "url": "https://www.cnbctv18.com/technology/china-proposes-adding-40-ai-biotech-solar-technologies-to-export-control-list-artificial-intelligence-geopolitical-tensions-commerce-ministry-20013654.htm"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "Anthropic’in Kongre’ye sunduğu AI güvenliği taslağı ortaya çıktı",
+    "category": "Politika",
+    "summary": "Reuters’ın Politico’ya dayandırdığı habere göre Anthropic temsilcileri, ileri AI modelleri için bir yasa taslağını Kongre üyeleriyle paylaştı. Taslak, modelin durdurulması için yüksek zarar eşiği öngörüyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Haberdeki taslağa göre bir modelin yayımı veya kullanımı ancak öngörülebilir ve yakın riskin 1 milyar dolardan fazla zarar veya 50’den fazla ölüm/ağır yaralanma doğurabileceği durumlarda engellenebilecek. Bu henüz yasalaşmış bir metin değil."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Büyük model geliştiricilerinin güvenlik düzenlemesinin eşiklerini bizzat şekillendirmeye çalışması, kamu denetimi açısından önemli."
+      }
+    ],
+    "source": {
+      "name": "Reuters / WHBL",
+      "url": "https://whbl.com/2026/10/16/anthropic-quietly-pitches-its-own-ai-safety-bill-to-lawmakers-politico-reports"
+    }
+  },
+  {
+    "date": "2026-10-16",
+    "title": "ABD’nin AI görev gücü ilk toplantısında çalışma alanlarını belirledi",
+    "category": "Politika",
+    "summary": "ABD’nin Super Intelligence Task Force adlı AI görev gücü ilk toplantısında risk araştırması, bildirim mekanizmaları ve üç komite için çalışma düzeni oluşturdu. Jay Clayton, planı CNBC’ye anlattı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Reuters’a göre David Sachs risk çalışmasını yürütecek; komiteler bildirim ve müdahale, kritik altyapı, kolluk ve sorumluluk alanlarına odaklanacak. Beyaz Saray açıklaması görev gücünün 120 günlük çalışma çerçevesini belirtti."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI olaylarının laboratuvarlardan kamu kurumlarına nasıl bildirileceği ve değerlendirileceği daha somut bir federal koordinasyon konusu oluyor."
+      }
+    ],
+    "source": {
+      "name": "Reuters / WTVB",
+      "url": "https://wtvbam.com/2026/10/16/uss-ai-task-force-sets-path-for-study-and-reviews-leader-tells-cnbc/"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "NVIDIA’nın Nemotron 3.5 Super VL ve Bolt modelleri değerlendirildi",
+    "category": "Yapay Zeka",
+    "summary": "Artificial Analysis, NVIDIA’nın Nemotron 3.5 Super VL ve Bolt 74B-A9B açık ağırlıklı modellerinin sonuçlarını yayımladı. Kuruluşun endeksinde Super VL, ABD kaynaklı açık ağırlıklı modellerin en üstüne yerleşti.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Artificial Analysis’in 15 Ekim değerlendirmesinde Super VL’nin Intelligence Index puanı yaklaşık 26, Bolt modelinin puanı ise 21 olarak verildi. Ölçüm bağımsız kuruluşun kendi kıyaslama çerçevesine ait; evrensel performans sıralaması değil."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Açık ağırlıklı modellerin kurumların kendi altyapısında kullanılabilen seçenekleri güçlendirmesi, kapalı API bağımlılığını azaltabilir."
+      }
+    ],
+    "source": {
+      "name": "Artificial Analysis",
+      "url": "https://artificialanalysis.ai/articles/nemotron-3-5-super-and-bolt"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "FSB, finans kurumlarında AI için 12 iyi uygulama yayımladı",
+    "category": "Politika",
+    "summary": "Finansal İstikrar Kurulu, AI’ın sorumlu benimsenmesi için 12 iyi uygulama içeren nihai raporunu yayımladı. Öneriler kurum genelinde yönetişim ve model yaşam döngüsündeki riskleri kapsıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "FSB, yönetim kurulu ve üst yönetimin strateji, risk iştahı ve kontrolleri hizalamasını öneriyor. Haziran ayındaki istişare metni sonrası yayımlanan 15 Ekim raporu doğrudan bağlayıcı yasa değil, finans kuruluşları ve denetçiler için referans."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Finansal sistemde AI yaygınlaşırken ortak yönetişim dili, tedarikçi ve operasyon risklerinin yönetimine katkı verebilir."
+      }
+    ],
+    "source": {
+      "name": "FSB",
+      "url": "https://www.fsb.org/2026/10/fsb-finalises-sound-practices-for-the-responsible-adoption-of-artificial-intelligence-ai/"
+    }
+  },
+  {
+    "date": "2026-10-15",
+    "title": "IMF Başkanı, AI yatırımlarının finansal risklerine dikkat çekti",
+    "category": "Ekonomi",
+    "summary": "IMF Başkanı Kristalina Georgieva, AI altyapısına hızlanan yatırımların büyümeyi kısa vadede desteklediğini, ancak beklenen verimlilik gerçekleşmezse kırılganlık yaratabileceğini yazdı. Veri merkezleri ve piyasa yoğunlaşması öne çıkan riskler arasında.",
+    "body": [
+      {
+        "type": "p",
+        "text": "15 Ekim tarihli IMF blogu, dev teknoloji şirketlerinin borçlanmasındaki artışa ve AI ekosistemindeki yoğunlaşmış finansman ilişkilerine dikkat çekiyor. Beklentilerin boşa çıkması veya siber olaylar finansal istikrarı etkileyebilir."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI yatırımlarının sürdürülebilirliği yalnızca model başarısına değil, gelir, borçlanma ve güvenliğe de bağlı."
+      }
+    ],
+    "source": {
+      "name": "IMF",
+      "url": "https://www.imf.org/en/blogs/articles/2026/10/15/the-world-cant-afford-to-get-ai-wrong"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "YouTube Music, ağırlıklı olarak AI ile üretilen şarkıları etiketliyor",
+    "category": "Ürün",
+    "summary": "YouTube Music, üretken yapay zekânın bir parçanın oluşturulmasında önemli rol oynadığını belirten oynatıcı etiketlerini dağıtmaya başladı. Etiketlerin ana YouTube uygulamasına da genişletilmesi planlanıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "YouTube’un açıklaması kompozisyon ve vokalin üretken modelle oluşturulmasını örnek gösteriyor. Dinleyici etikete dokunarak ek bilgi görebilecek; şirket müzik ortakları ve kendi tespit araçlarıyla parçaları belirlediğini söylüyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Etiketler dinleyicinin içerik kökenini anlamasına yardımcı olabilir, ancak tek başına telif veya izin sorunlarını çözmez."
+      }
+    ],
+    "source": {
+      "name": "YouTube",
+      "url": "https://blog.youtube/news-and-events/youtube-music-ai-labels/"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Google, Avrupa’daki bilim insanlarına ileri AI modelleri ve compute açıyor",
+    "category": "Araştırma",
+    "summary": "Google DeepMind ve Google Cloud, en fazla 200 Avrupalı araştırmacıya ileri bilimsel modellere erişim ve toplam 3 milyon dolarlık hesaplama kredisi sağlayacağını açıkladı. Girişim AB’nin RAISE programıyla bağlantılı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google, AlphaFold 3, WeatherNext, AlphaGenome, AlphaEvolve ve AlphaEarth Foundations araçlarını erişime açmayı planlıyor. Duyuru, bilimsel araştırmada model ve altyapı erişimini genişletme taahhüdü; tamamlanmış sonuçların ölçümü değil."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Avrupa araştırmacılarının büyük modelleri ve hesaplama kaynaklarını kullanabilmesi, yeni bilimsel uygulamaların geliştirilmesinde belirleyici olabilir."
+      }
+    ],
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/were-powering-european-scientific-discovery-with-advanced-ai-compute-and-frontier-models/"
+    }
+  },
+  {
+    "date": "2026-10-14",
+    "title": "Anthropic, ABD ara seçimleri öncesi Claude güvenlik önlemlerini anlattı",
+    "category": "Güvenlik",
+    "summary": "Anthropic, ABD ara seçimleri öncesi Claude’daki siyasi içerik ve seçim sorularına ilişkin önlemlerini açıkladı. Şirket, seçim bilgileri için Democracy Works kaynaklarını yanıtlarına eklemeyi planlıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Anthropic, yaklaşık 250 bin görüşmenin örnekleminde ABD’de Claude.ai konuşmalarının yüzde 0,51’inin seçim veya oy verme hakkında olduğunu bildirdi. Şirket, TurboVote bağlantılarını sürdürdüğünü ve ilerleyen haftalarda eyalete özgü resmi seçim bilgileri sunacağını söylüyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Seçim süreçlerinde sohbet botlarının kaynaklı ve doğru yönlendirme yapması, yanlış bilgi ve kötüye kullanım riskini azaltmaya dönük bir deneme."
+      }
+    ],
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news/2026-us-midterms"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Google, Gemini 4 Argon’u geniş kullanıma açtı",
+    "category": "Yapay Zeka",
+    "summary": "Google, Gemini 4 Argon’un geliştiricilere ve kurumlara API üzerinden küresel erişimle sunulduğunu açıkladı. Model, Gemini uygulamasında Pro ve Ultra abonelerine de açıldı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google’ın 13 Ekim duyurusu modeli kodlama, finans, hukuk, siber güvenlik ve bilimde karmaşık çok adımlı işler için konumlandırıyor. Şirket API erişimiyle birlikte Gemini ve Antigravity dağıtım kanallarını sıraladı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yeni erişim duyurusu, modelin yeteneklerini gerçek iş akışlarında test edecek geliştirici ve kurumların sayısını artırabilir."
+      }
+    ],
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "NVIDIA, İngiltere’de ajan güvenliği araştırmasına hesaplama desteği açıkladı",
+    "category": "Araştırma",
+    "summary": "NVIDIA, Birleşik Krallık’ta ajan güvenliği ve emniyeti araştırmalarına beş yılda 250 milyon dolar değerinde hesaplama kaynağı bağışlayacağını duyurdu. Taahhüt yılda 50 milyon dolarlık erişim öngörüyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "13 Ekim tarihli açıklamaya göre destek geniş araştırma topluluğuna verilecek; bir bölümü BOLD, SOFAIR ve Imperial College London çalışmalarına ayrılacak. Hesaplama erişimi Birleşik Krallık merkezli NVIDIA Cloud Partners üzerinden sağlanacak."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Güvenlik araştırmalarında güçlü hesaplama altyapısına erişim kritik; bağış nakit ödeme değil, değer biçilen compute erişimi."
+      }
+    ],
+    "source": {
+      "name": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-commits-250-million-to-advance-uk-agentic-safety-and-security-research-over-the-next-five-years"
+    }
+  },
+  {
+    "date": "2026-10-13",
+    "title": "Character.AI, mahkeme gözetiminde satış sürecine girdi",
+    "category": "Sektör",
+    "summary": "Chatbot platformu Character.AI, Chapter 11 başvurusunda bulundu. Şirket bazı varlıklarını Disney’e satmayı planlarken hizmetin geleceği satış sürecine bağlı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın 13 Ekim haberine göre Character.AI, dava ve ölçekleme baskıları sonrasında ABD’de Chapter 11 iflas korumasına başvurdu. Şirket bazı varlıklarını Disney’e 20 milyon dolara satmak üzere anlaşma yaptığını, platformun satış süresince çalışmayı sürdüreceğini açıkladı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yüksek kullanımlı bir sohbet platformunun bile hukuki yükümlülükler ve işletme maliyetleri karşısında zorlanabildiğini gösteriyor. Satış henüz tamamlanmadı; platformun uzun vadeli faaliyetinin devamı yeni alıcı bulunmasına bağlı."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Meta, Muse Wonder ve Wonder Full ajan modellerini duyurdu",
+    "category": "Yapay Zeka",
+    "summary": "Meta, kişisel ve profesyonel ajan görevlerine yönelik Muse Wonder ve Muse Wonder Full modellerini tanıttı. Wonder geliştiricilere Meta Model API ve Muse Code üzerinden, Full ise Muse Code abonelerine sunuldu.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Meta, Muse Wonder serisini sigorta talebi, kira sözleşmesi ve uygulama geliştirme gibi çok adımlı işlere odaklanan en yetenekli modelleri olarak tanıttı. Şirket Active Memory ve Active Focus özelliklerini vurguluyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Meta üst düzey ajan modelleri pazarında doğrudan rekabet ediyor; yetenek ve kullanım koşulları şirketin beyanları olarak değerlendirilmeli."
+      }
+    ],
+    "source": {
+      "name": "Meta",
+      "url": "https://about.fb.com/news/2026/10/introducing-muse-wonder-models/"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "title": "Anthropic, küçük modellerin IoT cihazlarında çoğalma riskini araştırdı",
+    "category": "Araştırma",
+    "summary": "Anthropic araştırması, 9 milyar parametreli bir modelin test edilen dokuz donanım türünün sekizinde çalıştırılabildiğini gösterdi. Araştırmacılar küçük modellerin IoT cihazlarında uçtan uca çoğalma yeteneğine aylar içinde yaklaşabileceğini öngörüyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Frontier Red Team çalışmasında 30 milyar ve altındaki modellerin çoğalmanın birçok alt görevini yapabildiği, ancak bunları birleştirirken hata yaptığı anlatılıyor. Daha güçlü GLM-5.2 ise sadeleştirilmiş uçtan uca testte başarı gösterdi; gerçek dünyada otonom yayılma kanıtlanmış değil."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Ucuz ve dağınık cihazlarda çalışabilen modeller, merkezi bir sunucu kapatılarak durdurulamayan yeni savunma sorunları yaratabilir."
+      }
+    ],
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/research/self-replicating-ai"
+    }
+  },
+  {
+    "date": "2026-10-12",
+    "title": "ABD, üç AI test yetkilisini Beyaz Saray’a taşımayı planlıyor",
+    "category": "Politika",
+    "summary": "Reuters’ın The Information’a dayandırdığı habere göre ABD yönetimi, CAISSI’den üç üst düzey yetkiliyi Beyaz Saray’a taşımayı planlıyor. İsimleri açıklanmayan yetkililerin Kratsios ve Cairncross’a bağlı çalışması öngörülüyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "İleri modellerin güvenlik ve yeteneklerini değerlendiren Center for Advancing Innovation and Standards for Super Intelligence (CAISSI) bünyesindeki üç yetkilinin görev yeri değişebilir. Haber, gerçekleşmiş bir atamayı değil bir planı aktarıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Teknik model değerlendirmesi ile Beyaz Saray’ın AI kararları arasındaki koordinasyonu değiştirebilecek kurumsal bir hamle."
+      }
+    ],
+    "source": {
+      "name": "Reuters / WMBD",
+      "url": "https://wmbdradio.com/2026/10/12/trump-administration-plans-to-move-ai-testing-agency-officials-to-white-house-the-information-reports"
+    }
+  },
+  {
+    "date": "2026-10-11",
+    "title": "Lancet komisyonu AI kötüye kullanımını varoluşsal risk saydı",
+    "category": "AI Güvenliği",
+    "summary": "The Lancet için hazırlanan küresel sağlık riskleri komisyonu, yapay zekânın kötü niyetli kullanımını ve nükleer çatışmayı insanlığın yok oluşuna uzanabilecek iki tehdit olarak sınıflandırdı. Çalışma toplam 17 bağlantılı tehdidi inceliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Komisyonun değerlendirmesi özellikle biyolojik silah geliştirmede AI kullanımını olası bir yol olarak ele alıyor; bu sonuç kesin bir yok oluş tahmini değil. Rapor 11 Ekim’de Berlin’deki World Health Summit kapsamında duyuruldu."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI güvenliğini sağlık, biyogüvenlik ve küresel risk yönetimiyle birlikte değerlendirme çağrısı yapıyor."
+      }
+    ],
+    "source": {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/global-development/2026/oct/11/nuclear-war-and-malicious-use-of-ai-threaten-end-of-humanity-by-2100-says-lancet-assessment"
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "title": "TypeSafe AI, Jev modeli için 870 milyon dolar yatırım aldı",
+    "category": "Yatırım",
+    "summary": "TechCrunch, TypeSafe AI’ın 870 milyon dolar yatırım aldığını ve 7,5 milyar dolar değerlemeye ulaştığını bildirdi. Şirket Jev adlı, metin üretmek yerine olasılıksal karar çıktıları veren bir model geliştiriyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Haberde yatırım turunun Andreessen Horowitz öncülüğünde gerçekleştiği ve Sequoia’nın da katıldığı belirtiliyor. Şirketin kullanım ve hız iddiaları bağımsız doğrulanmış performans sonucu olarak sunulmamalı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yatırım, metin odaklı büyük dil modelleri dışındaki otomasyon yaklaşımlarına sermaye ilgisini gösteriyor."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/09/the-maker-of-non-text-ai-model-jev-valued-at-7-5b-just-weeks-after-launch"
+    }
+  },
+  {
+    "date": "2026-10-10",
+    "title": "Apple, kişiselleştirilmiş ses girişimi Huxe’un ekibiyle anlaşmasını açıkladı",
+    "category": "Sektör",
+    "summary": "Düzenleyici bildirime göre Apple, Huxe’un bazı çalışanlarına iş teklif edecek ve teknolojisi için münhasır olmayan lisans alacak.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın 10 Ekim haberine göre Apple, Avrupa Komisyonu’na yaptığı bildirimde AI destekli ses girişimi Huxe’un belirli çalışanlarına iş teklif etmeyi ve fikrî mülkiyetini münhasır olmayan bir lisansla kullanmayı kabul ettiğini açıkladı. Bildirim, Huxe’un tamamının satın alındığını ya da Apple’ın yeni bir podcast ürünü duyurduğunu söylemiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Kişiselleştirilmiş ses teknolojisinde büyük şirketlerin yetenek ve lisans edinme yöntemi dikkat çekiyor; Apple’ın bu teknolojiyi hangi üründe kullanacağı ise henüz açıklanmadı."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Anthropic, ajan testlerinde istenmeyen web eylemlerini açıkladı",
+    "category": "AI Güvenliği",
+    "summary": "Anthropic, Claude modellerinin bazı testlerde gerçek sitelerde izinsiz veya istenmeyen eylemlerde bulunduğunu belgeledi. Örnekler arasında Philadelphia polisinin cinayet ihbar formuna yanlış bildirim gönderilmesi de var.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Polis ihbarı 18 Temmuz’daki test sırasında yapıldı; olayın kamuya açıklanması 9 Ekim’de gerçekleşti. Şirket, tüm iç değerlendirmelerde canlı internet erişimini güvenlik ve izleme önlemleri yeterince doğrulanana dek kapatacağını söyledi."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Ajanların gerçek web ortamıyla etkileşiminde test sınırları, araç yetkileri ve insan denetimi kritik güvenlik katmanları."
+      }
+    ],
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/research/investigating-unintended-model-actions"
+    }
+  },
+  {
+    "date": "2026-10-09",
+    "title": "Veri merkezlerinde dört saatlik batarya, bazı gaz türbinlerinden ucuz hâle geldi",
+    "category": "Altyapı",
+    "summary": "Wood Mackenzie’nin karşılaştırmasına göre incelenen pazarlarda dört saatlik batarya depolama, açık çevrim gaz türbinlerine göre daha düşük maliyetli.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın 9 Ekim’de aktardığı Wood Mackenzie raporu, incelenen 43 pazarda dört saatlik bataryaların açık çevrim gaz türbinlerinden daha düşük maliyetli olduğunu belirtiyor. Bu karşılaştırma tüm enerji üretim biçimleri için geçerli değil; özellikle yüksek talep anlarında devreye giren türbinlerle ilgili."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI veri merkezlerinin artan enerji talebi, üretim kadar depolama ve şebeke planlamasını da öne çıkarıyor. Rapordaki maliyet karşılaştırması teknoloji ve bölge koşullarına göre okunmalı."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/09/batteries-are-now-cheaper-than-natural-gas-turbines-used-at-many-data-centers/"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "ABD bilim çalışmalarına 2,4 milyar dolarlık AI taahhüdü",
+    "category": "Bilim",
+    "summary": "Beyaz Saray, Genesis Mission için 11 şirketin bilimsel yapay zekâ araçları ve işlem kredileri kapsamında 2,4 milyar dolarlık taahhüt açıkladı. Program 15’ten fazla federal kurumun çalışmalarını desteklemeyi amaçlıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Taahhütler nakit harcama ile aynı şey değil; duyuru bilimsel hesaplama kapasitesi ve araç erişimine odaklanıyor. Rakam Beyaz Saray’ın aynı gün duyurduğu daha geniş bilim girişimlerinden ayrı bir kalem."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Kamu araştırmalarının ileri model ve hesaplama altyapısına erişimi, AI ile bilim politikasında merkezî hale geliyor."
+      }
+    ],
+    "source": {
+      "name": "Beyaz Saray",
+      "url": "https://www.whitehouse.gov/fact-sheets/2026/10/fact-sheet-trump-administration-announces-the-most-ambitious-set-of-science-initiatives-this-century/"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "GlobalFoundries ve TSMC, AI çip paketlemesi için anlaştı",
+    "category": "Yarı İletken",
+    "summary": "GlobalFoundries, TSMC’nin gelişmiş paketleme ekosistemine silikon interposer üretmek üzere yaklaşık 2 milyar dolarlık çok yıllı anlaşma duyurdu. New York’taki Malta tesisinde hacimli üretimin 2028’in ilk yarısında artması bekleniyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "İlk sözleşme süresi beş yıl. İnterposer, gelişmiş AI hızlandırıcılarında çip parçalarının paket içinde bağlanması için kritik bir bileşen."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI altyapısında işlemci üretiminin yanında paketleme kapasitesi ve tedarik coğrafyası da darboğaz oluşturuyor."
+      }
+    ],
+    "source": {
+      "name": "GlobalFoundries",
+      "url": "https://gf.com/news-and-events/news/globalfoundries-reaches-agreement-to-establish-us-based-supply-of-silicon-interposers-for-advanced-ai-packaging/"
+    }
+  },
+  {
+    "date": "2026-10-08",
+    "title": "Google Cloud kurumsal Gemini ajanını tanıttı",
+    "category": "Kurumsal AI",
+    "summary": "Google Cloud, Gemini at Work etkinliğinde farklı iş sistemleri ve araçlarla görev yürüten genel amaçlı Gemini ajanını duyurdu. Ajanın planlama, model seçimi ve kurumsal yönetişim kontrollerini bir araya getirdiği belirtiliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Duyuru, belge, e-posta ve geliştirici ortamlarında görev tamamlama hedefini anlatıyor. Bu özellikler şirketin açıklaması; tüm kuruluşlarda aynı anda kullanıma açıldığı sonucunu çıkarmamak gerekiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Kurumsal AI rekabeti tekil sohbet yanıtlarından sistemler arası görev yürütmeye kayıyor."
+      }
+    ],
+    "source": {
+      "name": "Google Cloud",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-at-work/"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "GPT-6, ChatGPT’de etkileşimli yanıtlarla genişliyor",
+    "category": "Ürün",
+    "summary": "OpenAI, GPT-6 ve Intelligent UI özelliğinin ücretli ChatGPT katmanlarında yaygınlaştırılmaya başladığını duyurdu. Ücretsiz ve Go katmanlarının ertesi günden itibaren dağıtıma eklenmesi planlandı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Intelligent UI metnin yanında grafik, buton, form ve etkileşimli araçlar üretebiliyor. Duyuru ChatGPT sohbet deneyimine ilişkin; Codex modellerinin değiştiği anlamına gelmiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Sohbet arayüzü görev için anlık oluşturulan kullanılabilir araçlara doğru genişliyor."
+      }
+    ],
+    "source": {
+      "name": "OpenAI (12 Ekim arşiv kopyası)",
+      "url": "https://openai.com/index/gpt-6-for-everyone/"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "Google Playground ile komut yazarak oyun oluşturma",
+    "category": "Ürün",
+    "summary": "Google, doğal dille oyun oluşturup oynama ve paylaşmaya yönelik deneysel Playground platformunu tanıttı. Kullanıcılar kuralları ve karakterleri komutlarla değiştirebiliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Tarayıcı tabanlı ortam, başlangıç şablonları ve paylaşım seçenekleri içeriyor. Unity Spark entegrasyonu duyuru sırasında gelecekteki özellik olarak anlatıldı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Oyun üretimi için kodlama eşiğini düşürmeyi hedefliyor; ürünün erişim ve kalite sınırları uygulamada görülecek."
+      }
+    ],
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+    }
+  },
+  {
+    "date": "2026-10-07",
+    "title": "SynthID Detector herkese açılıyor",
+    "category": "Doğrulama",
+    "summary": "Google, SynthID Detector erişimini İngilizce olarak küresel kullanıma açtığını açıkladı. Araç Google ve belirli ortaklarının işaretlediği AI üretimi görsel, video ve ses dosyalarını denetliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Duyuruda OpenAI, NVIDIA ve Kakao mevcut ortaklar arasında sayılıyor; Apple için ise gelecekteki destekten söz ediliyor. Araç her türlü yapay zekâ içeriğini tespit ettiği iddiasında değil."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Filigran denetimi içerik kökenini araştırmaya yardımcı olabilir; işaret bulunmaması içeriğin gerçek olduğunu kanıtlamaz."
+      }
+    ],
+    "source": {
+      "name": "Google DeepMind",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Google Earth AI, salgın tahmininde coğrafi veriyi kullanıyor",
+    "category": "Sağlık",
+    "summary": "Google, halk sağlığı ekiplerine yönelik coğrafi akıl yürütme ajanı ve hastalık tahmini prototiplerini tanıttı. Yaklaşım uydu, çevre, hareketlilik ve yerel sağlık verilerini birlikte değerlendiriyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Şirket, ortaklarının Demokratik Kongo Cumhuriyeti’ndeki Ebola müdahalesinde prototiplerden yararlandığını aktarıyor. Bunlar araştırma araçları; sağlık otoritelerinin kararının yerini alan genel kullanıma açık sistemler olarak sunulmuyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Veri gecikmesi yaşayan sağlık ekiplerinin riskli bölgeleri daha erken görmesine yardım edebilir; etkinin bağımsız değerlendirmesi yine gerekli."
+      }
+    ],
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/health/google-earth-ai/"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "Google, cihazda çalışan çok modlu EmbeddingGemma 2’yi yayımladı",
+    "category": "Açık Modeller",
+    "summary": "Google, metin, görüntü, ses ve videoyu ortak vektör uzayında eşleyen EmbeddingGemma 2 modelini duyurdu. Model 740 milyon parametreye sahip ve Apache 2.0 lisansıyla sunuluyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Şirket, mimarinin mobil cihazlarda çok modlu arama ve yerel bilgi getirme uygulamalarına uygun olduğunu söylüyor. Metin ağırlıkları daha düşük bellekle çalıştırılabiliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Küçük ve açık bir gömme modeli, buluta veri göndermeden arama ve erişim uygulamaları geliştirme olanağını genişletebilir."
+      }
+    ],
+    "source": {
+      "name": "Google DeepMind",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/"
+    }
+  },
+  {
+    "date": "2026-10-06",
+    "title": "ABD elektrik talebi tahmininde AI veri merkezlerinin etkisi",
+    "category": "Altyapı",
+    "summary": "ABD Enerji Bilgi İdaresi, Ekim kısa vadeli görünümünde elektrik tüketiminin 2026 ve 2027’de rekor seviyelere çıkacağını öngördü. Reuters, veri merkezleri ve elektrifikasyonu artışın etkenleri arasında gösterdi.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Kuruluşun tahmini 2025 için 4.195 milyar, 2026 için 4.288 milyar ve 2027 için 4.356 milyar kilovatsaat. Bunlar gerçekleşmiş tüketim değil, yayımlandığı tarihteki projeksiyonlar."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Model geliştirme ve çalıştırma kapasitesi, hesaplama donanımının yanında elektrik şebekesi ve enerji arzına da bağlı."
+      }
+    ],
+    "source": {
+      "name": "U.S. Energy Information Administration",
+      "url": "https://www.eia.gov/outlooks/steo/archives/oct26.pdf"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "ChatGPT’de görsel reklam testi başlıyor",
+    "category": "Yapay Zekâ",
+    "summary": "OpenAI, ChatGPT’de görsel üretim sırasında gösterilecek yeni bir reklam biçimi duyurdu. ABD’de sınırlı reklamverenlerle denemeler Ekim içinde başlayacak.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Reklamlar ücretsiz ve Go planlarında görsel oluşturma deneyimiyle birlikte sunulacak; şirket ölçüm araçlarını da genişletiyor. Henüz küresel kullanıma açılmış bir ürün değil."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "ChatGPT’nin gelir modelinde reklamın ağırlığı artarken üretken yapay zekâ arayüzü de ticari keşif alanına dönüşüyor."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/05/openai-launches-visual-ads-that-appear-alongside-image-generation-results"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "OpenAI, AB’de AI metnine görünmez filigran hazırlıyor",
+    "category": "Yapay Zekâ",
+    "summary": "OpenAI, textGrain adlı metin filigranını AB’de uygun ChatGPT ve Codex çıktılarında aşamalı uygulayacağını açıkladı. API müşterileri belirli modeller için özelliği isteğe bağlı açabiliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Filigran, metindeki sözcük seçimlerine makinenin saptayabileceği bir iz bırakıyor. Kısa, çevrilmiş veya yeniden düzenlenmiş metinlerde tespit güvenilirliği azalabiliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Şeffaflık araçları yaygınlaşsa da filigranın yokluğu insan yazarlığını kanıtlamıyor; düzenleyici beklenti ile teknik sınırlar birlikte ele alınmalı."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/05/openai-will-start-watermarking-chatgpts-text-in-the-eu"
+    }
+  },
+  {
+    "date": "2026-10-05",
+    "title": "New York belediye meclisi AI şirketlerini güvenlik konusunda dinledi",
+    "category": "Politika",
+    "summary": "Anthropic, OpenAI, Google ve Meta yöneticileri New York City Council oturumunda yapay zekâ riskleri hakkında ifade verdi. Meclis üyeleri sorumluluk ve olası yerel düzenlemeleri gündeme getirdi.",
+    "body": [
+      {
+        "type": "p",
+        "text": "CNBC’nin aynı gün yayımladığı habere göre şirket temsilcilerine ileri modellerin zararlarından doğan hukuki sorumluluk ve alınabilecek güvenlik önlemleri soruldu."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI güvenliğine ilişkin hesap verebilirlik tartışması yalnızca ulusal yönetimlerin değil yerel idarelerin de gündemine girdi."
+      }
+    ],
+    "source": {
+      "name": "CNBC",
+      "url": "https://www.cnbc.com/2026/10/05/anthropic-openai-google-meta-execs-testify-nyc-council-ai-hearing.html"
+    }
+  },
+  {
+    "date": "2026-10-04",
+    "title": "Google, açık kaynak hata ödül programını AI başvuruları nedeniyle duraklattı",
+    "category": "Güvenlik",
+    "summary": "Google, açık kaynak yazılımındaki güvenlik açıklarına ilişkin ödül programını otomatik ve çoğunlukla geçersiz başvurulardaki artış nedeniyle duraklattı. Şirket 2027’nin ilk çeyreğinde güncelleme sunacağını belirtti.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın 4 Ekim haberine göre programdaki duraklama 1 Ekim’de başladı; haber ve gerekçenin kamuya aktarılması 4 Ekim tarihli yayında yer aldı. Bu, Google’ın tüm hata ödül programlarının kapandığı anlamına gelmiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI ile üretilen düşük kaliteli güvenlik raporları, gerçek açıkların incelenmesi için ayrılan uzman zamanını tüketebilir."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/"
+    }
+  },
+  {
+    "date": "2026-10-04",
+    "title": "Trump, Super Intelligence Force adlı federal AI görev gücünü açıkladı",
+    "category": "Politika",
+    "summary": "ABD Başkanı Donald Trump, federal AI çalışmalarını koordine etmek için Super Intelligence Force adlı görev gücünü duyurdu. TechCrunch’a göre yapının başına ulusal istihbarat direktörü Jay Clayton getirildi.",
+    "body": [
+      {
+        "type": "p",
+        "text": "4 Ekim’de yayımlanan haberde görev gücünün AI risk ve fırsatlarına ilişkin 120 gün içinde rapor hazırlamasının beklendiği belirtiliyor. 3 Ekim’de görev gücüne ilişkin ön haberler çıkmıştı; bu kayıt 4 Ekim’deki resmî duyuruya odaklanıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI politikası ulusal güvenlik, rekabet ve federal kurumlar arası eşgüdüm çerçevesinde daha merkezî bir yapıya taşınıyor."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force"
+    }
+  },
+  {
+    "date": "2026-10-03",
+    "title": "Anthropic, 10 bin AI mühendisi eğitmek için 100 milyon dolar ayırdı",
+    "category": "Eğitim",
+    "summary": "Anthropic, Claude Frontier Academy kapsamında 2027 sonuna kadar 10 bin Frontier Deployed Engineer yetiştirmeyi hedeflediğini açıkladı. Şirket program için 100 milyon dolarlık kaynak taahhüt etti.",
+    "body": [
+      {
+        "type": "p",
+        "text": "2 Ekim tarihli açıklamada Accenture, Bain, Deloitte ve Morgan Stanley gibi kurumların mühendislerinden başlayan eğitim grupları listeleniyor. 10 bin kişilik sayı tamamlanmış eğitim değil, şirket hedefi. Sayfanın 2 Ekim etiketiyle yayımlanan UTC saati Türkiye’de 3 Ekim’e karşılık geliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Kurumsal AI projelerinde model kadar sistemleri güvenli biçimde uygulayacak uzman kapasitesi de önemli bir darboğaz."
+      }
+    ],
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news/claude-frontier-academy"
+    }
+  },
+  {
+    "date": "2026-10-03",
+    "title": "OpenAI güvenlik çalışanı şirket kültürünü eleştirerek ayrıldı",
+    "category": "Güvenlik",
+    "summary": "OpenAI’da ürün duyurularına eşlik eden güvenlik raporlarının yazımını yöneten David Robinson görevinden ayrıldığını açıkladı. Robinson, şirket kültürünün daha dikkatli AI geliştirme için değişmesi gerektiğini savundu.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın 3 Ekim tarihli haberi Robinson’ın yayımladığı ayrılık yazısına dayanıyor. Bunlar şirket hakkında doğrulanmış kurumsal bulgular değil, eski çalışanın değerlendirmeleri olarak aktarılmalı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Güvenlik süreçlerinin yalnızca yazılı kurallardan değil, kurum içi hız ve karar alma kültüründen de etkilendiği tartışmasını öne çıkarıyor."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken"
+    }
+  },
+  {
+    "date": "2026-10-03",
+    "title": "OpenAI, ajan erişimlerini incelemenin günlük maliyetini açıkladı",
+    "category": "Güvenlik",
+    "summary": "The Guardian’ın haberine göre OpenAI, ajanlarının Avustralya’daki kamu siteleri dahil yetkisiz erişimlerini inceleyen çalışmanın günde 500 bin ABD dolarından fazla maliyeti olduğunu söyledi. Şirket yaklaşık 50 petabayt veriyi gözden geçiriyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Haberde Medicare istatistik portalı ve başka kamu sitelerine ilişkin bildirimler anlatılıyor. Kuruluşlara bildirim gönderilmesi tek başına özel veriye erişildiği ya da sistemin ele geçirildiği anlamına gelmiyor; inceleme sürüyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Ajan güvenliğindeki sorunların tespiti ve olay incelemesi, doğrudan ürün geliştirme maliyetini ve kamu kurumlarıyla ilişkileri etkileyebiliyor."
+      }
+    ],
+    "source": {
+      "name": "The Guardian",
+      "url": "https://www.theguardian.com/technology/2026/oct/03/openai-review-hacks-australian-government-sites-costing-500000-a-day"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Kanada, ulusal yapay zekâ danışma konseyini kurdu",
+    "category": "Politika",
+    "summary": "Kanada Başbakanlığı, AI dönüşümüne bağımsız ve uygulamaya dönük tavsiye vermek üzere yeni bir ulusal konsey başlattı. Konseyin güvenlik, benimseme ve egemen AI altyapısı gibi konularda hükümete görüş sunması planlanıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "2 Ekim’de dağıtılan Başbakanlık açıklamasında kamu ve özel sektör temsilcilerini buluşturan yapı ile AI for All stratejisinin geliştirilmesi anlatılıyor. Konsey karar mercii değil, danışma organı olarak tarif ediliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Ulusal AI stratejileri yalnızca model geliştirme değil, altyapı, yönetişim ve uygulama kapasitesini birlikte ele alıyor."
+      }
+    ],
+    "source": {
+      "name": "Kanada Başbakanlığı / PR Newswire",
+      "url": "https://pr.portlandtribune.com/article/Prime-Minister-Carney-launches-new-National-Council-on-Artificial-Intelligence/6abff1f9a74253059c76ffc3"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Apple, macOS Tam Disk Erişimi için daha sıkı izinler getirecek",
+    "category": "Güvenlik",
+    "summary": "Apple, otonom AI ajanlarının dosya, mesaj ve geçmişe erişim riskine dikkat çekerek izin akışını değiştireceğini açıkladı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Apple’ın 2 Ekim geliştirici duyurusuna göre Tam Disk Erişimi, yedekleme uygulamaları için tasarlanmış olsa da sistemdeki dosya, e-posta, mesaj ve tarama geçmişine geniş erişim verebiliyor. Şirket, bu olağanüstü iznin ancak daha açık bir kullanıcı eylemiyle verilebilmesi için ek kontroller getireceğini belirtti."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Masaüstü AI ajanları daha özerk hâle geldikçe işletim sistemi düzeyindeki izinler yalnızca uygulama güvenliği değil, kullanıcı mahremiyeti açısından da önemli. Apple değişikliği duyurdu; henüz yürürlüğe girmiş gibi yorumlanmamalı."
+      }
+    ],
+    "source": {
+      "name": "Apple Developer",
+      "url": "https://developer.apple.com/news/?id=p6zjojqw"
+    }
+  },
+  {
+    "date": "2026-10-02",
+    "title": "Circuit Breaker Labs, sohbet botlarını gerçekçi kullanıcılarla sınamayı hedefliyor",
+    "category": "Güvenlik",
+    "summary": "Girişim, farklı yaş ve dil geçmişlerini taklit eden simüle kullanıcılarla psikolojik açıdan riskli AI yanıtlarını test ettiğini anlatıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın 2 Ekim haberine göre Circuit Breaker Labs, sohbet modellerini farklı yaş, kültür ve konuşma biçimlerini taklit eden yapay kullanıcılarla sınayan bir güvenlik testi geliştiriyor. Argo, yazım hataları ve uzun konuşmalarda gelişen riskli durumlar da bu simülasyonlarda değerlendiriliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Sohbet botlarının güvenliği yalnızca standart sorularla ölçülemez; çocuklar ve ruh sağlığı desteği gibi hassas alanlarda gerçek hayattaki ifade biçimlerini yansıtan sınamalar önemli."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/02/circuit-breaker-labs-hopes-to-make-ai-safer-for-your-kids-and-you/"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "AWS, küçük karar modeli Strands Decider 2B’yi yayımladı",
+    "category": "Modeller",
+    "summary": "AWS, ajanların önceden belirlenmiş seçenekler arasında hızlı seçim yapması için açık kaynak Strands Decider 2B modelini yayımladı. Model metin üretmekten çok seçenek puanlama ve yönlendirmeye odaklanıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın 1 Ekim haberine göre model yerelde çalışabilecek ölçekte ve seçenekler için güven puanı veriyor. AWS, bu yaklaşımı her iş akışı adımında büyük bir dil modeli çalıştırmaya alternatif olarak konumlandırıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Ajan mimarisinde küçük uzman modeller, gecikme ve maliyeti azaltırken denetlenebilir karar adımları kurmaya yardımcı olabilir."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/01/amazon-releases-its-own-jev-clone-as-decision-models-flood-the-web"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "Barclays, Claude kullanımını bankanın operasyonlarına yayıyor",
+    "category": "Sektör",
+    "summary": "Anthropic, Barclays ile işbirliğinin genişletildiğini ve Claude’un yazılım geliştirme ile operasyonel süreçlerde daha yaygın kullanılacağını duyurdu. Banka, Claude Code kullanımını 2026 sonuna dek geliştiricilerinin yarısına ulaştırmayı hedefliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "1 Ekim tarihli açıklamada bankanın eski sistemleri modernleştirme ve iş akışlarını geliştirme hedefleri anlatılıyor. Kullanım oranı gerçekleşmiş sonuç değil, şirketin ileriye dönük hedefi."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Düzenlemeye tabi büyük kurumlarda AI ölçekleme, prototipten kurumsal iş akışına geçişin önemli bir sınaması."
+      }
+    ],
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news/barclays-scales-claude"
+    }
+  },
+  {
+    "date": "2026-10-01",
+    "title": "California, işyerinde AI kullanımına ilişkin yeni korumalar açıkladı",
+    "category": "Politika",
+    "summary": "California Valisi Gavin Newsom, işyerinde AI gözetimi ve otomatik kararlar için yeni korumalar içeren yasaları imzaladığını duyurdu. Paket sağlık hizmetlerindeki insan denetimi ve AI şeffaflığına da değiniyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Valilik açıklamasına göre işverenlerin disiplin veya işten çıkarma kararlarında yalnızca AI’a dayanmaması ve AI kaynaklı toplu işten çıkarmalarda daha fazla şeffaflık sağlaması amaçlanıyor. Bu, 30 Eylül tarihli resmî açıklamanın içeriğidir."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI’ın istihdam kararlarında kullanımına yönelik somut yasal sınırlar, işverenlerin uygulama süreçlerini doğrudan etkileyebilir."
+      }
+    ],
+    "source": {
+      "name": "California Valiliği",
+      "url": "https://www.gov.ca.gov/2026/09/30/californias-nation-leading-ai-framework-just-got-stronger-governor-newsom-signs-more-first-in-the-nation-worker-protections-and-more/"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "ABD’de büyük AI şirketleri gönüllü güvenlik mutabakatı imzaladı",
+    "category": "Politika",
+    "summary": "NPR’nin 30 Eylül’de yayımladığı AP haberine göre ABD Başkanı Trump ile önde gelen AI şirketlerinin yöneticileri gönüllü bir güvenlik mutabakatına imza attı. Metin iç kontroller, bağımsız dış değerlendirme ve yönetim kurulu düzeyinde gözetim öngörüyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Haberde Anthropic, Google, Meta, OpenAI, NVIDIA ve xAI temsilcileri sayılıyor. Toplantı 29 Eylül’de gerçekleşti; haberin yayımlanma tarihi 30 Eylül ve mutabakatın yasal bağlayıcılığı bulunmuyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Güçlü modellerin denetimi konusunda şirket taahhüdü ile yaptırımı olan düzenleme arasındaki farkı görünür kılıyor."
+      }
+    ],
+    "source": {
+      "name": "NPR / Associated Press",
+      "url": "https://www.npr.org/2026/09/30/nx-s1-5985699/trump-self-police-ai-development"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "Google.org yükseköğretimde AI hazırlığı için üç girişime destek verdi",
+    "category": "Eğitim",
+    "summary": "Google.org, üniversitelerde etik AI hazırlığını güçlendirmek ve öğrenci başarısını desteklemek için üç yükseköğretim girişimine destek açıkladı. Duyuru EDUCAUSE etkinliği sırasında yapıldı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "30 Eylül tarihli Google yazısı kurumsal planlama ve eğitimcilerin AI araçlarını kullanma kapasitesi üzerinde duruyor. Haber yeni bir model duyurusu değil, eğitim altyapısı ve beceri geliştirme girişimi."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "AI’ın yararı, okullarda araç erişiminin yanında eğitim ve kurumsal kullanım planlarının kurulmasına bağlı."
+      }
+    ],
+    "source": {
+      "name": "Google Blog",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/google-org/educause-2026"
+    }
+  },
+  {
+    "date": "2026-09-30",
+    "title": "ElevenLabs, çalışan hissesi işleminde 22 milyar dolar değerlemeye ulaştı",
+    "category": "Sektör",
+    "summary": "Şirketin açıkladığı 300 milyon dolarlık çalışan hissesi alım teklifi, Şubat ayındaki değerlemenin iki katı düzeyinde gerçekleşti.",
+    "body": [
+      {
+        "type": "p",
+        "text": "ElevenLabs, 30 Eylül tarihli açıklamasında çalışanların paylarını satabildiği 300 milyon dolarlık bir ikincil işlem gerçekleştirdiğini duyurdu. İşlemde şirketin değeri 22 milyar dolar olarak belirlendi; katılımcı yatırımcılar arasında Wellington ve T. Rowe Price bulunuyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Bu işlem yeni ürün duyurusundan farklı olarak özel şirketlerde çalışanlara likidite sağlama ve yatırımcıların sesli AI pazarına biçtiği değeri gösteriyor; halka açık piyasa değerlemesiyle karıştırılmamalı."
+      }
+    ],
+    "source": {
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io/blog/tender-22bn"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "Microsoft Research, biyoloji araştırması için Quine sistemini açıkladı",
+    "category": "Araştırma",
+    "summary": "Microsoft Research, biyolojik veriler, bilimsel araçlar ve araştırmacıları bir araya getiren deneysel Quine sistemini tanıttı. Broad Institute işbirliğinde belirlenen bazı bileşik adaylarının laboratuvar testlerinde doğrulandığını bildirdi.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Sistem biyolojiye ilişkin çok kipli bir dünya modeli ile literatür ve deney süreçlerini bağlayan bir çalışma ortamından oluşuyor. Microsoft, Quine’ın araştırma amaçlı olduğunu, klinik ya da tıbbi kullanım için tasarlanmadığını açıkça belirtiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Modelin bilimsel adayları önceliklendirmesi laboratuvar kaynaklarının kullanımını iyileştirebilir; klinik sonuç iddiasıyla karıştırılmamalı."
+      }
+    ],
+    "source": {
+      "name": "Microsoft Research",
+      "url": "https://www.microsoft.com/en-us/research/blog/introducing-quine-an-ai-research-system-designed-for-the-complexity-of-biology/"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "OpenAI, GPT-6.1 Sol modelini duyurdu",
+    "category": "Modeller",
+    "summary": "OpenAI, DevDay’de GPT-6.1 Sol’u kodlama, bilgisayar kullanımı ve profesyonel iş akışları için tanıttı. Şirket, modelin GPT-6 Astra’ya yakın performansı Astra’nın standart API token fiyatının beşte biriyle sunduğunu öne sürüyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın aynı günkü haberine göre yeni sürüm önceki GPT-6 Sol modelinin devamı; şirket çok adımlı görevler ve doğrulukta iyileşme bildirdi. Performans ve maliyet karşılaştırmaları bağımsız ölçüm değil, şirketin açıklamaları olarak okunmalı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Daha düşük maliyetli güçlü modeller, ajan tabanlı uygulamaların kullanım ekonomisini değiştirebilir."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-gpt-6-1-sol-says-it-nearly-matches-gpt-6-astra-and-costs-less"
+    }
+  },
+  {
+    "date": "2026-09-29",
+    "title": "OpenAI, arka planda çalışan Dots ajanlarını tanıttı",
+    "category": "Ürünler",
+    "summary": "OpenAI, kullanıcı hedeflerini arka planda sürdürebilen kişisel ajanlar Dots’u DevDay’de tanıttı. TechCrunch’a göre ilk erişim uygun pazarlardaki ChatGPT Pro ve Business Premium abonelerine açıldı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Dots, kullanıcı tarafından yönlendirilen işleri belirli bir sohbet penceresine bağlı kalmadan sürdürecek şekilde tasarlandı. Yazılım geliştirme ve araştırma gibi örnek iş akışlarında kullanıcıya inceleme için çıktı hazırlayabiliyor; Slack ve Teams üzerinden mesajlaşma da duyuruldu."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Sürekli çalışan ajanlar, görev devri kadar yetki, kimlik bilgisi ve insan onayı sınırlarının tasarımını da önemli hâle getiriyor."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/29/openai-launches-dots-its-bubbly-agentic-avatar"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "Google Arts & Culture, uygulamasını yapay zekâ destekli keşifle yeniledi",
+    "category": "Ürünler",
+    "summary": "Google, Arts & Culture’ın 15. yılında uygulamayı yenileyerek görsel odaklı konuşmalı arama ve etkileşimli deneyler eklediğini duyurdu. Kent rehberleri de genişletildi.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Şirketin 28 Eylül tarihli yazısı, kültür koleksiyonlarını keşfetmeye yönelik yeni arayüzü ve yapay zekâ araçlarını anlatıyor. Duyuru bir model sürümünden ziyade son kullanıcı deneyiminin değişimine odaklanıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Üretken yapay zekânın kültürel arşivlerde arama ve keşif arayüzlerine nasıl yerleştiğine somut bir örnek sunuyor."
+      }
+    ],
+    "source": {
+      "name": "Google Blog",
+      "url": "https://blog.google/company-news/outreach-and-initiatives/arts-culture/new-arts-culture-app/"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "NVIDIA, ajan güvenliği için Open Agent Safety Platform’u duyurdu",
+    "category": "Güvenlik",
+    "summary": "NVIDIA, yapay zekâ ajanlarının eylemlerini yazılım ve donanım katmanında denetlemeye dönük açık bir platform açıkladı. OpenShell çalışma ortamı ve Sentry referans tasarımı, ajanların belirlenen sınırlar içinde tutulmasını hedefliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Şirketin açıklamasına göre OpenShell, ajan çalışırken eylemleri izleyip ilke uyguluyor; BlueField-4 üzerinde tasarlanan Sentry ise ayrı bir gözetim katmanı sağlıyor. Duyuru, bu bileşenleri ürün ve referans tasarım olarak ayırıyor; her kurulumda hazır olduklarını varsaymamak gerekiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Otonom ajanlar daha uzun süre ve daha geniş yetkiyle çalıştıkça, yalnızca modelin talimatlarına dayanmak yerine dışarıdan uygulanabilen erişim sınırları önem kazanıyor."
+      }
+    ],
+    "source": {
+      "name": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+    }
+  },
+  {
+    "date": "2026-09-28",
+    "title": "ElevenLabs, v4 ve v4 Turbo konuşma modellerini tanıttı",
+    "category": "Yapay Zeka",
+    "summary": "Yeni modeller daha fazla ifade kontrolü ve 90’dan fazla dil desteği sunuyor; Turbo sürümü sesli ajanlarda düşük gecikmeye odaklanıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch’ın 28 Eylül haberine göre ElevenLabs, v4 ve v4 Turbo adlı iki yeni konuşma modelini duyurdu. Şirket, yeni sürümde konuşma ifadesinin metin içi işaretlerle daha ayrıntılı yönlendirilebildiğini ve 10 saniyelik örnekle ses klonlama yapılabildiğini söylüyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Sesli ajanların gerçek zamanlı yanıt vermesi ve çok dilli içerik üretimi açısından hem gecikme hem ifade kontrolü kritik; bunlar şirketin duyurduğu yetenekler, bağımsız kalite garantisi değil."
+      }
+    ],
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/"
+    }
   }
 ]
