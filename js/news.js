@@ -6,7 +6,8 @@
   const MONTHS = ['Oca', 'Şub', 'Mar', 'Nis', 'May', 'Haz', 'Tem', 'Ağu', 'Eyl', 'Eki', 'Kas', 'Ara'];
 
   function formatDate(value) {
-    const d = new Date(value);
+    const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(String(value));
+    const d = match ? new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3])) : new Date(value);
     if (isNaN(d.getTime())) return String(value ?? '');
     return `${d.getDate()} ${MONTHS[d.getMonth()]} ${d.getFullYear()}`;
   }
@@ -72,7 +73,6 @@
     if (anchor) li.id = slugify(anchor);
 
     const meta = el('div', null, 'post-meta');
-    meta.appendChild(el('span', formatDate(item.date), 'post-date'));
     if (item.category) meta.appendChild(el('span', item.category, 'post-cat'));
     li.appendChild(meta);
 
@@ -127,15 +127,19 @@
 
         const frag = document.createDocumentFragment();
         let currentDate = null;
+        let currentItems = null;
         items.forEach((item) => {
           const date = String(item.date || '');
           if (date !== currentDate) {
             currentDate = date;
-            const divider = el('li', null, 'news-day-divider');
-            divider.appendChild(el('h2', formatDate(date)));
-            frag.appendChild(divider);
+            const group = el('li', null, 'news-day-group');
+            const heading = el('h2', formatDate(date), 'news-day-heading');
+            group.appendChild(heading);
+            currentItems = el('ul', null, 'news-day-items');
+            group.appendChild(currentItems);
+            frag.appendChild(group);
           }
-          frag.appendChild(renderItem(item));
+          currentItems.appendChild(renderItem(item));
         });
         list.appendChild(frag);
       })
