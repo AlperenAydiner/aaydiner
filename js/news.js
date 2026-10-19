@@ -126,7 +126,17 @@
         }
 
         const frag = document.createDocumentFragment();
-        items.forEach((item) => frag.appendChild(renderItem(item)));
+        let currentDate = null;
+        items.forEach((item) => {
+          const date = String(item.date || '');
+          if (date !== currentDate) {
+            currentDate = date;
+            const divider = el('li', null, 'news-day-divider');
+            divider.appendChild(el('h2', formatDate(date)));
+            frag.appendChild(divider);
+          }
+          frag.appendChild(renderItem(item));
+        });
         list.appendChild(frag);
       })
       .catch(() => {
