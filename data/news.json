@@ -1,5 +1,89 @@
 [
   {
+    "date": "2026-10-20",
+    "title": "Google, klinik gorusmeler icin AMIE arastirmasini paylasti",
+    "category": "Arastirma",
+    "summary": "Google Research, AMIE adli deneysel sistemin hasta gorusmesi oncesi bilgi toplama ve ozetleme icin incelendigini acikladi. Sirket, sistemin hekimlere hasta ile tedavi secenekleri uzerine daha fazla zaman birakmayi hedefledigini soyluyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google Researchun aktardigi calismada AMIE, randevu oncesinde hastayla konusarak belirtiler ve gecmis hakkinda bilgi topluyor, ardindan bunlari hekim icin ozetliyor. Sistem, klinik akil yurutme ve gorusme surecleri uzerine yurutulen bir arastirma projesi olarak tanimlaniyor."
+      },
+      {
+        "type": "p",
+        "text": "Ekip, AMIEyi daha buyuk olcekli klinik arastirmalara hazirlarken sesli ve goruntulu etkilesimleri de degerlendirdigini belirtiyor. Aciklama, aracin saglik hizmetinde yaygin kullanima sunuldugunu veya klinik kararlarin otomatiklestirildigini soylemiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Saglikta AIin etkisi, modelin yanit uretmesinden cok bilgiyi guvenli toplama, ozetleme ve klinisyen denetimiyle kullanma bicimine bagli. Arastirma bulgulari umut verici olsa da hasta sonuclari icin daha genis klinik dogrulama gerekiyor."
+      }
+    ],
+    "source": {
+      "name": "Google Blog",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-clinical-study/"
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Google, kamu kurumlari icin Gemini platformunu onizlemeye acti",
+    "category": "Urun",
+    "summary": "Google Cloud, kamu kurumlarinin is akislarina yonelik Gemini for government services platformunu onizlemeye acti. Platform; gorev odakli beceriler, kurum sistemlerine baglayicilar ve yonetisim araclarini bir araya getiriyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google Cloudun duyurdugu Gemini for government services, federal, eyalet ve yerel kurumlarda kullanilmak uzere tasarlanmis bir onizleme urunu. Platform, kurumlarin mevcut vaka yonetimi, ERP, insan kaynaklari ve isbirligi sistemlerine guvenli baglayicilarla erismeyi hedefliyor."
+      },
+      {
+        "type": "p",
+        "text": "Sirket; belge inceleme, kamu kayitlaryna yanit hazirlama, harcama denetimi ve mevzuat arastirmasini ornek kullanim alanlari arasynda sayiyor. Yuksek etkili adimlarda insan onayi ve kurumun mevcut izin kontrollerinin korunacagi belirtiliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Kamu hizmetlerinde uretken AI kullanimi, model kapasitesinin yaninda veri egemenligi, erisim yetkileri ve denetlenebilirlik gerektiriyor. Duyuru genel kullanima acilis degil, onizleme asamasindaki bir platformu anlatiyor."
+      }
+    ],
+    "source": {
+      "name": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services"
+    }
+  },
+  {
+    "date": "2026-10-20",
+    "title": "Google TorchTPU yazilimini acik kaynak yapti",
+    "category": "Altyapi",
+    "summary": "Google Cloud, PyTorch is yuklerini TPUlarda yerel olarak calistirmayi hedefleyen TorchTPU yazilim yigini acik kaynak olarak yayimladi. Sirket, mevcut PyTorch kodlarinda sinirli degisiklikle egitim, sunum ve dagitim yapilabildigini belirtiyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google Cloud, PyTorch Conference 2026da TorchTPUnun GitHub uzerinden acik kaynak erisime acildigini duyurdu. Arac, Google TPUlarini PyTorch ekosisteminde GPU ve CPUlarla birlikte yerel bir secenek haline getirmeyi amacliyor."
+      },
+      {
+        "type": "p",
+        "text": "Sirkete gore TorchTPU, tanidik PyTorch APIleriyle calisiyor; vLLM, SGLang, Hugging Face ve LiteRT gibi araclarla kullanilabiliyor. Google, mevcut is yuklerinin az kod degisikligiyle TPUya tasinabildigini soyluyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "PyTorch uyumlulugu, gelistiricilerin hizlandirici secerken yazilim tasima maliyetini azaltabilir. Duyuru, performansin bagimsiz karsilastirmasi degil; TPU ekosistemine erisimi genisletmeye yonelik bir urun ve acik kaynak hamlesidir."
+      }
+    ],
+    "source": {
+      "name": "Google Cloud Blog",
+      "url": "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus"
+    }
+  },
+  {
     "date": "2026-10-18",
     "title": "Microsoft, Essex'teki AI veri merkezi anlaşmasından çekildi",
     "category": "Sektör",
@@ -1395,7 +1479,7 @@
       "url": "https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/"
     }
   },
-{
+  {
     "date": "2026-10-19",
     "title": "Microsoft, yapay zeka ajanlari icin surekli gozetim cagrisi yapti",
     "category": "Guvenlik",
