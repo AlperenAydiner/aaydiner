@@ -1562,5 +1562,61 @@
       "name": "Tenstorrent Newsroom",
       "url": "https://tenstorrent.com/en/newsroom/tenstorrent-announces-series-e"
     }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "OpenAI, modellerini Google Cloud uzerinden sunacak",
+    "summary": "OpenAI, ileri yapay zeka modelleri ile Codex kodlama ajanini onumuzdeki haftalarda Google Cloud uzerinden sunacagini acikladi. Kurumlar bu urunlere Google Cloud Marketplace araciligiyla erisebilecek.",
+    "category": "Sektor",
+    "body": [
+      {
+        "type": "p",
+        "text": "Reutersin 21 Ekim tarihli haberine gore OpenAI, ileri yapay zeka modelleri ve Codex kodlama ajanini Google Cloudda kullanima acmak icin Google ile anlasma yapti. Modellerin onumuzdeki haftalarda Google Cloudun platformlarinda erisilebilir olmasi bekleniyor."
+      },
+      {
+        "type": "p",
+        "text": "Habere gore musteriler, modelleri Google Cloud Marketplace uzerinden satin alabilecek ve mevcut bulut harcama taahhutlerini kullanabilecek. Anlasma, iki sirketin altyapi ve kurumsal hizmetlerdeki mevcut is iliskisinin de genislemesi anlamina geliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden onemli?"
+      },
+      {
+        "type": "p",
+        "text": "Buyuk model saglayicilarinin bulut pazar yerlerinde yer almasi, kurumlarin satin alma ve guvenlik sureclerini mevcut bulut altyapilariyla birlestirebilir. Bu ayni zamanda model dagitiminda dogrudan API erisiminin yanina yeni bir kurumsal kanal ekliyor."
+      }
+    ],
+    "source": {
+      "name": "Reuters / WKZO",
+      "url": "https://wkzo.com/2026/10/21/openai-to-sell-its-top-models-on-google-cloud-in-latest-enterprise-push/"
+    }
+  },
+  {
+    "date": "2026-10-21",
+    "title": "ChatGPT reklamlari 26 yeni ulkeye genisledi",
+    "summary": "OpenAI, ChatGPTdeki reklam deneyimini 26 ulkeye daha acti. Sirketin reklam destekli erisimi boylece toplam 89 pazara ulasti.",
+    "category": "Urun",
+    "body": [
+      {
+        "type": "p",
+        "text": "Reutersin 21 Ekim tarihli haberine gore OpenAI, ChatGPT reklamlarini 26 yeni ulkeye genisletti. Reklamlarin Free ve Go planlarindaki kullanicilara gosterilmesi planlanirken Plus, Pro ve Enterprise abonelikleri reklamsiz kalacak."
+      },
+      {
+        "type": "p",
+        "text": "Sirket, eylulde reklamverenler icin yapay zeka destekli araclar tanitmis ve sinirli sayida ABDli reklamverenle sponsorlu is ajanlarini test etmeye baslamisti. Yeni genisleme, bu ticari modelin daha fazla pazara tasindigini gosteriyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden onemli?"
+      },
+      {
+        "type": "p",
+        "text": "Reklamlarin daha genis kitleye acilmasi, ChatGPTnin abonelik ve API disindaki gelir kaynaklarini buyutebilir. Urun deneyimi ve reklam hedeflemesine iliskin uygulamalar ise ulkeden ulkeye farkli duzenlemelerle karsilasabilir."
+      }
+    ],
+    "source": {
+      "name": "Reuters / WHBL",
+      "url": "https://whbl.com/2026/10/21/openai-expands-chatgpt-ads-to-26-more-countries-in-bid-to-boost-revenue/"
+    }
   }
 ]
