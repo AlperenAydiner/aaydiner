@@ -1,5 +1,89 @@
 [
   {
+    "date": "2026-10-22",
+    "title": "Uber, ChatGPT Work'u 30 bin calisana aciyor",
+    "category": "Urun",
+    "summary": "Uber, ChatGPT Work'u kuresel is gucundeki 30 binden fazla calisana acacagini duyurdu. Sirket, daha once 1.000 calisanla yaptigi pilotun ardindan platformu sirket geneline yayiyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenAI'nin duyurusuna gore ChatGPT Work, Uber ekiplerinin Google Drive, Gmail, Google Calendar ve Slack gibi is araclariyla baglantili bicimde arastirma, toplanti ozeti, sunum ve veri analizi gorevlerinde calismasini hedefliyor."
+      },
+      {
+        "type": "p",
+        "text": "Dagitim, Uber'in bilgi calisanlaryna yonelik ilk sirket capindaki ajan tabanli platform uygulamasi olarak tanimlaniyor. Yazilim ekiplerinin ise Codex kullanmayi surdurmesi planlaniyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Sirket capinda dagitim, uretken yapay zekanin sinirli denemelerden kurumsal is akislarina gecisini gosteren somut bir ornek. Etkinin boyutu, kullanimin guvenli entegrasyonuna ve olculebilir sonuclara bagli olacak."
+      }
+    ],
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/uber-chatgpt-work-rollout/"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Microsoft, MAI-DxO tibbi tani sistemini tanitti",
+    "category": "Arastirma",
+    "summary": "Microsoft, karmasik tani vakalarinda birden fazla yapay zeka ajanini koordine eden MAI-DxO sistemini tanitti. Sirketin paylastigi degerlendirmede sistem %83 tani dogruluguna ulasti.",
+    "body": [
+      {
+        "type": "p",
+        "text": "MAI-DxO, farkli uzmanlik alanlarini temsil eden yapay zeka ajanlarinin birlikte akil yurutmesini amaclayan bir yaklasim olarak sunuluyor. Microsoft'un aciklamasinda sistemin karmasik tibbi vakalarda tani surecini ve maliyet kullanimini degerlendirdigi belirtiliyor."
+      },
+      {
+        "type": "p",
+        "text": "Sirketin yayimladigi karsilastirmada, destekleyici kaynak kullanmayan hekimler %22 dogruluga ulasti. Bu karsilastirma, gercek klinik uygulamada kullanim veya hasta sonuclarinin kaniti degil; duyurulan degerlendirme kosullarinin bir sonucu."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Cok ajanli sistemler, saglikta tek model yanitindan uzmanlik rolleri arasinda koordinasyona yonelimi gosteriyor. Klinik kullanima gecis icin bagimsiz dogrulama, guvenlik degerlendirmesi ve hekim denetimi gerekli."
+      }
+    ],
+    "source": {
+      "name": "Microsoft",
+      "url": "https://news.microsoft.com/source/latam/noticias-de-microsoft/construir-superinteligencia-medica-ia/"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Canva, ilk gorsel uretim modeli Craft'i yayimladi",
+    "category": "Urun",
+    "summary": "Canva, sirket ici arastirma ekibinin gelistirdigi Craft adli ilk gorsel uretim modelini duyurdu. Model Canva kullanicilarina kuresel olarak, gelistiricilere ise genel API uzerinden sunuluyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Canva Craft, sirketin sifirdan egittigini soyledigi ilk temel gorsel modeli. Canva'ya gore model; tasarima yonelik uretim, duzenlenebilir ciktilar ve isteme daha yakin sonuclar icin gelistirildi."
+      },
+      {
+        "type": "p",
+        "text": "Duyuruda Craft'in 2K cozunurlukte, farkli en-boy oranlarinda gorsel uretebildigi; Canva icindeki Dream Lab, genel API ve Canva MCP Server uzerinden erisilebildigi belirtiliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Canva'nin kendi temel modelini yayimlamasi, tasarim platformlarinin yalnizca ucuncu taraf modelleri entegre etmek yerine model gelistirmeye de yatirim yaptigini gosteriyor. Urun basarisi, yaratici kontrolun ve ciktinin guvenilirliginin gercek kullanimda nasil karsilandigina bagli."
+      }
+    ],
+    "source": {
+      "name": "Canva",
+      "url": "https://www.canva.com/newsroom/news/canva-craft/"
+    }
+  },
+  {
     "date": "2026-10-20",
     "title": "Google, klinik gorusmeler icin AMIE arastirmasini paylasti",
     "category": "Arastirma",
