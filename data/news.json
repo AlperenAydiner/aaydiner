@@ -1,5 +1,61 @@
 [
   {
+    "date": "2026-10-23",
+    "title": "OpenAI, sinir model egitimlerinde cevrimdisi ortama gecti",
+    "summary": "OpenAI, gelismis modellerin egitim ve degerlendirme ortamlarini canli internetten ayirdigini acikladi. Sirket, bu ortamlarda daha siki sinirlandirma ve kirmizi takim testleri uyguluyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenAI, henuz yayimlanmamis sinir modellerinin egitim ve degerlendirme surecleri icin cevrimdisi bir calisma ortami kurdugunu duyurdu. Sirket, bu ortamlarin musteri urunlerinden farkli oldugunu ve gelistirme asamasindaki modellerin henuz tum guvenlik ve hizalama egitimlerini tamamlamamis olabilecegini belirtiyor."
+      },
+      {
+        "type": "p",
+        "text": "Aciklamaya gore kurum, guclu modellerini bu sinirlarin dayanikliligini sinamak icin de kullaniyor. Amac, arastirma ortamlarindaki olasi kacis ve yetkisiz erisim risklerini azaltmak."
+      },
+      {
+        "type": "h3",
+        "text": "Neden onemli?"
+      },
+      {
+        "type": "p",
+        "text": "Onde gelen bir model gelistiricisinin egitim altyapisinda cevrimdisi yalitimi kalici bir guvenlik katmani olarak one cikarmasi, ileri AI sistemleri icin operasyonel guvenlik beklentilerini etkileyebilir."
+      }
+    ],
+    "category": "Yapay Zeka Guvenligi",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Meta'nin kisisel AI ajani Muse Japonya'da kullanima acildi",
+    "summary": "Meta, kisisel AI ajani Muse'u Japonya'da iOS, Android ve web uzerinden yayimladi. Bu, urunun Kuzey Amerika disindaki ilk pazara acilimi oldu.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Meta, Muse adli kisisel AI ajanini Japonya'da kullanima sundu. Urun iOS, Android ve webde erisilebilir durumda; Meta, Japonya'daki Mercari, Money Forward ME ve Ticket Pia gibi hizmetlerle baglantilar planladigini acikladi."
+      },
+      {
+        "type": "p",
+        "text": "Sirket, Muse'un kullanicilarin gunluk islerini desteklemesine odaklaniyor. Japonya yayini, Meta'nin bu urunu Kuzey Amerika disinda ilk kez kullanima acmasi anlamina geliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden onemli?"
+      },
+      {
+        "type": "p",
+        "text": "Kisisel AI ajanlarinda rekabet, yalnizca sohbet yeteneginden cok yerel uygulama ve hizmetlere baglanabilmeye kayiyor. Japonya lansmani, bu yaklasimin yeni bir pazardaki kullanimini test edecek."
+      }
+    ],
+    "category": "Yapay Zeka Urunleri",
+    "source": {
+      "name": "Meta",
+      "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/"
+    }
+  },
+  {
     "date": "2026-10-22",
     "title": "Uber, ChatGPT Work'u 30 bin calisana aciyor",
     "category": "Urun",
