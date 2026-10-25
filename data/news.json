@@ -1,129 +1,16 @@
 [
   {
-  "date": "2026-10-24",
-  "title": "Ingiltere, AI guvenligi icin 600 milyon sterlinin uzerinde paket acikladi",
-  "summary": "Ingiltere hukumeti, yapay zeka kaynakli biyoguvenlik ve siber guvenlik risklerine yonelik 600 milyon sterlinin uzerinde yatirim paketi duyurdu. Paket, AI Biosecurity Initiative, AI Security Institute ve ajan tabanli siber savunma icin ayri kaynaklar iceriyor.",
-  "body": [
-    {
-      "type": "p",
-      "text": "GOV.UK duyurusuna gore paket, yeni National AI Biosecurity Initiative icin 165 milyon sterlin ayiriyor; bunun 100 milyonu AI Biosecurity Lab kurulumu icin planlandi. Aciklamada AI Security Institute icin ek 120 milyon sterlin yatirim da yer aliyor."
-    },
-    {
-      "type": "p",
-      "text": "Hukumet ayrica ajan tabanli teknolojilerden yararlanacak National Cyber Shield icin 60 milyon sterlin yatirim aciklarken, bunun 25 milyonunu Birlesik Krallik AI ve siber guvenlik girisimlerine yonelik bir fon olarak tanimladi."
-    },
-    {
-      "type": "h3",
-      "text": "Neden onemli?"
-    },
-    {
-      "type": "p",
-      "text": "Paket, AI politikalarinda model gelistirme ve ekonomik buyumenin yaninda biyolojik ve siber riskler icin kamu altyapisina da kaynak ayrildigini gosteriyor. Aciklanan tutarlar, duyurulan yatirim taahhutleridir; sonuclari uygulama ve denetim surecine bagli olacak."
-    }
-  ],
-  "category": "Yapay Zeka Guvenligi",
-  "source": {
-    "name": "GOV.UK",
-    "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai"
-  }
-},
-{
-  "date": "2026-10-24",
-  "title": "Arastirma, Grok ve GPTnin secim tercihlerinde ayristigini gosterdi",
-  "summary": "Convovonun yaklasik 500 ABD secimine iliskin calismasinda, aday secmeye zorlanan Grok 4.7 yanitlarinin cogu Cumhuriyetci; GPT-6.1 Sol yanitlarinin cogu Demokrat aday yonunde oldu. TechCrunchin aktardigi arastirmada modellerin ayni yarista uzlasma orani yuzde 10un altinda kaldi.",
-  "body": [
-    {
-      "type": "p",
-      "text": "TechCrunchin 24 Ekim tarihli haberine gore Convovo arastirmasi, iki modeli yaklasan ara secimlerde aday secmeye zorlayan istemlerle sinadi. Haberde Grok 4.7nin yanitlarinin yuzde 92sinde Cumhuriyetci, GPT-6.1 Solun ise yuzde 97sinde Demokrat aday onerdigi aktarildi."
-    },
-    {
-      "type": "p",
-      "text": "Arastirma, yaklasik 500 yarista iki modelin yuzde 10dan azinda ayni adayi sectigini bildirdi. Habere gore tuketiciye donuk sohbet uygulamalari dogrudan aday onerme istemlerini reddedebiliyor; sonuclar API uzerinden yapilan zorunlu secim testine ait."
-    },
-    {
-      "type": "h3",
-      "text": "Neden onemli?"
-    },
-    {
-      "type": "p",
-      "text": "Secim bilgisi icin AI kullanimi arttikca, model yanitlarinin hangi kaynaklara dayandigi ve siyasi acidan nasil denetlendigi onem kazaniyor. Bu calisma, belirli bir test tasarimindaki model davranisini gosteriyor; secmen davranisinin olcumu degil."
-    }
-  ],
-  "category": "Yapay Zeka Politikasi",
-  "source": {
-    "name": "TechCrunch",
-    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
-  }
-},
-{
-    "date": "2026-10-23",
-    "title": "OpenAI, sinir model egitimlerinde cevrimdisi ortama gecti",
-    "summary": "OpenAI, gelismis modellerin egitim ve degerlendirme ortamlarini canli internetten ayirdigini acikladi. Sirket, bu ortamlarda daha siki sinirlandirma ve kirmizi takim testleri uyguluyor.",
+    "date": "2026-10-24",
+    "title": "İngiltere, AI güvenliği için 600 milyon sterlinin üzerinde paket açıkladı",
+    "summary": "İngiltere hükümeti, yapay zekâ kaynaklı biyogüvenlik ve siber güvenlik risklerine yönelik 600 milyon sterlinin üzerinde yatırım paketi duyurdu. Paket, AI Biosecurity Initiative, AI Security Institute ve ajan tabanlı siber savunma için ayrı kaynaklar içeriyor.",
     "body": [
       {
         "type": "p",
-        "text": "OpenAI, henuz yayimlanmamis sinir modellerinin egitim ve degerlendirme surecleri icin cevrimdisi bir calisma ortami kurdugunu duyurdu. Sirket, bu ortamlarin musteri urunlerinden farkli oldugunu ve gelistirme asamasindaki modellerin henuz tum guvenlik ve hizalama egitimlerini tamamlamamis olabilecegini belirtiyor."
+        "text": "GOV.UK duyurusuna göre paket, yeni National AI Biosecurity Initiative için 165 milyon sterlin ayırıyor; bunun 100 milyonu AI Biosecurity Lab kurulumu için planlandı. Açıklamada AI Security Institute için ek 120 milyon sterlin yatırım da yer alıyor."
       },
       {
         "type": "p",
-        "text": "Aciklamaya gore kurum, guclu modellerini bu sinirlarin dayanikliligini sinamak icin de kullaniyor. Amac, arastirma ortamlarindaki olasi kacis ve yetkisiz erisim risklerini azaltmak."
-      },
-      {
-        "type": "h3",
-        "text": "Neden onemli?"
-      },
-      {
-        "type": "p",
-        "text": "Onde gelen bir model gelistiricisinin egitim altyapisinda cevrimdisi yalitimi kalici bir guvenlik katmani olarak one cikarmasi, ileri AI sistemleri icin operasyonel guvenlik beklentilerini etkileyebilir."
-      }
-    ],
-    "category": "Yapay Zeka Guvenligi",
-    "source": {
-      "name": "OpenAI",
-      "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
-    }
-  },
-  {
-    "date": "2026-10-23",
-    "title": "Meta'nin kisisel AI ajani Muse Japonya'da kullanima acildi",
-    "summary": "Meta, kisisel AI ajani Muse'u Japonya'da iOS, Android ve web uzerinden yayimladi. Bu, urunun Kuzey Amerika disindaki ilk pazara acilimi oldu.",
-    "body": [
-      {
-        "type": "p",
-        "text": "Meta, Muse adli kisisel AI ajanini Japonya'da kullanima sundu. Urun iOS, Android ve webde erisilebilir durumda; Meta, Japonya'daki Mercari, Money Forward ME ve Ticket Pia gibi hizmetlerle baglantilar planladigini acikladi."
-      },
-      {
-        "type": "p",
-        "text": "Sirket, Muse'un kullanicilarin gunluk islerini desteklemesine odaklaniyor. Japonya yayini, Meta'nin bu urunu Kuzey Amerika disinda ilk kez kullanima acmasi anlamina geliyor."
-      },
-      {
-        "type": "h3",
-        "text": "Neden onemli?"
-      },
-      {
-        "type": "p",
-        "text": "Kisisel AI ajanlarinda rekabet, yalnizca sohbet yeteneginden cok yerel uygulama ve hizmetlere baglanabilmeye kayiyor. Japonya lansmani, bu yaklasimin yeni bir pazardaki kullanimini test edecek."
-      }
-    ],
-    "category": "Yapay Zeka Urunleri",
-    "source": {
-      "name": "Meta",
-      "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/"
-    }
-  },
-  {
-    "date": "2026-10-22",
-    "title": "Uber, ChatGPT Work'u 30 bin calisana aciyor",
-    "category": "Urun",
-    "summary": "Uber, ChatGPT Work'u kuresel is gucundeki 30 binden fazla calisana acacagini duyurdu. Sirket, daha once 1.000 calisanla yaptigi pilotun ardindan platformu sirket geneline yayiyor.",
-    "body": [
-      {
-        "type": "p",
-        "text": "OpenAI'nin duyurusuna gore ChatGPT Work, Uber ekiplerinin Google Drive, Gmail, Google Calendar ve Slack gibi is araclariyla baglantili bicimde arastirma, toplanti ozeti, sunum ve veri analizi gorevlerinde calismasini hedefliyor."
-      },
-      {
-        "type": "p",
-        "text": "Dagitim, Uber'in bilgi calisanlaryna yonelik ilk sirket capindaki ajan tabanli platform uygulamasi olarak tanimlaniyor. Yazilim ekiplerinin ise Codex kullanmayi surdurmesi planlaniyor."
+        "text": "Hükümet ayrıca ajan tabanlı teknolojilerden yararlanacak National Cyber Shield için 60 milyon sterlin yatırım açıklarken, bunun 25 milyonunu Birleşik Krallık AI ve siber güvenlik girişimlerine yönelik bir fon olarak tanımladı."
       },
       {
         "type": "h3",
@@ -131,7 +18,120 @@
       },
       {
         "type": "p",
-        "text": "Sirket capinda dagitim, uretken yapay zekanin sinirli denemelerden kurumsal is akislarina gecisini gosteren somut bir ornek. Etkinin boyutu, kullanimin guvenli entegrasyonuna ve olculebilir sonuclara bagli olacak."
+        "text": "Paket, AI politikalarında model geliştirme ve ekonomik büyümenin yanında biyolojik ve siber riskler için kamu altyapısına da kaynak ayrıldığını gösteriyor. Açıklanan tutarlar, duyurulan yatırım taahhütleridir; sonuçları uygulama ve denetim sürecine bağlı olacak."
+      }
+    ],
+    "category": "Yapay Zekâ Güvenliği",
+    "source": {
+      "name": "GOV.UK",
+      "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai"
+    }
+  },
+  {
+    "date": "2026-10-24",
+    "title": "Araştırma, Grok ve GPT'nin seçim tercihlerinde ayrıştığını gösterdi",
+    "summary": "Convovo'nun yaklaşık 500 ABD seçimine ilişkin çalışmasında, aday seçmeye zorlanan Grok 4.7 yanıtlarının çoğu Cumhuriyetçi; GPT-6.1 Sol yanıtlarının çoğu Demokrat aday yönünde oldu. TechCrunch'ın aktardığı araştırmada modellerin aynı yarışta uzlaşma oranı yüzde 10'un altında kaldı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TechCrunch'ın 24 Ekim tarihli haberine göre Convovo araştırması, iki modeli yaklaşan ara seçimlerde aday seçmeye zorlayan istemlerle sınadı. Haberde Grok 4.7'nin yanıtlarının yüzde 92'sinde Cumhuriyetçi, GPT-6.1 Sol'un ise yüzde 97'sinde Demokrat aday önerdiği aktarıldı."
+      },
+      {
+        "type": "p",
+        "text": "Araştırma, yaklaşık 500 yarışta iki modelin yüzde 10'dan azında aynı adayı seçtiğini bildirdi. Habere göre tüketiciye dönük sohbet uygulamaları doğrudan aday önerme istemlerini reddedebiliyor; sonuçlar API üzerinden yapılan zorunlu seçim testine ait."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Seçim bilgisi için AI kullanımı arttıkça, model yanıtlarının hangi kaynaklara dayandığı ve siyasi açıdan nasıl denetlendiği önem kazanıyor. Bu çalışma, belirli bir test tasarımındaki model davranışını gösteriyor; seçmen davranışının ölçümü değil."
+      }
+    ],
+    "category": "Yapay Zekâ Politikası",
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "title": "OpenAI, sınır model eğitimlerinde çevrimdışı ortama geçti",
+    "summary": "OpenAI, gelişmiş modellerin eğitim ve değerlendirme ortamlarını canlı internetten ayırdığını açıkladı. Şirket, bu ortamlarda daha sıkı sınırlandırma ve kırmızı takım testleri uyguluyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenAI, henüz yayımlanmamış sınır modellerinin eğitim ve değerlendirme süreçleri için çevrimdışı bir çalışma ortamı kurduğunu duyurdu. Şirket, bu ortamların müşteri ürünlerinden farklı olduğunu ve geliştirme aşamasındaki modellerin henüz tüm güvenlik ve hizalama eğitimlerini tamamlamamış olabileceğini belirtiyor."
+      },
+      {
+        "type": "p",
+        "text": "Açıklamaya göre kurum, güçlü modellerini bu sınırların dayanıklılığını sınamak için de kullanıyor. Amaç, araştırma ortamlarındaki olası kaçış ve yetkisiz erişim risklerini azaltmak."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Önde gelen bir model geliştiricisinin eğitim altyapısında çevrimdışı yalıtımı kalıcı bir güvenlik katmanı olarak öne çıkarması, ileri AI sistemleri için operasyonel güvenlik beklentilerini etkileyebilir."
+      }
+    ],
+    "category": "Yapay Zekâ Güvenliği",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/securing-our-frontier-model-training-environment"
+    }
+  },
+  {
+    "date": "2026-10-23",
+    "title": "Meta'nın kişisel AI ajanı Muse Japonya'da kullanıma açıldı",
+    "summary": "Meta, kişisel AI ajanı Muse'u Japonya'da iOS, Android ve web üzerinden yayımladı. Bu, ürünün Kuzey Amerika dışındaki ilk pazara açılımı oldu.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Meta, Muse adlı kişisel AI ajanını Japonya'da kullanıma sundu. Ürün iOS, Android ve web'de erişilebilir durumda; Meta, Japonya'daki Mercari, Money Forward ME ve Ticket Pia gibi hizmetlerle bağlantılar planladığını açıkladı."
+      },
+      {
+        "type": "p",
+        "text": "Şirket, Muse'un kullanıcıların günlük işlerini desteklemesine odaklanıyor. Japonya yayını, Meta'nın bu ürünü Kuzey Amerika dışında ilk kez kullanıma açması anlamına geliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Kişisel AI ajanlarında rekabet, yalnızca sohbet yeteneğinden çok yerel uygulama ve hizmetlere bağlanabilmeye kayıyor. Japonya lansmanı, bu yaklaşımın yeni bir pazardaki kullanımını test edecek."
+      }
+    ],
+    "category": "Yapay Zekâ Ürünleri",
+    "source": {
+      "name": "Meta",
+      "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/"
+    }
+  },
+  {
+    "date": "2026-10-22",
+    "title": "Uber, ChatGPT Work'u 30 bin çalışana açıyor",
+    "category": "Ürün",
+    "summary": "Uber, ChatGPT Work'u küresel iş gücündeki 30 binden fazla çalışana açacağını duyurdu. Şirket, daha önce 1.000 çalışanla yaptığı pilotun ardından platformu şirket geneline yayıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenAI'nin duyurusuna göre ChatGPT Work, Uber ekiplerinin Google Drive, Gmail, Google Calendar ve Slack gibi iş araçlarıyla bağlantılı biçimde araştırma, toplantı özeti, sunum ve veri analizi görevlerinde çalışmasını hedefliyor."
+      },
+      {
+        "type": "p",
+        "text": "Dağıtım, Uber'in bilgi çalışanlarına yönelik ilk şirket çapındaki ajan tabanlı platform uygulaması olarak tanımlanıyor. Yazılım ekiplerinin ise Codex kullanmayı sürdürmesi planlanıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Şirket çapında dağıtım, üretken yapay zekânın sınırlı denemelerden kurumsal iş akışlarına geçişini gösteren somut bir örnek. Etkinin boyutu, kullanımın güvenli entegrasyonuna ve ölçülebilir sonuçlara bağlı olacak."
       }
     ],
     "source": {
@@ -141,17 +141,17 @@
   },
   {
     "date": "2026-10-22",
-    "title": "Microsoft, MAI-DxO tibbi tani sistemini tanitti",
-    "category": "Arastirma",
-    "summary": "Microsoft, karmasik tani vakalarinda birden fazla yapay zeka ajanini koordine eden MAI-DxO sistemini tanitti. Sirketin paylastigi degerlendirmede sistem %83 tani dogruluguna ulasti.",
+    "title": "Microsoft, MAI-DxO tıbbi tanı sistemini tanıttı",
+    "category": "Araştırma",
+    "summary": "Microsoft, karmaşık tanı vakalarında birden fazla yapay zekâ ajanını koordine eden MAI-DxO sistemini tanıttı. Şirketin paylaştığı değerlendirmede sistem %83 tanı doğruluğuna ulaştı.",
     "body": [
       {
         "type": "p",
-        "text": "MAI-DxO, farkli uzmanlik alanlarini temsil eden yapay zeka ajanlarinin birlikte akil yurutmesini amaclayan bir yaklasim olarak sunuluyor. Microsoft'un aciklamasinda sistemin karmasik tibbi vakalarda tani surecini ve maliyet kullanimini degerlendirdigi belirtiliyor."
+        "text": "MAI-DxO, farklı uzmanlık alanlarını temsil eden yapay zekâ ajanlarının birlikte akıl yürütmesini amaçlayan bir yaklaşım olarak sunuluyor. Microsoft'un açıklamasında sistemin karmaşık tıbbi vakalarda tanı sürecini ve maliyet kullanımını değerlendirdiği belirtiliyor."
       },
       {
         "type": "p",
-        "text": "Sirketin yayimladigi karsilastirmada, destekleyici kaynak kullanmayan hekimler %22 dogruluga ulasti. Bu karsilastirma, gercek klinik uygulamada kullanim veya hasta sonuclarinin kaniti degil; duyurulan degerlendirme kosullarinin bir sonucu."
+        "text": "Şirketin yayımladığı karşılaştırmada, destekleyici kaynak kullanmayan hekimler %22 doğruluğa ulaştı. Bu karşılaştırma, gerçek klinik uygulamada kullanım veya hasta sonuçlarının kanıtı değil; duyurulan değerlendirme koşullarının bir sonucu."
       },
       {
         "type": "h3",
@@ -159,7 +159,7 @@
       },
       {
         "type": "p",
-        "text": "Cok ajanli sistemler, saglikta tek model yanitindan uzmanlik rolleri arasinda koordinasyona yonelimi gosteriyor. Klinik kullanima gecis icin bagimsiz dogrulama, guvenlik degerlendirmesi ve hekim denetimi gerekli."
+        "text": "Çok ajanlı sistemler, sağlıkta tek model yanıtından uzmanlık rolleri arasında koordinasyona yönelimi gösteriyor. Klinik kullanıma geçiş için bağımsız doğrulama, güvenlik değerlendirmesi ve hekim denetimi gerekli."
       }
     ],
     "source": {
@@ -169,17 +169,17 @@
   },
   {
     "date": "2026-10-22",
-    "title": "Canva, ilk gorsel uretim modeli Craft'i yayimladi",
-    "category": "Urun",
-    "summary": "Canva, sirket ici arastirma ekibinin gelistirdigi Craft adli ilk gorsel uretim modelini duyurdu. Model Canva kullanicilarina kuresel olarak, gelistiricilere ise genel API uzerinden sunuluyor.",
+    "title": "Canva, ilk görsel üretim modeli Craft'ı yayımladı",
+    "category": "Ürün",
+    "summary": "Canva, şirket içi araştırma ekibinin geliştirdiği Craft adlı ilk görsel üretim modelini duyurdu. Model Canva kullanıcılarına küresel olarak, geliştiricilere ise genel API üzerinden sunuluyor.",
     "body": [
       {
         "type": "p",
-        "text": "Canva Craft, sirketin sifirdan egittigini soyledigi ilk temel gorsel modeli. Canva'ya gore model; tasarima yonelik uretim, duzenlenebilir ciktilar ve isteme daha yakin sonuclar icin gelistirildi."
+        "text": "Canva Craft, şirketin sıfırdan eğittiğini söylediği ilk temel görsel modeli. Canva'ya göre model; tasarıma yönelik üretim, düzenlenebilir çıktılar ve isteme daha yakın sonuçlar için geliştirildi."
       },
       {
         "type": "p",
-        "text": "Duyuruda Craft'in 2K cozunurlukte, farkli en-boy oranlarinda gorsel uretebildigi; Canva icindeki Dream Lab, genel API ve Canva MCP Server uzerinden erisilebildigi belirtiliyor."
+        "text": "Duyuruda Craft'ın 2K çözünürlükte, farklı en-boy oranlarında görsel üretebildiği; Canva içindeki Dream Lab, genel API ve Canva MCP Server üzerinden erişilebildiği belirtiliyor."
       },
       {
         "type": "h3",
@@ -187,7 +187,7 @@
       },
       {
         "type": "p",
-        "text": "Canva'nin kendi temel modelini yayimlamasi, tasarim platformlarinin yalnizca ucuncu taraf modelleri entegre etmek yerine model gelistirmeye de yatirim yaptigini gosteriyor. Urun basarisi, yaratici kontrolun ve ciktinin guvenilirliginin gercek kullanimda nasil karsilandigina bagli."
+        "text": "Canva'nın kendi temel modelini yayımlaması, tasarım platformlarının yalnızca üçüncü taraf modelleri entegre etmek yerine model geliştirmeye de yatırım yaptığını gösteriyor. Ürün başarısı, yaratıcı kontrolün ve çıktının güvenilirliğinin gerçek kullanımda nasıl karşılandığına bağlı."
       }
     ],
     "source": {
@@ -197,17 +197,17 @@
   },
   {
     "date": "2026-10-20",
-    "title": "Google, klinik gorusmeler icin AMIE arastirmasini paylasti",
-    "category": "Arastirma",
-    "summary": "Google Research, AMIE adli deneysel sistemin hasta gorusmesi oncesi bilgi toplama ve ozetleme icin incelendigini acikladi. Sirket, sistemin hekimlere hasta ile tedavi secenekleri uzerine daha fazla zaman birakmayi hedefledigini soyluyor.",
+    "title": "Google, klinik görüşmeler için AMIE araştırmasını paylaştı",
+    "category": "Araştırma",
+    "summary": "Google Research, AMIE adlı deneysel sistemin hasta görüşmesi öncesi bilgi toplama ve özetleme için incelendiğini açıkladı. Şirket, sistemin hekimlere hasta ile tedavi seçenekleri üzerine daha fazla zaman bırakmayı hedeflediğini söylüyor.",
     "body": [
       {
         "type": "p",
-        "text": "Google Researchun aktardigi calismada AMIE, randevu oncesinde hastayla konusarak belirtiler ve gecmis hakkinda bilgi topluyor, ardindan bunlari hekim icin ozetliyor. Sistem, klinik akil yurutme ve gorusme surecleri uzerine yurutulen bir arastirma projesi olarak tanimlaniyor."
+        "text": "Google Research'ün aktardığı çalışmada AMIE, randevu öncesinde hastayla konuşarak belirtiler ve geçmiş hakkında bilgi topluyor, ardından bunları hekim için özetliyor. Sistem, klinik akıl yürütme ve görüşme süreçleri üzerine yürütülen bir araştırma projesi olarak tanımlanıyor."
       },
       {
         "type": "p",
-        "text": "Ekip, AMIEyi daha buyuk olcekli klinik arastirmalara hazirlarken sesli ve goruntulu etkilesimleri de degerlendirdigini belirtiyor. Aciklama, aracin saglik hizmetinde yaygin kullanima sunuldugunu veya klinik kararlarin otomatiklestirildigini soylemiyor."
+        "text": "Ekip, AMIE'yi daha büyük ölçekli klinik araştırmalara hazırlarken sesli ve görüntülü etkileşimleri de değerlendirdiğini belirtiyor. Açıklama, aracın sağlık hizmetinde yaygın kullanıma sunulduğunu veya klinik kararların otomatikleştirildiğini söylemiyor."
       },
       {
         "type": "h3",
@@ -215,7 +215,7 @@
       },
       {
         "type": "p",
-        "text": "Saglikta AIin etkisi, modelin yanit uretmesinden cok bilgiyi guvenli toplama, ozetleme ve klinisyen denetimiyle kullanma bicimine bagli. Arastirma bulgulari umut verici olsa da hasta sonuclari icin daha genis klinik dogrulama gerekiyor."
+        "text": "Sağlıkta AI'ın etkisi, modelin yanıt üretmesinden çok bilgiyi güvenli toplama, özetleme ve klinisyen denetimiyle kullanma biçimine bağlı. Araştırma bulguları umut verici olsa da hasta sonuçları için daha geniş klinik doğrulama gerekiyor."
       }
     ],
     "source": {
@@ -225,17 +225,17 @@
   },
   {
     "date": "2026-10-20",
-    "title": "Google, kamu kurumlari icin Gemini platformunu onizlemeye acti",
-    "category": "Urun",
-    "summary": "Google Cloud, kamu kurumlarinin is akislarina yonelik Gemini for government services platformunu onizlemeye acti. Platform; gorev odakli beceriler, kurum sistemlerine baglayicilar ve yonetisim araclarini bir araya getiriyor.",
+    "title": "Google, kamu kurumları için Gemini platformunu önizlemeye açtı",
+    "category": "Ürün",
+    "summary": "Google Cloud, kamu kurumlarının iş akışlarına yönelik Gemini for government services platformunu önizlemeye açtı. Platform; görev odaklı beceriler, kurum sistemlerine bağlayıcılar ve yönetişim araçlarını bir araya getiriyor.",
     "body": [
       {
         "type": "p",
-        "text": "Google Cloudun duyurdugu Gemini for government services, federal, eyalet ve yerel kurumlarda kullanilmak uzere tasarlanmis bir onizleme urunu. Platform, kurumlarin mevcut vaka yonetimi, ERP, insan kaynaklari ve isbirligi sistemlerine guvenli baglayicilarla erismeyi hedefliyor."
+        "text": "Google Cloud'un duyurduğu Gemini for government services, federal, eyalet ve yerel kurumlarda kullanılmak üzere tasarlanmış bir önizleme ürünü. Platform, kurumların mevcut vaka yönetimi, ERP, insan kaynakları ve işbirliği sistemlerine güvenli bağlayıcılarla erişmeyi hedefliyor."
       },
       {
         "type": "p",
-        "text": "Sirket; belge inceleme, kamu kayitlaryna yanit hazirlama, harcama denetimi ve mevzuat arastirmasini ornek kullanim alanlari arasynda sayiyor. Yuksek etkili adimlarda insan onayi ve kurumun mevcut izin kontrollerinin korunacagi belirtiliyor."
+        "text": "Şirket; belge inceleme, kamu kayıtlarına yanıt hazırlama, harcama denetimi ve mevzuat araştırmasını örnek kullanım alanları arasında sayıyor. Yüksek etkili adımlarda insan onayı ve kurumun mevcut izin kontrollerinin korunacağı belirtiliyor."
       },
       {
         "type": "h3",
@@ -243,7 +243,7 @@
       },
       {
         "type": "p",
-        "text": "Kamu hizmetlerinde uretken AI kullanimi, model kapasitesinin yaninda veri egemenligi, erisim yetkileri ve denetlenebilirlik gerektiriyor. Duyuru genel kullanima acilis degil, onizleme asamasindaki bir platformu anlatiyor."
+        "text": "Kamu hizmetlerinde üretken AI kullanımı, model kapasitesinin yanında veri egemenliği, erişim yetkileri ve denetlenebilirlik gerektiriyor. Duyuru genel kullanıma açılış değil, önizleme aşamasındaki bir platformu anlatıyor."
       }
     ],
     "source": {
@@ -253,17 +253,17 @@
   },
   {
     "date": "2026-10-20",
-    "title": "Google TorchTPU yazilimini acik kaynak yapti",
-    "category": "Altyapi",
-    "summary": "Google Cloud, PyTorch is yuklerini TPUlarda yerel olarak calistirmayi hedefleyen TorchTPU yazilim yigini acik kaynak olarak yayimladi. Sirket, mevcut PyTorch kodlarinda sinirli degisiklikle egitim, sunum ve dagitim yapilabildigini belirtiyor.",
+    "title": "Google TorchTPU yazılımını açık kaynak yaptı",
+    "category": "Altyapı",
+    "summary": "Google Cloud, PyTorch iş yüklerini TPU'larda yerel olarak çalıştırmayı hedefleyen TorchTPU yazılım yığınını açık kaynak olarak yayımladı. Şirket, mevcut PyTorch kodlarında sınırlı değişiklikle eğitim, sunum ve dağıtım yapılabildiğini belirtiyor.",
     "body": [
       {
         "type": "p",
-        "text": "Google Cloud, PyTorch Conference 2026da TorchTPUnun GitHub uzerinden acik kaynak erisime acildigini duyurdu. Arac, Google TPUlarini PyTorch ekosisteminde GPU ve CPUlarla birlikte yerel bir secenek haline getirmeyi amacliyor."
+        "text": "Google Cloud, PyTorch Conference 2026'da TorchTPU'nun GitHub üzerinden açık kaynak erişime açıldığını duyurdu. Araç, Google TPU'larını PyTorch ekosisteminde GPU ve CPU'larla birlikte yerel bir seçenek haline getirmeyi amaçlıyor."
       },
       {
         "type": "p",
-        "text": "Sirkete gore TorchTPU, tanidik PyTorch APIleriyle calisiyor; vLLM, SGLang, Hugging Face ve LiteRT gibi araclarla kullanilabiliyor. Google, mevcut is yuklerinin az kod degisikligiyle TPUya tasinabildigini soyluyor."
+        "text": "Şirkete göre TorchTPU, tanıdık PyTorch API'leriyle çalışıyor; vLLM, SGLang, Hugging Face ve LiteRT gibi araçlarla kullanılabiliyor. Google, mevcut iş yüklerinin az kod değişikliğiyle TPU'ya taşınabildiğini söylüyor."
       },
       {
         "type": "h3",
@@ -271,7 +271,7 @@
       },
       {
         "type": "p",
-        "text": "PyTorch uyumlulugu, gelistiricilerin hizlandirici secerken yazilim tasima maliyetini azaltabilir. Duyuru, performansin bagimsiz karsilastirmasi degil; TPU ekosistemine erisimi genisletmeye yonelik bir urun ve acik kaynak hamlesidir."
+        "text": "PyTorch uyumluluğu, geliştiricilerin hızlandırıcı seçerken yazılım taşıma maliyetini azaltabilir. Duyuru, performansın bağımsız karşılaştırması değil; TPU ekosistemine erişimi genişletmeye yönelik bir ürün ve açık kaynak hamlesidir."
       }
     ],
     "source": {
@@ -1677,25 +1677,25 @@
   },
   {
     "date": "2026-10-19",
-    "title": "Microsoft, yapay zeka ajanlari icin surekli gozetim cagrisi yapti",
-    "category": "Guvenlik",
-    "summary": "Microsoft, kurum icindeki yapay zeka ajanlarinin eylemlerini gercek zamanli izleyip risk duzeyine gore mudahale edecek Guardian Agents yaklasimini anlatti. Sirket, bu yaklasimi Project Perception guvenlik sistemiyle iliskilendiriyor.",
+    "title": "Microsoft, yapay zekâ ajanları için sürekli gözetim çağrısı yaptı",
+    "category": "Güvenlik",
+    "summary": "Microsoft, kurum içindeki yapay zekâ ajanlarının eylemlerini gerçek zamanlı izleyip risk düzeyine göre müdahale edecek Guardian Agents yaklaşımını anlattı. Şirket, bu yaklaşımı Project Perception güvenlik sistemiyle ilişkilendiriyor.",
     "body": [
       {
         "type": "p",
-        "text": "Microsofta gore yapay zeka ajanlari, veri ve sistemlere eristikce kurum icinde yeni bir guvenlik riski olusturuyor. Sirket, her ajanin eyleminin gerceklesmeden once surekli gozetlenmesi ve baglama gore riskinin hesaplanmasi gerektigini belirtiyor."
+        "text": "Microsoft'a göre yapay zekâ ajanları, veri ve sistemlere eriştikçe kurum içinde yeni bir güvenlik riski oluşturuyor. Şirket, her ajanın eyleminin gerçekleşmeden önce sürekli gözetlenmesi ve bağlama göre riskinin hesaplanması gerektiğini belirtiyor."
       },
       {
         "type": "p",
-        "text": "Yazida Project Perceptionin, ajanlarin davranisini izleyerek izlenebilirlik saglamasi ve risk yukseldiginde denetim uygulamasi icin kullanilabilecegi ifade ediliyor. Guardian Agents adi verilen denetleyici ajanlar, bu cercevede eylemlere gercek zamanli mudahale etmeyi hedefliyor."
+        "text": "Yazıda Project Perception'ın, ajanların davranışını izleyerek izlenebilirlik sağlaması ve risk yükseldiğinde denetim uygulaması için kullanılabileceği ifade ediliyor. Guardian Agents adı verilen denetleyici ajanlar, bu çerçevede eylemlere gerçek zamanlı müdahale etmeyi hedefliyor."
       },
       {
         "type": "h3",
-        "text": "Neden onemli?"
+        "text": "Neden önemli?"
       },
       {
         "type": "p",
-        "text": "Ajanlar daha genis veri ve islem yetkileri aldikca, guvenlik yalnizca modelin uretdigi yanitlari filtrelemekten ibaret degil. Yetki, eylem ve denetim katmanlarinin birlikte tasarlanmasi kurumlar icin temel bir gereksinime donusuyor."
+        "text": "Ajanlar daha geniş veri ve işlem yetkileri aldıkça, güvenlik yalnızca modelin ürettiği yanıtları filtrelemekten ibaret değil. Yetki, eylem ve denetim katmanlarının birlikte tasarlanması kurumlar için temel bir gereksinime dönüşüyor."
       }
     ],
     "source": {
@@ -1705,25 +1705,25 @@
   },
   {
     "date": "2026-10-19",
-    "title": "Amazon, PyTorch kodlarini Trainiumda calistirmak icin TorchNeuronu duyurdu",
-    "category": "Altyapi",
-    "summary": "Amazon, mevcut PyTorch kodlarinin AWS Trainium ciplerinde yeniden yazim olmadan calismasini hedefleyen TorchNeuron aracini acikladi. Sirket, aracin acik kaynak olarak yayimlanacagini belirtiyor.",
+    "title": "Amazon, PyTorch kodlarını Trainium'da çalıştırmak için TorchNeuron'u duyurdu",
+    "category": "Altyapı",
+    "summary": "Amazon, mevcut PyTorch kodlarının AWS Trainium çiplerinde yeniden yazım olmadan çalışmasını hedefleyen TorchNeuron aracını açıkladı. Şirket, aracın açık kaynak olarak yayımlanacağını belirtiyor.",
     "body": [
       {
         "type": "p",
-        "text": "Amazonun duyurusuna gore TorchNeuron, gelistiricilerin PyTorch is yuklerini Trainium uzerinde calistirmak icin yapilandirmada kucuk bir degisiklik yapmasina olanak taniyor. Arac, farkli donanim mimarilerine geciste kod uyarlama yukunu azaltmayi amacliyor."
+        "text": "Amazon'un duyurusuna göre TorchNeuron, geliştiricilerin PyTorch iş yüklerini Trainium üzerinde çalıştırmak için yapılandırmada küçük bir değişiklik yapmasına olanak tanıyor. Araç, farklı donanım mimarilerine geçişte kod uyarlama yükünü azaltmayı amaçlıyor."
       },
       {
         "type": "p",
-        "text": "Sirket, TorchNeuronu Apache 2.0 lisansiyla acik kaynak olarak yayimlayacagini ve ilk surumu PyTorch Conference North America etkinliginde sunacagini acikladi. Duyuru, aracin robotik, video, konusma ve buyuk dil modeli is yuklerinde kullanildigini da soyluyor."
+        "text": "Şirket, TorchNeuron'u Apache 2.0 lisansıyla açık kaynak olarak yayımlayacağını ve ilk sürümü PyTorch Conference North America etkinliğinde sunacağını açıkladı. Duyuru, aracın robotik, video, konuşma ve büyük dil modeli iş yüklerinde kullanıldığını da söylüyor."
       },
       {
         "type": "h3",
-        "text": "Neden onemli?"
+        "text": "Neden önemli?"
       },
       {
         "type": "p",
-        "text": "Yapay zeka altyapisinda yazilim uyumlulugu, gelistiricilerin donanim secimini dogrudan etkiliyor. PyTorch kodunun alternatif hizlandiricilara daha az uyarlamayla tasinabilmesi, CUDA disindaki ekosistemlerin benimsenmesini kolaylastirabilir."
+        "text": "Yapay zeka altyapısında yazılım uyumluluğu, geliştiricilerin donanım seçimini doğrudan etkiliyor. PyTorch kodunun alternatif hızlandırıcılara daha az uyarlamayla taşınabilmesi, CUDA dışındaki ekosistemlerin benimsenmesini kolaylaştırabilir."
       }
     ],
     "source": {
@@ -1733,25 +1733,25 @@
   },
   {
     "date": "2026-10-19",
-    "title": "Tenstorrent, 6,2 milyar dolar degerlemeyle 1,5 milyar dolar yatirim aldi",
-    "category": "Yatirim",
-    "summary": "Yapay zeka hesaplama sirketi Tenstorrent, Seri E turunda 1,5 milyar dolar topladigini ve tur sonrasi degerlemesinin 6,2 milyar dolara ulastigini acikladi. Sirket, kaynagi hacimli uretim ve kuresel ticari buyume icin kullanmayi planliyor.",
+    "title": "Tenstorrent, 6,2 milyar dolar değerlemeyle 1,5 milyar dolar yatırım aldı",
+    "category": "Yatırım",
+    "summary": "Yapay zeka hesaplama şirketi Tenstorrent, Seri E turunda 1,5 milyar dolar topladığını ve tur sonrası değerlemesinin 6,2 milyar dolara ulaştığını açıkladı. Şirket, kaynağı hacimli üretim ve küresel ticari büyüme için kullanmayı planlıyor.",
     "body": [
       {
         "type": "p",
-        "text": "Tenstorrentin aciklamasina gore Seri E turuna Trace Capital ve Innovation X liderlik etti; mevcut ve yeni yatirimcilar da tura katildi. Sirket, tekil kartlardan raf sistemlerine ve ozel IPye kadar yapay zeka hesaplama urunleri sundugunu belirtiyor."
+        "text": "Tenstorrent'in açıklamasına göre Seri E turuna Trace Capital ve Innovation X liderlik etti; mevcut ve yeni yatırımcılar da tura katıldı. Şirket, tekil kartlardan raf sistemlerine ve özel IP'ye kadar yapay zekâ hesaplama ürünleri sunduğunu belirtiyor."
       },
       {
         "type": "p",
-        "text": "Sirket, yatirimin hacimli uretim ile kuresel ticari genislemeyi destekleyecegini soyluyor. Aciklanan 6,2 milyar dolarlik degerleme, tur sonrasi degerlemeyi ifade ediyor."
+        "text": "Şirket, yatırımın hacimli üretim ile küresel ticari genişlemeyi destekleyeceğini söylüyor. Açıklanan 6,2 milyar dolarlık değerleme, tur sonrası değerlemeyi ifade ediyor."
       },
       {
         "type": "h3",
-        "text": "Neden onemli?"
+        "text": "Neden önemli?"
       },
       {
         "type": "p",
-        "text": "Finansman, veri merkezi yapay zeka hesaplama pazarinda yerlesik hizlandirici tedarikcilerine alternatif gelistiren sirketlere yonelik sermaye ilgisinin surdugunu gosteriyor. Ancak bu yatirim, urunlerin pazar payi veya performansi icin bagimsiz bir dogrulama anlamina gelmiyor."
+        "text": "Finansman, veri merkezi yapay zekâ hesaplama pazarında yerleşik hızlandırıcı tedarikçilerine alternatif geliştiren şirketlere yönelik sermaye ilgisinin sürdüğünü gösteriyor. Ancak bu yatırım, ürünlerin pazar payı veya performansı için bağımsız bir doğrulama anlamına gelmiyor."
       }
     ],
     "source": {
@@ -1761,25 +1761,25 @@
   },
   {
     "date": "2026-10-21",
-    "title": "OpenAI, modellerini Google Cloud uzerinden sunacak",
-    "summary": "OpenAI, ileri yapay zeka modelleri ile Codex kodlama ajanini onumuzdeki haftalarda Google Cloud uzerinden sunacagini acikladi. Kurumlar bu urunlere Google Cloud Marketplace araciligiyla erisebilecek.",
-    "category": "Sektor",
+    "title": "OpenAI, modellerini Google Cloud üzerinden sunacak",
+    "summary": "OpenAI, ileri yapay zekâ modelleri ile Codex kodlama ajanını önümüzdeki haftalarda Google Cloud üzerinden sunacağını açıkladı. Kurumlar bu ürünlere Google Cloud Marketplace aracılığıyla erişebilecek.",
+    "category": "Sektör",
     "body": [
       {
         "type": "p",
-        "text": "Reutersin 21 Ekim tarihli haberine gore OpenAI, ileri yapay zeka modelleri ve Codex kodlama ajanini Google Cloudda kullanima acmak icin Google ile anlasma yapti. Modellerin onumuzdeki haftalarda Google Cloudun platformlarinda erisilebilir olmasi bekleniyor."
+        "text": "Reuters'in 21 Ekim tarihli haberine göre OpenAI, ileri yapay zekâ modelleri ve Codex kodlama ajanını Google Cloud'da kullanıma açmak için Google ile anlaşma yaptı. Modellerin önümüzdeki haftalarda Google Cloud'un platformlarında erişilebilir olması bekleniyor."
       },
       {
         "type": "p",
-        "text": "Habere gore musteriler, modelleri Google Cloud Marketplace uzerinden satin alabilecek ve mevcut bulut harcama taahhutlerini kullanabilecek. Anlasma, iki sirketin altyapi ve kurumsal hizmetlerdeki mevcut is iliskisinin de genislemesi anlamina geliyor."
+        "text": "Habere göre müşteriler, modelleri Google Cloud Marketplace üzerinden satın alabilecek ve mevcut bulut harcama taahhütlerini kullanabilecek. Anlaşma, iki şirketin altyapı ve kurumsal hizmetlerdeki mevcut iş ilişkisinin de genişlemesi anlamına geliyor."
       },
       {
         "type": "h3",
-        "text": "Neden onemli?"
+        "text": "Neden önemli?"
       },
       {
         "type": "p",
-        "text": "Buyuk model saglayicilarinin bulut pazar yerlerinde yer almasi, kurumlarin satin alma ve guvenlik sureclerini mevcut bulut altyapilariyla birlestirebilir. Bu ayni zamanda model dagitiminda dogrudan API erisiminin yanina yeni bir kurumsal kanal ekliyor."
+        "text": "Büyük model sağlayıcılarının bulut pazar yerlerinde yer alması, kurumların satın alma ve güvenlik süreçlerini mevcut bulut altyapılarıyla birleştirebilir. Bu aynı zamanda model dağıtımında doğrudan API erişiminin yanına yeni bir kurumsal kanal ekliyor."
       }
     ],
     "source": {
@@ -1789,25 +1789,25 @@
   },
   {
     "date": "2026-10-21",
-    "title": "ChatGPT reklamlari 26 yeni ulkeye genisledi",
-    "summary": "OpenAI, ChatGPTdeki reklam deneyimini 26 ulkeye daha acti. Sirketin reklam destekli erisimi boylece toplam 89 pazara ulasti.",
-    "category": "Urun",
+    "title": "ChatGPT reklamları 26 yeni ülkeye genişledi",
+    "summary": "OpenAI, ChatGPT'deki reklam deneyimini 26 ülkeye daha açtı. Şirketin reklam destekli erişimi böylece toplam 89 pazara ulaştı.",
+    "category": "Ürün",
     "body": [
       {
         "type": "p",
-        "text": "Reutersin 21 Ekim tarihli haberine gore OpenAI, ChatGPT reklamlarini 26 yeni ulkeye genisletti. Reklamlarin Free ve Go planlarindaki kullanicilara gosterilmesi planlanirken Plus, Pro ve Enterprise abonelikleri reklamsiz kalacak."
+        "text": "Reuters'in 21 Ekim tarihli haberine göre OpenAI, ChatGPT reklamlarını 26 yeni ülkeye genişletti. Reklamların Free ve Go planlarındaki kullanıcılara gösterilmesi planlanırken Plus, Pro ve Enterprise abonelikleri reklamsız kalacak."
       },
       {
         "type": "p",
-        "text": "Sirket, eylulde reklamverenler icin yapay zeka destekli araclar tanitmis ve sinirli sayida ABDli reklamverenle sponsorlu is ajanlarini test etmeye baslamisti. Yeni genisleme, bu ticari modelin daha fazla pazara tasindigini gosteriyor."
+        "text": "Şirket, eylülde reklamverenler için yapay zekâ destekli araçlar tanıtmış ve sınırlı sayıda ABD'li reklamverenle sponsorlu iş ajanlarını test etmeye başlamıştı. Yeni genişleme, bu ticari modelin daha fazla pazara taşındığını gösteriyor."
       },
       {
         "type": "h3",
-        "text": "Neden onemli?"
+        "text": "Neden önemli?"
       },
       {
         "type": "p",
-        "text": "Reklamlarin daha genis kitleye acilmasi, ChatGPTnin abonelik ve API disindaki gelir kaynaklarini buyutebilir. Urun deneyimi ve reklam hedeflemesine iliskin uygulamalar ise ulkeden ulkeye farkli duzenlemelerle karsilasabilir."
+        "text": "Reklamların daha geniş kitleye açılması, ChatGPT'nin abonelik ve API dışındaki gelir kaynaklarını büyütebilir. Ürün deneyimi ve reklam hedeflemesine ilişkin uygulamalar ise ülkeden ülkeye farklı düzenlemelerle karşılaşabilir."
       }
     ],
     "source": {
