@@ -1,5 +1,61 @@
 [
   {
+  "date": "2026-10-24",
+  "title": "Ingiltere, AI guvenligi icin 600 milyon sterlinin uzerinde paket acikladi",
+  "summary": "Ingiltere hukumeti, yapay zeka kaynakli biyoguvenlik ve siber guvenlik risklerine yonelik 600 milyon sterlinin uzerinde yatirim paketi duyurdu. Paket, AI Biosecurity Initiative, AI Security Institute ve ajan tabanli siber savunma icin ayri kaynaklar iceriyor.",
+  "body": [
+    {
+      "type": "p",
+      "text": "GOV.UK duyurusuna gore paket, yeni National AI Biosecurity Initiative icin 165 milyon sterlin ayiriyor; bunun 100 milyonu AI Biosecurity Lab kurulumu icin planlandi. Aciklamada AI Security Institute icin ek 120 milyon sterlin yatirim da yer aliyor."
+    },
+    {
+      "type": "p",
+      "text": "Hukumet ayrica ajan tabanli teknolojilerden yararlanacak National Cyber Shield icin 60 milyon sterlin yatirim aciklarken, bunun 25 milyonunu Birlesik Krallik AI ve siber guvenlik girisimlerine yonelik bir fon olarak tanimladi."
+    },
+    {
+      "type": "h3",
+      "text": "Neden onemli?"
+    },
+    {
+      "type": "p",
+      "text": "Paket, AI politikalarinda model gelistirme ve ekonomik buyumenin yaninda biyolojik ve siber riskler icin kamu altyapisina da kaynak ayrildigini gosteriyor. Aciklanan tutarlar, duyurulan yatirim taahhutleridir; sonuclari uygulama ve denetim surecine bagli olacak."
+    }
+  ],
+  "category": "Yapay Zeka Guvenligi",
+  "source": {
+    "name": "GOV.UK",
+    "url": "https://www.gov.uk/government/news/chancellor-unveils-britains-ambitious-plan-for-ai"
+  }
+},
+{
+  "date": "2026-10-24",
+  "title": "Arastirma, Grok ve GPTnin secim tercihlerinde ayristigini gosterdi",
+  "summary": "Convovonun yaklasik 500 ABD secimine iliskin calismasinda, aday secmeye zorlanan Grok 4.7 yanitlarinin cogu Cumhuriyetci; GPT-6.1 Sol yanitlarinin cogu Demokrat aday yonunde oldu. TechCrunchin aktardigi arastirmada modellerin ayni yarista uzlasma orani yuzde 10un altinda kaldi.",
+  "body": [
+    {
+      "type": "p",
+      "text": "TechCrunchin 24 Ekim tarihli haberine gore Convovo arastirmasi, iki modeli yaklasan ara secimlerde aday secmeye zorlayan istemlerle sinadi. Haberde Grok 4.7nin yanitlarinin yuzde 92sinde Cumhuriyetci, GPT-6.1 Solun ise yuzde 97sinde Demokrat aday onerdigi aktarildi."
+    },
+    {
+      "type": "p",
+      "text": "Arastirma, yaklasik 500 yarista iki modelin yuzde 10dan azinda ayni adayi sectigini bildirdi. Habere gore tuketiciye donuk sohbet uygulamalari dogrudan aday onerme istemlerini reddedebiliyor; sonuclar API uzerinden yapilan zorunlu secim testine ait."
+    },
+    {
+      "type": "h3",
+      "text": "Neden onemli?"
+    },
+    {
+      "type": "p",
+      "text": "Secim bilgisi icin AI kullanimi arttikca, model yanitlarinin hangi kaynaklara dayandigi ve siyasi acidan nasil denetlendigi onem kazaniyor. Bu calisma, belirli bir test tasarimindaki model davranisini gosteriyor; secmen davranisinin olcumu degil."
+    }
+  ],
+  "category": "Yapay Zeka Politikasi",
+  "source": {
+    "name": "TechCrunch",
+    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/"
+  }
+},
+{
     "date": "2026-10-23",
     "title": "OpenAI, sinir model egitimlerinde cevrimdisi ortama gecti",
     "summary": "OpenAI, gelismis modellerin egitim ve degerlendirme ortamlarini canli internetten ayirdigini acikladi. Sirket, bu ortamlarda daha siki sinirlandirma ve kirmizi takim testleri uyguluyor.",
