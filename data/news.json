@@ -1842,5 +1842,33 @@
       "name": "Reuters",
       "url": "https://www.investing.com/news/stock-market-news/anthropics-claude-accessed-public-us-state-of-georgia-voter-information-axios-reports-4971291"
     }
+  },
+  {
+    "date": "2026-10-26",
+    "title": "Anthropic, halka arz için S-1 başvurusu yaptı",
+    "summary": "Anthropic, A sınıfı hisseleri için planlanan ilk halka arz kapsamında ABD Menkul Kıymetler ve Borsa Komisyonu'na S-1 kayıt belgesi sundu. Şirket, Nasdaq'ta ANT koduyla işlem görmeyi hedefliyor.",
+    "category": "Yapay Zekâ Şirketleri",
+    "body": [
+      {
+        "type": "p",
+        "text": "Anthropic, 26 Ekim'de yayımladığı duyuruda A sınıfı hisseleri için planlanan halka arzla ilgili S-1 kayıt belgesini ABD Menkul Kıymetler ve Borsa Komisyonu'na sunduğunu açıkladı. Başvuru henüz yürürlüğe girmediği için hisseler satılamıyor."
+      },
+      {
+        "type": "p",
+        "text": "Şirket, hisselerini Nasdaq Global Select Market'te ANT koduyla listelemeyi planlıyor. Arz edilecek hisse sayısı ile fiyat aralığı ise henüz belirlenmedi."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Başvuru, büyük yapay zekâ geliştiricilerinin finansman ve kurumsal şeffaflık süreçlerinde yeni bir aşamaya işaret ediyor. Halka arzın gerçekleşmesi, Anthropic'in sermaye piyasalarına erişimini artırabilir; ancak işlem koşulları düzenleyici inceleme ve piyasa şartlarına bağlı."
+      }
+    ],
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news/s1-sec"
+    }
   }
 ]
