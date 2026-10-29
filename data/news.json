@@ -1954,5 +1954,89 @@
       "name": "Anthropic",
       "url": "https://www.anthropic.com/news/s1-sec"
     }
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Google, Gemini 4 Carbon modelini sınırlı erişime açtı",
+    "summary": "Google, uzun görevler ve siber güvenlik için geliştirdiği Gemini 4 Carbon modelini duyurdu. İlk erişim, Fairwind Programı aracılığıyla belirli siber savunma ekiplerine verilecek.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google, Gemini 4 Carbon'u gelişmiş siber güvenlik ve uzun süreli görev yetenekleriyle konumlandırıyor. Şirket, modeli önce ABD hükümetinin gönüllü ön sürüm test sürecine dahil ettiğini belirtiyor."
+      },
+      {
+        "type": "p",
+        "text": "Carbon bu hafta belirli siber savunmacılara sunulacak; daha sonra Fairwind Programı üzerinden güvenilir ortaklara aşamalı erişim sağlanacak. Google, geliştiriciler ve işletmeler için daha geniş erişimden önce koruma önlemlerini iyileştirmeyi planlıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Sınır modellerinin siber alandaki kullanımı arttıkça, aşamalı erişim ve bağımsız test süreçleri ürün dağıtımının önemli parçaları hâline geliyor."
+      }
+    ],
+    "category": "Yapay Zekâ Güvenliği",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Anthropic, AI for Science programını 20 ortakla genişletti",
+    "summary": "Anthropic, AI for Science programını 20 bilim vakfı, kurum ve araştırma grubuyla genişlettiğini açıkladı. Program, yüksek etkili bilimsel projelerde çalışan araştırmacılara ücretsiz Claude kredisi sağlıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Anthropic'in duyurusunda ortaklar arasında biyomedikal, matematik ve genomik alanlarında çalışan kuruluşlar yer alıyor. Şirket, bu iş birliklerinin araştırma süreçlerini desteklemek için tasarlandığını belirtiyor."
+      },
+      {
+        "type": "p",
+        "text": "Program kapsamındaki araştırmacılar Claude kredilerine erişebiliyor. Anthropic, iş birliklerinin erken aşamada olduğunu ve ortaya çıkan bilimsel çıktıları daha sonra paylaşmayı planladığını ifade ediyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yapay zekâ araçları bilimsel çalışmalarda daha fazla kullanılırken, araştırmacılara sağlanan hesaplama ve model erişimi keşif süreçlerini doğrudan etkileyebilir."
+      }
+    ],
+    "category": "Araştırma",
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions"
+    }
+  },
+  {
+    "date": "2026-10-28",
+    "title": "Google, AI Mode reklamlarını 10 yeni pazara genişletti",
+    "summary": "Google, AI Mode içindeki reklamları Avustralya, Kanada, Hindistan ve sekiz başka pazara açtığını duyurdu. Şirket, yılın son çeyreğinde Brezilya, Meksika ve Birleşik Krallık için de genişleme planlıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google, AI Mode reklamlarını Avustralya, Kanada, Hindistan, Kenya, Malezya, Yeni Zelanda, Nijerya, Pakistan, Filipinler ve Singapur'da kullanıma açıyor. Duyuruya göre reklamlar ilgili yanıtların yanında gösterilecek."
+      },
+      {
+        "type": "p",
+        "text": "Şirket ayrıca ABD'de AI Mode içindeki takip sorularında çok turlu reklamları kullanıma sunuyor. Google, bu reklamların “Sponsored” etiketiyle açıkça işaretleneceğini belirtiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Üretken arama ürünlerinde reklamın yeni pazarlara yayılması, arama gelir modelinin sohbet tabanlı deneyimlere taşındığını gösteriyor."
+      }
+    ],
+    "category": "Yapay Zekâ ve Reklam",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/"
+    }
   }
 ]
