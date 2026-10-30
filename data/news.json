@@ -2038,5 +2038,61 @@
       "name": "Google",
       "url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/"
     }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Mistral, Large 4 modelini açık ağırlıklı olarak yayımladı",
+    "summary": "Mistral, 1 trilyon parametreli çok kipli Large 4 modelini açık ağırlıklı biçimde kullanıma sundu. Şirket modeli kodlama, siber güvenlik ve akıl yürütme görevleri için konumlandırıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Mistral Large 4, şirketin açıklamasına göre 1 trilyon parametreli çok kipli bir model. Model, farklı maliyet ve performans gereksinimleri için üç akıl yürütme modu sunuyor."
+      },
+      {
+        "type": "p",
+        "text": "Mistral, genel önizlemenin ardından yapılan üç haftalık ek pekiştirmeli öğrenme eğitiminin kodlama ve savunma odaklı siber güvenlik ölçümlerindeki sonuçları geliştirdiğini belirtiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Açık ağırlıkların yayımlanması, kurumların modeli kendi altyapılarında çalıştırmasına ve kullanımına göre uyarlamasına olanak veriyor."
+      }
+    ],
+    "category": "Yapay Zekâ",
+    "source": {
+      "name": "Mistral",
+      "url": "https://mistral.ai/news/mistral-large-4-oss/"
+    }
+  },
+  {
+    "date": "2026-10-29",
+    "title": "Reddit, arama trafiği düşerken giriş zorunluluğunu test edecek",
+    "summary": "Reddit, arama yönlendirmelerindeki düşüşün ardından bazı pazarlarda giriş yapılmış deneyimi test edeceğini açıkladı. Şirket, ekim ayında arama yönlendirmelerinin haftalık ortalamada 1 milyondan fazla azaldığını bildirdi.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Reddit, dördüncü çeyrekte ABD dışındaki seçili pazarlarda daha fazla içeriği hesabıyla giriş yapan kullanıcılara sunan deneyimi deneyecek. Küresel uygulama için henüz bir takvim açıklanmadı."
+      },
+      {
+        "type": "p",
+        "text": "Şirket, arama trafiğindeki gerilemenin sürmesi hâlinde günlük aktif kullanıcı sayısının gelecek çeyrekte düşük çift haneli oranda azalabileceği uyarısını yaptı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yapay zekâ destekli arama yanıtları, kaynak sitelere tıklama ihtiyacını azaltabiliyor. Bu durum, yayıncıların erişim ve kullanıcı kazanımı stratejilerini doğrudan etkiliyor."
+      }
+    ],
+    "category": "Yapay Zekâ ve Medya",
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
+    }
   }
 ]
