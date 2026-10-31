@@ -2094,5 +2094,61 @@
       "name": "TechCrunch",
       "url": "https://techcrunch.com/2026/10/29/as-search-traffic-dries-up-reddit-announces-its-shifting-to-a-logged-in-experience/"
     }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "OpenAI, AI eğitimi tercihleri için ortak robots.txt sinyalini destekleyecek",
+    "summary": "OpenAI, site sahiplerinin temel üretken yapay zekâ eğitimi konusundaki tercihlerini robots.txt içindeki ortak bir sinyalle iletebilmesini destekleyeceğini duyurdu. Şirket, uygulamayı önümüzdeki aylarda hayata geçirmeyi planlıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenAI, web sitesi işletmecilerinin içeriklerinin temel üretken yapay zekâ eğitimi için kullanımına dair tercihlerini birden fazla sağlayıcıya tek seferde iletebileceği ortak sinyale uyacağını açıkladı."
+      },
+      {
+        "type": "p",
+        "text": "Sinyal robots.txt dosyasında yer alıyor. OpenAI, mevcut tarayıcı kontrollerinin süreceğini ve uygulama ayrıntılarını daha sonra paylaşacağını belirtti."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Ortak yaklaşım, yayıncıların her yapay zekâ sağlayıcısı için ayrı kurallar tanımlama yükünü azaltabilir. Ancak bu tercih, sinyali gönüllü olarak destekleyen sağlayıcılarda etkili olacak."
+      }
+    ],
+    "category": "Politika",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences/"
+    }
+  },
+  {
+    "date": "2026-10-30",
+    "title": "OpenAI, gençler için yeni ChatGPT korumalarını duyurdu",
+    "summary": "OpenAI, Topluluk Güvenliği Raporu ile birlikte genç kullanıcıları kapsayan yeni korumaları açıkladı. Şirket, silahlar ve güvenlik sistemlerine ilişkin pratik bilgileri 18 yaş altındakiler için daha fazla sınırlamayı planlıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenAI, topluluk güvenliğine ilişkin bir rapor yayımladı ve ChatGPT’de genç kullanıcılar için ek korumalar duyurdu. Açıklama, şiddetin önlenmesine yönelik çalışmalar ile yaşa uygun deneyim tasarımını birlikte ele alıyor."
+      },
+      {
+        "type": "p",
+        "text": "Şirket, 18 yaş altındaki kullanıcıların silahlar ve güvenlik sistemleri hakkında pratik bilgiye erişimini daha fazla kısıtlamayı planladığını bildirdi."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yaşa göre koruma ve zararlı içerik riskini azaltma, genel amaçlı yapay zekâ ürünlerinde ürün güvenliğinin temel parçaları arasında yer alıyor. Bu tür önlemler, platformların genç kullanıcılara yönelik sorumluluğunu daha görünür kılıyor."
+      }
+    ],
+    "category": "Güvenlik",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens/"
+    }
   }
 ]
