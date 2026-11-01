@@ -2150,5 +2150,61 @@
       "name": "OpenAI",
       "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens/"
     }
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Apple Intelligence, Çin pazarında Qwen ile genişliyor",
+    "summary": "Alibaba ile Apple, Qwen modelini Çin'deki Apple Intelligence özelliklerine entegre etmek için ortaklık kurdu. Testlerin 4 Kasım'da başlaması, genel sürümün ise aralıkta gelmesi planlanıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Alibaba tarafından yapılan açıklamaya göre Qwen, Çin pazarında Siri, Writing Tools ve Visual Intelligence dahil Apple Intelligence özelliklerine bağlanacak. Özellik, iOS 27.3 geliştirici beta sürümünde 4 Kasım'dan itibaren test edilecek."
+      },
+      {
+        "type": "p",
+        "text": "Kullanım, cihaz konumu ve Apple Account bölgesi Çin olarak ayarlanmış uyumlu iPhone'larla ile sınırlı olacak. Şirket, kullanıcı istekleri ve üretilen yanıtların model eğitimi için kullanılmayacağını belirtti."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Bu entegrasyon, üretken yapay zekâ özelliklerinin farklı ülkelerde yerel model ortakları ve bölgesel veri kurallarıyla sunulduğunu gösteriyor."
+      }
+    ],
+    "category": "Ürünler",
+    "source": {
+      "name": "Anadolu Ajansı",
+      "url": "https://www.aa.com.tr/en/asia-pacific/alibaba-partners-with-apple-to-integrate-qwen-ai-model-into-apple-intelligence-for-chinese-market/4107573"
+    }
+  },
+  {
+    "date": "2026-10-31",
+    "title": "Google, yörüngedeki TPU ile ilk yapay zekâ yanıtını aldı",
+    "summary": "Google Project Suncatcher prototip uydusunda çalışan veri merkezi sınıfı TPU, Gemma 4 modeliyle Dünya'dan gönderilen ilk isteme yanıt verdi. Sonraki testler, donanımın ısı ve radyasyon altındaki dayanımına odaklanacak.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google, 1 Ekim'de fırlatılan Project Suncatcher prototip uydusundan ilk yanıtı aldığını duyurdu. Yer istasyonu geçişinde uyduya gönderilen istem, araç üzerindeki Gemma 4 açık modeli tarafından işlendi ve yanıt Dünya'ya indirildi."
+      },
+      {
+        "type": "p",
+        "text": "Şirket, sonraki aşamada TPU'ların yörüngedeki ısıl stres ve radyasyon altında iş yüklerini ne kadar güvenilir çalıştırdığını inceleyecek. Google, 2027 hedefinde birbirine bağlı iki uyduyla daha ileri testler yapacak."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Sonuç, uzayda ölçeklenebilir yapay zekâ işlem altyapısı için ticari bir hizmet değil; ancak uçtan uca çalışan bir donanım ve model demonstrasyonu sunuyor."
+      }
+    ],
+    "category": "Araştırma",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
+    }
   }
 ]
