@@ -2206,5 +2206,33 @@
       "name": "Google",
       "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/"
     }
+  },
+  {
+    "date": "2026-11-02",
+    "title": "Google’ın yapay zekâlı arama özelliklerine soruşturma",
+    "summary": "Rekabet Kurumu, Google Arama’daki AI Overviews ve AI Mode özellikleri için soruşturma açtı. Kurul, haber yayıncılarını kapsayan geçici tedbir de kararlaştırdı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Rekabet Kurumu, Google’ın Yapay Zekâ Önizlemeleri (AI Overviews) ve Yapay Zekâ Modu (AI Mode) hizmetlerinin 4054 sayılı Kanun’un 6. maddesini ihlal edip etmediğini araştıracak."
+      },
+      {
+        "type": "p",
+        "text": "İnceleme; bu özelliklerin yayıncı ve içerik üreticilerine giden trafiğe etkisini, içerik kullanım sözleşmelerini ve lisanslama ya da kaynak seçimi bakımından farklı muamele olup olmadığını kapsıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Geçici tedbir, Google’ın yayıncılar arasında ayrımcılık yaratmayan, içeriğin ekonomik değerini yansıtan ve yayıncıların tercihlerini diğer Google hizmetlerindeki görünürlükten bağımsız kullanabilmesini sağlayan koşullar oluşturmasını öngörüyor."
+      }
+    ],
+    "category": "Yapay zekâ politikası",
+    "source": {
+      "name": "Rekabet Kurumu",
+      "url": "https://www.rekabet.gov.tr/tr/Guncel/google-hakkinda-yapay-zeka-onizlemeleri--6d27b3a494d6f111a671005056854155"
+    }
   }
 ]
