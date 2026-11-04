@@ -2234,5 +2234,61 @@
       "name": "Rekabet Kurumu",
       "url": "https://www.rekabet.gov.tr/tr/Guncel/google-hakkinda-yapay-zeka-onizlemeleri--6d27b3a494d6f111a671005056854155"
     }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Google, yönlendirmeli öğrenmeyi Classroom ve Search’e taşıdı",
+    "summary": "Google, öğrencileri doğrudan yanıta yöneltmek yerine adım adım düşünmeye teşvik eden Guided Learning özelliğini Google Classroom’a küresel olarak açtı ve Google Search’e getiriyor. K-12 öğrenci hesaplarında ilgili yapay zekâ araçları okul yöneticisi açıkça etkinleştirene kadar kapalı kalacak.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Guided Learning, öğrencilere açık uçlu sorular ve aşamalı açıklamalarla problem çözme sürecinde eşlik ediyor. Google Classroom’da öğretmenin atadığı etkinliklerde sınıf materyaline dayanıyor."
+      },
+      {
+        "type": "p",
+        "text": "Google, Gemini ve Google Search için okul denetimlerini de değiştiriyor. K-12 öğrenci hesaplarında erişim, okul yöneticisi özellikle açmadıkça kapalı olacak."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Eğitimde yapay zekâ kullanımı, erişimin yanı sıra öğrencinin çalışma biçimi ve kurum denetimiyle de şekilleniyor. Bu karar, sınıf kullanımında daha kontrollü bir yaklaşım getiriyor."
+      }
+    ],
+    "category": "Yapay zekâ eğitimi",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026"
+    }
+  },
+  {
+    "date": "2026-11-03",
+    "title": "Google, fiziksel mühendislik ajanları için yeni bir sınav yayımladı",
+    "summary": "Google, mekanik, elektrik, inşaat ve yapı mühendisliği görevlerini ölçen Physical-Engineering’s Last Exam değerlendirmesini duyurdu. Özel test kümesinde değerlendirilen 14 sınır modelinin hiçbiri yüzde 50 ortalama puana ulaşamadı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Physical-Engineering’s Last Exam, ajanların güvenli, yönetmeliklere uygun ve maliyet açısından uygulanabilir tasarımlar üretmesini değerlendiriyor. Google, testi yedi halka açık ajan çalışma ortamında 14 modelle denedi."
+      },
+      {
+        "type": "p",
+        "text": "En yüksek sonuç, modelin kendi çalışma ortamında ortalama yüzde 48,3 oldu. En yüksek puanlı yapılandırmanın çıktılarının yalnızca yüzde 41,3’ü tüm zorunlu güvenlik ve uygulanabilirlik denetimlerinden geçti."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Sonuçlar, mühendislik ajanlarının gerçek dünya tasarımlarında güvenlik ve mevzuat gereksinimlerini tutarlı biçimde karşılamaktan henüz uzak olduğunu gösteriyor."
+      }
+    ],
+    "category": "Yapay zekâ araştırması",
+    "source": {
+      "name": "Google Cloud",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents"
+    }
   }
 ]
