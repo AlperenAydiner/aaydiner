@@ -2290,5 +2290,89 @@
       "name": "Google Cloud",
       "url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-physical-engineerings-last-exam-for-agents"
     }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "OpenAI, Images 2.6 ile GIF üretimini ekledi",
+    "summary": "OpenAI, ChatGPT ve Codex için Images 2.6 güncellemesini duyurdu. Güncelleme GIF üretimi, referans görsellerle çalışma ve API için iki yeni görsel modeli içeriyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenAI, Images 2.6’yı ChatGPT ve Codex’te kullanıma açtı. Şirket, güncellemenin GIF oluşturma ve referans görseller üzerinden daha hassas düzenleme imkânı sunduğunu belirtiyor."
+      },
+      {
+        "type": "p",
+        "text": "API tarafında GPT-Image-2.6 Flare ve Sunburst adlı iki model duyuruldu. OpenAI, yeni modellerde görsel üretiminin önceki sürüme göre yüzde 50 daha hızlı olduğunu bildiriyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Görsel üretiminin kısa animasyonlara ve düzenlemeli iş akışlarına genişlemesi, yaratıcı içerik araçlarının kullanım alanını artırıyor. Hız ve tutarlılık iddialarının pratik değeri ise farklı üretim senaryolarındaki sonuçlara bağlı olacak."
+      }
+    ],
+    "category": "Yapay zekâ ürünleri",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/introducing-images-2-6/"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "OpenAI, Pierre’i satın alma planını duyurdu",
+    "summary": "OpenAI, Git tabanlı Code Storage hizmetinin geliştiricisi Pierre Computer Company’yi satın alma planını açıkladı. İşlem, düzenleyici onaylar dâhil olağan kapanış koşullarına bağlı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenAI, Pierre’in Code Storage hizmeti ile açık kaynak Trees ve Diffs araçlarını geliştiren ekibini satın almayı planladığını açıkladı. Şirket, Trees ve Diffs kütüphanelerinin Codex uygulamasında dosya gezintisi ve değişiklik incelemesinde hâlihazırda kullanıldığını belirtiyor."
+      },
+      {
+        "type": "p",
+        "text": "Açıklamaya göre Pierre’in açık kaynak projeleri açık kaynak kalacak; Code Storage müşterileri de hizmeti satın alma kapanana kadar kullanmaya devam edecek. Taraflar, işlem tamamlanana dek bağımsız şirketler olarak faaliyet gösterecek."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yapay zekâ destekli yazılım geliştirmede Git depolama, fark inceleme ve kod inceleme araçları ajanların güvenilir iş akışları için temel altyapı oluşturuyor. Bu satın alma planı, model katmanının yanında bu geliştirme altyapısındaki rekabeti de gösteriyor."
+      }
+    ],
+    "category": "Yapay zekâ şirketleri",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/openai-to-acquire-pierre/"
+    }
+  },
+  {
+    "date": "2026-11-04",
+    "title": "Anthropic, Claude ile yeni bir hücresel yapı araştırmasını paylaştı",
+    "summary": "Anthropic, Claude’un katkısıyla prokaryotlarda bulunan bir vault parçacığının ilk üç boyutlu yapısını belirlediğini açıkladı. Bulguların yer aldığı ön baskı bioRxiv’e gönderildi.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Anthropic’in biyoloji araştırma ekibi, bakteriyofaj kökenli bir vault parçacığının yapısını kriyo-elektron mikroskobuyla inceledi. Şirket, Claude’un dizin ve literatür tarama, DNA yapısı tasarlama, ayırma yöntemini iyileştirme ve mikroskopi verisini işleme aşamalarında kullanıldığını söylüyor."
+      },
+      {
+        "type": "p",
+        "text": "Araştırmaya göre bulunan parçacık 96 kopya tek bir proteinden oluşuyor; insan vault’larında bu sayı 78. Anthropic, ön baskının henüz hakem değerlendirmesinden geçmediğini belirtiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Çalışma, yapay zekânın laboratuvar araştırmalarında veri tarama ve deney tasarımı gibi adımları hızlandırma potansiyeline örnek sunuyor. Bilimsel sonucun bağımsız doğrulaması ve hakem değerlendirmesi ise sonraki aşamada belirleyici olacak."
+      }
+    ],
+    "category": "Yapay zekâ araştırması",
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
+    }
   }
 ]
