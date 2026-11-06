@@ -2374,5 +2374,89 @@
       "name": "Anthropic",
       "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude"
     }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "OpenAI, GPT-6 Cyber güvenlik ajanını tanıttı",
+    "summary": "OpenAI, yetkilendirilmiş güvenlik araştırmalarında açık bulma ve doğrulama için GPT-6 Cyber modelini duyurdu.",
+    "body": [
+      {
+        "type": "p",
+        "text": "şirket, modelin yetkilendirilmiş kapsam içindeki yazılım açıklarını araştırma ve doğrulama görevleri için tasarlandığını belirtiyor."
+      },
+      {
+        "type": "p",
+        "text": "OpenAI, modelin API ve Codex ile seçilmiş Daybreak Red müşterilerine açıldığını bildirdi."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Güvenlik araştırmasında kullanılan ajanlar savunma ekiplerine hız kazandırabilir. Bu araçların yetkilendirme ve erişim sınırlarıyla kullanılması gerekir."
+      }
+    ],
+    "category": "Siber güvenlik",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/introducing-gpt-6-cyber/"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "METR, Anthropic'in Ar-Ge hızında yaklaşık iki kat artış görüyor",
+    "summary": "METR, Anthropic'in iyi tanımlı görevlerde model yeteneklerini geliştirme hızının yaklaşık iki katına çıkmış olabileceğini bildirdi.",
+    "body": [
+      {
+        "type": "p",
+        "text": "METR'nin değerlendirmesi, Anthropic'in iyi tanımlı görevlerdeki yetenek artış hızını geçmiş dönemle karşılaştırıyor."
+      },
+      {
+        "type": "p",
+        "text": "Kuruluş, gerçek hızlanmanın 1,3 ile 3 kat arasında olabileceğini ve sonucun yüksek belirsizlik taşıdığını belirtiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Model geliştirme döngüsündeki hızlanma, değerlendirme ve güvenlik süreçlerini etkileyebilir. Belirsizlikler, tahmini kesin bir sonuç olarak yorumlamayı sınırlıyor."
+      }
+    ],
+    "category": "Yapay zekö araştırması",
+    "source": {
+      "name": "METR",
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment"
+    }
+  },
+  {
+    "date": "2026-11-05",
+    "title": "Agility Robotics, Nasdaq'ta AGLT koduyla işlem görmeye başladı",
+    "summary": "Agility Robotics, Nasdaq'ta AGLT koduyla işlem görmeye başladığını açıkladı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "şirket, Churchill Capital Corp XI ile iş birleşmesinin tamamlanmasının ardından hisselerinin ve varantlarının Nasdaq'ta işlem görmeye başladığını duyurdu."
+      },
+      {
+        "type": "p",
+        "text": "Agility, işlem ve ilgili finansmanlardan giderler öncesinde yaklaşık 465 milyon dolar brüt sermaye elde edildiğini bildirdi."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Bu gelişme, insansı robotik şirketlerinin sermaye piyasalarındaki görünürlüğünü artırıyor. şirketin sipariş ve teslimat takvimlerine ilişkin açıklamaları ileriye dönük beklentiler içeriyor."
+      }
+    ],
+    "category": "Robotik",
+    "source": {
+      "name": "Agility Robotics",
+      "url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt"
+    }
   }
 ]
