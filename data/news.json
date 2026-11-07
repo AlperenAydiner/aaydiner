@@ -2458,5 +2458,89 @@
       "name": "Agility Robotics",
       "url": "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt"
     }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "OpenAI, laboratuvar ajanları için BioBasicsBench'i tanıttı",
+    "summary": "OpenAI ve Ligo, yapay zekâ ajanlarının ham deney verilerini yorumlama becerisini 100 rutin laboratuvar göreviyle ölçen BioBasicsBench'i yayımladı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Benchmark; başarısız deneyler, belirsiz görüntüler ve çelişkili gözlemler içeren gerçekçi laboratuvar verileri üzerinde ajanların analiz yeteneğini değerlendiriyor."
+      },
+      {
+        "type": "p",
+        "text": "Yüksek akıl yürütme ayarında GPT-6 Astra ortalama %66,7, GPT-5.6 Sol ise %43,8 kullanılabilir puan elde etti."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Bilimsel yapay zekâ sistemlerinin yalnızca bilgi sorularıyla değil, deneysel belirsizlikleri ve hatalı sonuçları ele alma becerileriyle de ölçülmesine yönelik somut bir çerçeve sunuyor."
+      }
+    ],
+    "category": "Yapay zekâ araştırması",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science/"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "OpenAI ve Hacktron güvenlik açıklarını birlikte araştıracak",
+    "summary": "OpenAI ile Hacktron, OpenAI sistemlerinin özellikle üçüncü taraf hizmetlerle etkileşimindeki güvenlik açıklarını ortaklaşa test edecek.",
+    "body": [
+      {
+        "type": "p",
+        "text": "İki kuruluşun ekipleri yüksek öncelikli test alanlarını birlikte belirleyecek ve sistemler arasındaki bağlantılara odaklanacak."
+      },
+      {
+        "type": "p",
+        "text": "İş birliği kapsamında Hacktron araştırmacılarının OpenAI'ın ileri seviye modellerine Daybreak Red programı üzerinden erişimi genişletilecek."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "İleri seviye modellerin bağımsız güvenlik araştırmacılarıyla gerçek sistemler üzerinde kullanılması, karmaşık bağlantı noktalarındaki açıkların daha erken bulunmasına yardımcı olabilir."
+      }
+    ],
+    "category": "Siber güvenlik",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/partnering-with-hacktron/"
+    }
+  },
+  {
+    "date": "2026-11-06",
+    "title": "Yapay zekâ çiplerinde yeni darboğaz gelişmiş paketleme",
+    "summary": "Yapay zekâ altyapısına yönelik talep, gelişmiş çip paketleme kapasitesini yarı iletken tedarik zincirinin kritik darboğazlarından birine dönüştürüyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Reuters'a göre TSMC üst düzey paketlemede liderliğini korurken mevcut kapasite hızla artan talebi karşılamakta zorlanıyor."
+      },
+      {
+        "type": "p",
+        "text": "Tayvanlı tedarikçiler ve ekipman üreticileri, işlemci ile belleği tek pakette birleştiren teknolojiler için üretim yatırımlarını artırıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yapay zekâ hızlandırıcılarının arzını yalnızca ileri üretim süreçleri değil, bileşenleri yüksek bant genişliğiyle birleştiren paketleme kapasitesi de sınırlıyor."
+      }
+    ],
+    "category": "Donanım",
+    "source": {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/5f374b32b07b/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
+    }
   }
 ]
