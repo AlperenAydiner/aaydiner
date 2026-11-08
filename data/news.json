@@ -2542,5 +2542,61 @@
       "name": "Reuters",
       "url": "https://www.reuters.com/5f374b32b07b/world/asia-pacific/ai-boom-turns-chip-packaging-into-next-battleground-semiconductors-2026-11-06/"
     }
+  },
+  {
+    "date": "2026-11-07",
+    "title": "GitHub, Copilot kod inceleme ayarlarını API üzerinden yönetime açtı",
+    "summary": "GitHub, Copilot kod inceleme ayarlarının REST ve GraphQL API'leriyle kurumsal düzeyden depo düzeyine kadar yönetilebildiğini duyurdu. Dengeli incelemelerde üç inceleyici modelin bulgularını dördüncü bir model birleştiriyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Yeni API seçenekleri; kurumsal yöneticilerin özelliği kuruluşlar genelinde yönetmesine, kuruluş yöneticilerinin varsayılan inceleme düzeyini belirlemesine ve depo yöneticilerinin özel talimatlar ile MCP araçlarının kullanımını ayarlamasına imkân veriyor."
+      },
+      {
+        "type": "p",
+        "text": "İnceleme çıktıları artık kullanılan efor düzeyi, beceriler, MCP sunucuları ve özel talimatlar için daha açık atıf alanları sunuyor. GitHub ayrıca dengeli incelemenin üç ayrı inceleyici model ve bunların bulgularını birleştiren başka bir model kullandığını açıkladı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Bu değişiklik, yapay zekâ destekli kod incelemesini kurum politikalarına bağlamayı ve sonuçların hangi araçlarla üretildiğini denetlemeyi kolaylaştırıyor. Çok modelli inceleme yapısı da tek model çıktısına dayanmayan yeni bir yazılım kalite kontrol yaklaşımını gösteriyor."
+      }
+    ],
+    "category": "Yazılım geliştirme",
+    "source": {
+      "name": "GitHub",
+      "url": "https://github.blog/changelog/2026-11-06-copilot-code-review-api-management-and-review-overview-updates/"
+    }
+  },
+  {
+    "date": "2026-11-07",
+    "title": "Çevre kuruluşları yapay zekâyı kullanırken veri merkezi etkilerine dikkat çekiyor",
+    "summary": "Reuters, çevre kuruluşlarının iklim verilerini incelemek, orman yangınlarını izlemek ve nesli tehlikedeki türleri saymak için yapay zekâdan yararlandığını bildirdi. Aynı kuruluşlar veri merkezlerinin elektrik, su ve emisyon etkileri konusunda uyarıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Dünya genelindeki çevre kuruluşları, büyük veri kümelerini çözümlemek ve doğa koruma çalışmalarını desteklemek için yapay zekâ araçlarını kullanıyor. İklim verilerinin analizi, yangın takibi ve yaban hayatı sayımları öne çıkan kullanım alanları arasında."
+      },
+      {
+        "type": "p",
+        "text": "Buna karşılık kuruluşlar, yapay zekâ altyapısını barındıran veri merkezlerinin artan elektrik ve su tüketimi ile sera gazı salımlarına da dikkat çekiyor. Böylece teknoloji, çevre çalışmalarında hem bir araç hem de ölçülmesi gereken bir kaynak yükü olarak öne çıkıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yapay zekânın çevresel faydası yalnızca ürettiği sonuçlarla değil, bu sonuçlar için tüketilen enerji ve suyla birlikte değerlendirilmek zorunda. Bu ikili etki, veri merkezi yatırımlarında şeffaflık ve kaynak verimliliğini daha önemli hâle getiriyor."
+      }
+    ],
+    "category": "Yapay zekâ ve çevre",
+    "source": {
+      "name": "Reuters / Channel NewsAsia",
+      "url": "https://www.channelnewsasia.com/business/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-6532841"
+    }
   }
 ]
