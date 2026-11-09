@@ -2598,5 +2598,61 @@
       "name": "Reuters / Channel NewsAsia",
       "url": "https://www.channelnewsasia.com/business/environmental-groups-embrace-ai-even-they-warn-data-center-impacts-6532841"
     }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "NVIDIA, Rebellions ve SK Telecom Kore için egemen yapay zekâ altyapısı kuracak",
+    "summary": "NVIDIA, Rebellions ve SK Telecom; Kore tasarımı yapay zekâ işlemcilerini NVIDIA altyapısıyla birleştirecek bir iş birliği duyurdu. R200 tabanlı sistemlerin 2028 yılında kullanıma hazır olması bekleniyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Rebellions, yeni nesil R200 sinirsel işlem birimlerini NVIDIA NVLink Fusion ile bağlayacak ve raf ölçekli sistemlerde NVIDIA MGX mimarisini kullanacak."
+      },
+      {
+        "type": "p",
+        "text": "SK Telecom, geliştirilecek sistemleri yapay zekâ veri merkezinde kendi modelleri ve hizmetleriyle birlikte kullanmayı planlıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "İş birliği, ülkelerin yerel işlemci ve model ekosistemlerini küresel hızlandırıcı altyapısıyla birleştirerek egemen yapay zekâ kapasitesi kurma eğilimini güçlendiriyor."
+      }
+    ],
+    "category": "Yapay zekâ altyapısı",
+    "source": {
+      "name": "NVIDIA",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion"
+    }
+  },
+  {
+    "date": "2026-11-08",
+    "title": "Trump yapay zekâ için koruma önlemlerine açık olduğunu söyledi",
+    "summary": "ABD Başkanı Donald Trump, yapay zekâ risklerinin yönetilebileceğini ve Demokratlarla güvenlik önlemleri üzerinde çalışabileceğini söyledi. Bununla birlikte ABD'nin Çin'in gerisine düşmesini istemediğini vurguladı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Trump, CBS 60 Minutes programında yapay zekâ alanında koruma önlemlerine karşı olmadığını ve teknolojiye ilişkin risklerin yönetilebileceğini belirtti."
+      },
+      {
+        "type": "p",
+        "text": "ABD ile Çin arasındaki rekabete dikkat çeken Trump, düzenlemelerin ülkesini ikinci sıraya itmemesi gerektiğini savundu."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Açıklama, daha önce teknoloji şirketlerinin öz denetimini öne çıkaran ABD yönetiminin federal yapay zekâ güvenliği kurallarına sınırlı da olsa açık olabileceğine işaret ediyor."
+      }
+    ],
+    "category": "Yapay zekâ politikası",
+    "source": {
+      "name": "CNN",
+      "url": "https://edition.cnn.com/2026/11/08/politics/live-news/midterm-election-trump-congress"
+    }
   }
 ]
