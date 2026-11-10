@@ -2654,5 +2654,61 @@
       "name": "CNN",
       "url": "https://edition.cnn.com/2026/11/08/politics/live-news/midterm-election-trump-congress"
     }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Anthropic, Claude Fable 5.2 ve Mythos 5.2 modellerini duyurdu",
+    "summary": "Anthropic, zorlu teknik görevler için geliştirdiği Claude Fable 5.2 ve Mythos 5.2 modellerini tanıttı. Şirket, yeni sürümlerin önceki modellere göre yüzde 30'a kadar daha hızlı çıktı ürettiğini belirtiyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Claude Fable 5.2 ve Mythos 5.2; yazılım geliştirme, siber güvenlik, bilim ve mühendislik gibi teknik alanlara odaklanıyor. Anthropic, iki modelin de bir milyon girdi belirteci için 8 dolar, bir milyon çıktı belirteci için 40 dolar fiyatlandırıldığını açıkladı."
+      },
+      {
+        "type": "p",
+        "text": "Modellerde, belirteç üretimini 2,5 kata kadar hızlandırdığı belirtilen isteğe bağlı bir hızlı mod da bulunuyor. Anthropic'in yayımladığı değerlendirmelerde yeni sürümler, önceki Fable ve Mythos modellerinin yanı sıra çeşitli teknik görevlerde Claude Opus 5.5 ile karşılaştırılıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Daha hızlı ve daha düşük maliyetli ileri modeller, uzun süren kodlama ve araştırma işlerinde yapay zekâ kullanımını genişletebilir. Duyuru, model rekabetinin yalnızca yetenek değil hız ve görev başına maliyet üzerinden de yoğunlaştığını gösteriyor."
+      }
+    ],
+    "category": "Yapay zekâ modelleri",
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    }
+  },
+  {
+    "date": "2026-11-09",
+    "title": "Google, TPU 8tx ve TPU 8i Max sistemlerini tanıttı",
+    "summary": "Google, sekizinci nesil yapay zekâ hızlandırıcı ailesini TPU 8tx ve TPU 8i Max ile genişletti. Yeni sistemler sırasıyla gizli çıkarım ve büyük bağlam pencereli iş yüklerine odaklanıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "TPU 8tx, hassas veri ve model ağırlıklarını işlem sırasında da korumayı amaçlayan donanım tabanlı güvenlik özellikleriyle düzenlemeye tabi kuruluşlar ve kamu kurumları için tasarlandı. Google, sistemin TPU 8t'ye kıyasla iki kata kadar daha düşük gecikme sunduğunu belirtiyor."
+      },
+      {
+        "type": "p",
+        "text": "TPU 8i Max ise iki TPU 8i yongasını tek pakette birleştirerek TPU 8i'nin iki katı hesaplama gücü, SRAM kapasitesi ve yüksek bant genişlikli bellek aktarımı sağlıyor. Google böylece aynı yıl içinde ilk kez dört ayrı TPU sistemi tanıtmış oldu."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yapay zekâ altyapısında güvenli veri işleme ve bellek kapasitesi, çok adımlı ajanlar ile uzun bağlamlı modeller için temel darboğazlara dönüşüyor. Google'ın uzmanlaşmış hızlandırıcıları, NVIDIA dışındaki yapay zekâ donanımı seçeneklerinin rekabetini artırıyor."
+      }
+    ],
+    "category": "Yapay zekâ donanımı",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx"
+    }
   }
 ]
