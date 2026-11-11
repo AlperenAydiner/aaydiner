@@ -2710,5 +2710,89 @@
       "name": "Google",
       "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx"
     }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "Anthropic halka arz için yatırımcı turunu başlattı",
+    "summary": "Anthropic, A sınıfı hisselerinin halka arzı için yatırımcı turunu başlattı. Şirket, hisse başına 70-78 dolar fiyat aralığıyla Nasdaq'ta ANT koduyla işlem görmeyi hedefliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Anthropic'in açıkladığı teklifte toplam 825 milyon A sınıfı hisse yer alıyor. Bunların 801,35 milyonu şirket, 23,65 milyonu ise mevcut hissedarlar tarafından satışa sunulacak."
+      },
+      {
+        "type": "p",
+        "text": "Şirket, halka arzdan elde edeceği net geliri genel kurumsal amaçlar ve işletme sermayesi için kullanmayı planlıyor. Teklif, kayıt beyanı yürürlüğe girdikten sonra tamamlanabilecek."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Büyük bir yapay zekâ geliştiricisinin halka açılması, sektörün finansman yapısını ve piyasanın yüksek maliyetli model geliştirmeye biçtiği değeri doğrudan görünür hâle getirecek."
+      }
+    ],
+    "category": "Yapay zekâ şirketleri",
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news/roadshow-launch"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "NVIDIA, OpenShell'i Cloud Native Computing Foundation'a devretti",
+    "summary": "NVIDIA, yapay zekâ ajanlarını güvenli biçimde çalıştırmaya ve yönetmeye yönelik açık kaynak OpenShell çalışma zamanını Cloud Native Computing Foundation'a devretti. Proje, CNCF Sandbox kapsamında topluluk yönetişimine açıldı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenShell, özerk ajanların araçlara ve verilere erişimini politika tabanlı biçimde sınırlandırmayı amaçlıyor. NVIDIA ayrıca uzun süre çalışan ajan iş yüklarını Kubernetes üzerinde ölçekleme için geliştirilen Google öncülüğündeki Agent Substrate projesine katkı sundu."
+      },
+      {
+        "type": "p",
+        "text": "Şirket aynı duyuruda yapay zekâ fabrikalarındaki GPU altyapısını Kubernetes ile kurup yönetmeye yönelik NVIDIA Kubernetes Engine, Kubernetes Recipes ve Snapshot bileşenlerini de tanıttı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Ajan güvenliği için geliştirilen temel bir çalışma zamanının bağımsız açık kaynak yönetişimine geçmesi, ortak standartların oluşmasını ve farklı sağlayıcıların aynı altyapı üzerinde çalışmasını kolaylaştırabilir."
+      }
+    ],
+    "category": "Açık kaynak yapay zekâ",
+    "source": {
+      "name": "NVIDIA",
+      "url": "https://blogs.nvidia.com/blog/open-source-openshell-infrastructure/"
+    }
+  },
+  {
+    "date": "2026-11-10",
+    "title": "IBM ve Microsoft, sektörel yapay zekâ ajanları için Imagine Enterprise'ı duyurdu",
+    "summary": "IBM ve Microsoft, kuruluşların sektöre özgü yapay zekâ ajanları geliştirip çalıştırmasına ve yönetmesine yönelik Imagine Enterprise platformunu duyurdu. İlk kullanım alanları arasında finansal hizmetler, imalat, sağlık ve kamu bulunuyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Imagine Enterprise, IBM Consulting'in süreç bilgisi ve 6.000'i aşkın ajan ile varlığını Microsoft'un bulut, veri, güvenlik ve yapay zekâ altyapısıyla birleştiriyor. Platform, ajanların kurumsal sistemlere güvenli biçimde bağlanmasını hedefliyor."
+      },
+      {
+        "type": "p",
+        "text": "Şirketler, uygun projelerde müşterilere sahada mühendislik desteği de sağlayacak. Finansal teknoloji şirketi SEI, platformun müşteri hizmetleri ve operasyon süreçlerindeki ilk uygulayıcılarından biri olarak açıklandı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Kurumsal yapay zekâ rekabeti, tekil sohbet araçlarından denetlenebilir ve mevcut iş sistemleriyle bağlantılı ajan platformlarına kayıyor. IBM ile Microsoft'un ortak çözümü, özellikle düzenlemeye tabi sektörlerde bu geçişi hızlandırabilir."
+      }
+    ],
+    "category": "Kurumsal yapay zekâ",
+    "source": {
+      "name": "IBM ve Microsoft",
+      "url": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
+    }
   }
 ]
