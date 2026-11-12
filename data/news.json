@@ -2794,5 +2794,89 @@
       "name": "IBM ve Microsoft",
       "url": "https://news.microsoft.com/source/2026/11/10/ibm-and-microsoft-announce-a-new-ai-agent-platform-designed-for-industry-specific-transformation"
     }
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Google, Gemini Decision 1 ve Decisions API'yi kullanıma açtı",
+    "summary": "Google, kapalı seçenekler arasında hızlı karar vermek için Gemini Decision 1 modelini ve Gemini Decisions API'yi duyurdu. Sistem, tek bir çok modlu girdi üzerinde 1.000'e kadar soruyu tek geçişte değerlendirebiliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Gemini Decision 1; metin, görsel, ses, video ve PDF girdilerinde evet-hayır, çoktan seçmeli ve dereceli değerlendirme sorularına olasılık ve güven puanı döndürüyor. Google, aracın 256 bin belirtece kadar girdiyi desteklediğini ve uçtan uca gecikmenin 150-250 milisaniye olduğunu belirtiyor."
+      },
+      {
+        "type": "p",
+        "text": "Gemini API ve Google AI Studio üzerinden sunulan hizmetin fiyatı bir milyon girdi belirteci başına 0,10 dolar; çıktı belirteçleri için ücret alınmıyor. Araç seçimi, politika denetimi, model yönlendirme ve bağlam puanlama başlıca kullanım alanları arasında gösteriliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Karar görevleri için metin üreten genel amaçlı modeller yerine olasılık döndüren uzman bir model kullanılması, yapay zekâ ajanlarının yönlendirme ve denetim katmanlarını daha hızlı, ucuz ve ölçülebilir hâle getirebilir."
+      }
+    ],
+    "category": "Yapay zekâ modelleri",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Google DeepMind, AlphaGenome 2'yi araştırmacılara açtı",
+    "summary": "Google DeepMind, DNA dizilerindeki değişikliklerin belirli insan hücre tiplerini nasıl etkilediğini tahmin eden AlphaGenome 2 modelini tanıttı. Model, ticari olmayan araştırmalar için API üzerinden erişime açıldı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "AlphaGenome 2, 68 dokudan 107 milyondan fazla tekil hücre profiliyle eğitildi ve aynı DNA bölgesinin farklı hücre tiplerinde nasıl işlediğini koşullu olarak tahmin ediyor. Model; gen ifadesi, kromatin erişilebilirliği ve DNA metilasyonu gibi biyolojik çıktıları öngörebiliyor."
+      },
+      {
+        "type": "p",
+        "text": "Google DeepMind'in TenK10K veri kümesindeki sonuçlarına göre model, önceki AlphaGenome sürümünün yüzde 16'sına karşı nedensel varyantların yüzde 30'unu belirledi. Şirket, aracın klinik veya tanısal kullanım için doğrulanmadığını özellikle belirtiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Hücre tipine özgü genetik etkilerin daha isabetli tahmin edilmesi, hastalıklarla ilişkili varyantların önceliklendirilmesini ve pahalı laboratuvar deneylerinin daha hedefli planlanmasını kolaylaştırabilir."
+      }
+    ],
+    "category": "Bilimsel yapay zekâ",
+    "source": {
+      "name": "Google DeepMind",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
+    }
+  },
+  {
+    "date": "2026-11-11",
+    "title": "Tether AI Research, cihazda çalışan BotPsy ajan modelini tanıttı",
+    "summary": "Tether AI Research, araç kullanımı ve ajan iş akışları için geliştirilen 0,8 milyar parametreli BotPsy modelini tanıttı. Model, düşük ve orta zorluktaki görevleri kullanıcı verisini cihazda tutarak yürütmeyi hedefliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Qwen3.5-0.8B tabanlı BotPsy; arama, takvim, mesajlaşma, dosya yönetimi, alışveriş ve cihaz kontrolü gibi alanlarda işlev çağırmak üzere sonradan eğitildi. Ekip, modelin test edilen 1,2 milyar parametre ve altındaki modelleri altı araç kullanımı ve ajan ölçütünün tamamında geçtiğini bildiriyor."
+      },
+      {
+        "type": "p",
+        "text": "Araştırmacıların sonuçlarına göre BotPsy, BFCL v4 puanını temel modeldeki 23,4'ten 44,0'a; ACEBench puanını 30,1'den 58,7'ye çıkardı. Model ağırlıklarının araştırma ve eğitim kullanımı için Apache 2.0 lisansıyla yayımlanacağı belirtildi; ekip yüksek riskli görevler için tasarlanmadığını vurguluyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Küçük bir modelin araç kullanma görevlerinde daha büyük rakiplerle yarışması, kişisel ajanların bulut bağımlılığı olmadan telefon ve bilgisayarlarda daha düşük maliyetle ve daha güçlü veri gizliliğiyle çalışmasına katkı sağlayabilir."
+      }
+    ],
+    "category": "Açık model araştırması",
+    "source": {
+      "name": "Tether AI Research ve Hugging Face",
+      "url": "https://huggingface.co/blog/qvac/botpsy"
+    }
   }
 ]
