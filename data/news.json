@@ -2878,5 +2878,89 @@
       "name": "Tether AI Research ve Hugging Face",
       "url": "https://huggingface.co/blog/qvac/botpsy"
     }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "Google, Gemini 4 Hydrogen modelini kullanıma sundu",
+    "summary": "Google, günlük kodlama ve yapay zekâ ajanı iş akışları için geliştirdiği Gemini 4 Hydrogen modelini küresel olarak kullanıma açtı. Model; bir milyon belirteçlik bağlam penceresi, dört düşünme düzeyi ve sabit uzun bağlam fiyatlandırması sunuyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Gemini 4 Hydrogen; geliştiricilere Gemini API ve Google AI Studio üzerinden, kullanıcılara ise Gemini uygulaması ile Google Arama dâhil çeşitli ürünlerde sunuluyor. Google, modelin metin, kod, görsel, ses, video, PDF ve elektronik tablo gibi girdilerle çalışabildiğini belirtiyor."
+      },
+      {
+        "type": "p",
+        "text": "Modelin düşük, orta, yüksek ve çok yüksek olmak üzere dört düşünme düzeyi bulunuyor. Standart API fiyatı bir milyon girdi belirteci için 1,50 dolar, bir milyon çıktı belirteci için 7,50 dolar olarak açıklandı; bu fiyat bağlam penceresinin tamamında değişmiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Google'ın hızlı ve daha düşük maliyetli Gemini katmanını ajan görevlerine göre güçlendirmesi, uzun kod tabanları ve çok adımlı iş akışlarında gelişmiş modellerin kullanım maliyetini düşürebilir. Modelin Arama ve Gemini uygulamasına da gelmesi, bu yetenekleri geniş bir kullanıcı kitlesine taşıyor."
+      }
+    ],
+    "category": "Üretken yapay zekâ",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-Hydrogen/"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "NVIDIA'da Jensen Huang görevden ayrıldı, geçici CEO Colette Kress oldu",
+    "summary": "NVIDIA, kurucu Jensen Huang'ın başkanlık ve CEO görevlerinden, ayrıca yönetim kurulu üyeliğinden derhâl geçerli olmak üzere ayrıldığını açıkladı. Finans Direktörü Colette Kress, kalıcı halef bulunana kadar geçici CEO olarak atandı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Şirketin yönetim kurulu kalıcı CEO için şirket içinden ve dışından adayları değerlendirecek bir arama süreci başlattı. Kress, geçici CEO'luk sırasında finans direktörlüğü görevini de sürdürecek."
+      },
+      {
+        "type": "p",
+        "text": "NVIDIA ayrıca Harvey C. Jones'un şirket tarihindeki ilk yönetim kurulu başkanı olduğunu duyurdu. Şirketin 2027 mali yılı üçüncü çeyrek sonuçlarını 17 Kasım'da açıklama takvimi ise değişmedi."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "NVIDIA, yapay zekâ eğitimi ve çıkarımı için kullanılan hızlandırıcı pazarının merkezindeki şirketlerden biri. Şirketi 33 yıl yöneten kurucunun ani ayrılığı; ürün stratejisi, müşteri ilişkileri ve küresel yapay zekâ altyapısı yatırımları açısından yakından izlenecek bir liderlik değişimi yaratıyor."
+      }
+    ],
+    "category": "Yapay zekâ sektörü",
+    "source": {
+      "name": "NVIDIA Newsroom",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition"
+    }
+  },
+  {
+    "date": "2026-11-12",
+    "title": "MIT, iklim yapay zekâlarını daha az veriyle eğiten yöntem geliştirdi",
+    "summary": "MIT araştırmacıları, iklim öykünücülerini az sayıda optimize edilmiş sentetik senaryoyla daha uyarlanabilir biçimde eğiten bir yöntem geliştirdi. Deneylerde tek bir optimize edilmiş senaryoyla eğitilen model, altı standart senaryoyla eğitilen karşılaştırma modelini geçti.",
+    "body": [
+      {
+        "type": "p",
+        "text": "İklim öykünücüleri, aylar sürebilen Dünya sistemi simülasyonlarının sonuçlarını saniyeler içinde yaklaşık olarak üretmek için kullanılıyor. Yeni algoritma, gerçekçi görünmesi gerekmeyen ve hızlı değişimler içeren emisyon senaryolarını, modelin yeni koşullara genelleme başarısını artıracak biçimde optimize ediyor."
+      },
+      {
+        "type": "p",
+        "text": "Araştırmacılar yöntemi basit ve orta karmaşıklıktaki iklim modelleri üzerinde sınadı. Çalışma, optimize edilmiş tek bir senaryonun altı standart sosyoekonomik senaryodan daha iyi sonuç verebildiğini gösterse de yöntemin tam ölçekli bir Dünya sistemi modeliyle doğrulanması henüz tamamlanmadı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Tam ölçekli iklim simülasyonları yüksek hesaplama maliyeti nedeniyle az sayıda senaryoyla sınırlı kalabiliyor. Daha bilgilendirici eğitim verisinin seçilmesi, iklim yapay zekâlarının beklenmedik politika ve emisyon yollarını daha güvenilir biçimde incelemesini sağlayabilir."
+      }
+    ],
+    "category": "Yapay zekâ araştırmaları",
+    "source": {
+      "name": "MIT News",
+      "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112"
+    }
   }
 ]
