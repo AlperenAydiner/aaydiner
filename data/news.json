@@ -2962,5 +2962,89 @@
       "name": "MIT News",
       "url": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112"
     }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Google, Antigravity çoklu ajan araçlarını bilimsel araştırmalara açtı",
+    "summary": "Google Research, insan uzmanlarla birlikte matematik, kimya ve sistem mühendisliği problemlerinde kullanılan Antigravity /teamwork çoklu ajan araçlarını dış araştırmacıların erişimine açtı. Şirket ayrıca 10 bin akademisyene altı aylık üst düzey kullanım erişimi vermek için başvuru almaya başladı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google, Gemini 4 modelleriyle çalışan /teamwork iş akışlarının bilgi teorisi, biçimsel doğrulama, moleküler yapı keşfi ve çekirdek optimizasyonu gibi alanlarda insan araştırmacılara destek verdiğini açıkladı. Sistem, uzun görevleri uzman ajanlara bölüyor; sonuçları eleştiren ve doğrulayan ek ajanlarla çalışıyor."
+      },
+      {
+        "type": "p",
+        "text": "Antigravity içindeki /teamwork ve /boost araçları ile Deep Review artık dış araştırmacı ve geliştiriciler tarafından kullanılabiliyor. Google, sonuçların insan uzmanlarla ortak çalışmalar olduğunu vurgularken 10 bin akademik araştırmacıya altı ay ücretsiz erişim için başvuruları da açtı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Çoklu ajan sistemlerinin açık bilimsel problemlerde araştırma aracına dönüşmesi; yapay zekânın hipotez üretme, hesaplama ve doğrulama döngülerindeki rolünü büyütebilir. Araçların dış kullanıma açılması, şirket içi sonuçların bağımsız ekiplerce sınanmasına da imkân sağlayacak."
+      }
+    ],
+    "category": "Yapay zekâ araştırmaları",
+    "source": {
+      "name": "Google Research",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Microsoft, Windows için Aion Instruct yerel yapay zekâ modelini duyurdu",
+    "summary": "Microsoft, Windows'taki Phi Silica modelinin yerini alacak 2,3 milyar parametreli Aion Instruct'ı tanıttı. Modelin Windows Insider dağıtımı 20 Kasım'da başlayacak; perakende cihazlara geçiş ise Ocak 2027 için planlanıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Aion Instruct, işlemleri cihaz üzerinde tutan Windows yapay zekâ uygulamaları için geliştirildi. Microsoft'a göre yeni model 2,3 milyar parametreye sahip ve Phi Silica'daki 3,5 bin belirteçlik girdi sınırını 32 bine çıkarıyor."
+      },
+      {
+        "type": "p",
+        "text": "Destek yalnızca Copilot+ cihazlarla sınırlı kalmayacak; NVIDIA RTX serisi ve AMD RDNA 4 kuşağı dâhil uyumlu ayrık GPU'lara aşamalı olarak genişletilecek. Geliştiriciler modeli bağımsız paketle şimdiden sınayabiliyor; tam perakende dağıtım Ocak 2027'de hedefleniyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Daha uzun bağlamı daha küçük bir modelle cihaz üzerinde çalıştırmak, buluta veri göndermeden yanıt veren uygulamaların kapsamını genişletebilir. GPU desteği de yerel yapay zekâ özelliklerini daha geniş bir Windows donanım tabanına taşıyabilir."
+      }
+    ],
+    "category": "Yapay zekâ modelleri",
+    "source": {
+      "name": "Microsoft Foundry on Windows Blog",
+      "url": "https://devblogs.microsoft.com/foundry-on-windows/aion-instruct-local-ai-windows-gpu/"
+    }
+  },
+  {
+    "date": "2026-11-13",
+    "title": "Google, Gemini'yi kişisel finans analizleri için Wallet'a bağladı",
+    "summary": "Google, ABD'deki Gemini kullanıcılarının Google Wallet verilerini isteğe bağlı olarak yapay zekâya bağlayabilmesini sağladı. Gemini; harcama eğilimlerini görselleştirme, abonelikleri bulma ve bütçe oluşturma gibi analizler sunabiliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google Wallet bağlantısı, Gemini'nin kullanıcının harcama geçmişine dayalı yanıtlar üretmesine imkân veriyor. Kullanıcılar ayrıca Plaid üzerinden banka ve kredi kartı hesaplarını Wallet'a bağlayarak nakit akışı, bütçe ve yinelenen ödemeler hakkında daha kapsamlı analizler isteyebiliyor."
+      },
+      {
+        "type": "p",
+        "text": "Özellik ABD'deki Gemini kullanıcılarına web, Android ve iOS üzerinden sunuluyor. Google'a göre bağlantı isteğe bağlı; Gemini hesap bilgilerini yalnızca okuyabiliyor, para taşıma, yönetme veya yatırım yapma yetkisine sahip değil ve bağlantı her zaman kapatılabiliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Üretken yapay zekânın kişisel finans verilerine doğrudan erişmesi, sohbet tabanlı bütçe ve harcama analizini geniş bir kullanıcı kitlesine taşıyor. Aynı zamanda hassas finansal verilerin yapay zekâ sistemlerinde nasıl sınırlandırıldığına ilişkin beklentileri yükseltiyor."
+      }
+    ],
+    "category": "Yapay zekâ ürünleri",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+    }
   }
 ]
