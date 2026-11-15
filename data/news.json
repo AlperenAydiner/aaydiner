@@ -3046,5 +3046,33 @@
       "name": "Google",
       "url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
     }
+  },
+{
+  "date": "2026-11-14",
+  "title": "Beyaz Saray yapay zekâ olay bildirimleri için sorumluluk sınırı önerdi",
+  "summary": "ABD Başkanı Donald Trump'ın yapay zekâ görev gücü, şirketlerin kritik siber güvenlik olaylarını gönüllü bildirmesini teşvik etmek için federal kurumlara düzenleyici sorumluluğu en az 12 ay sınırlama çağrısı yaptı. Öneri henüz bağlayıcı bir kural değil.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Bloomberg'in yönetim yetkilisine dayandırdığı habere göre görev gücü, mevcut yaptırım eşiklerinin yapay zekâ şirketlerinin kritik olayları paylaşmasını caydırabileceğini değerlendirdi. Federal kurumlara, iyi niyetli gönüllü bildirimlerde düzenleyici sorumluluğu 12 ay boyunca ve gerekirse daha uzun süre sınırlamaları önerildi."
+    },
+    {
+      "type": "p",
+      "text": "Kapalı toplantıda ortak sektör standartları, yapay zekâ olayları için bildirim protokolleri ve modellerin piyasaya çıkmadan önce gönüllü test edilmesi de ele alındı. Sorumluluk sınırının uygulanması, ilgili federal kurumların öneriyi kendi düzenlemelerine aktarmasına bağlı olacak."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Öneri, ABD'nin yapay zekâ güvenliğinde cezalandırma tehdidinden gönüllü bilgi paylaşımını teşvik eden bir yaklaşıma yöneldiğini gösteriyor. Uygulanırsa şirketlerin güvenlik açıklarını ve kritik olayları daha erken bildirmesini sağlayabilir; ancak hesap verebilirliğin zayıflaması riskini de gündeme getiriyor."
+    }
+  ],
+  "category": "Yapay zekâ politikası",
+  "source": {
+    "name": "Bloomberg",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure"
   }
+}
 ]
