@@ -3074,5 +3074,33 @@
     "name": "Bloomberg",
     "url": "https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure"
   }
+},
+{
+  "date": "2026-11-15",
+  "title": "ByteDance, Seedance 2.5 Flash'ı API erişimine açtı",
+  "summary": "ByteDance'in daha hızlı video üretimine odaklanan Seedance 2.5 Flash modeli, BytePlus ModelArk üzerinden geliştiricilerin kullanımına açıldı. Model, sesli videoları tek istekte 30 saniyeye kadar üretebiliyor.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Seedance 2.5 Flash; metinden videoya, ilk kareden videoya ve çoklu referanstan videoya üretim seçenekleri sunuyor. BytePlus belgelerine göre model 480p ve 720p çıktı üretebiliyor; tek istekte 10 görsel, 5 video ve 5 ses kaynağını referans olarak işleyebiliyor."
+    },
+    {
+      "type": "p",
+      "text": "Model, üretilen videoyu birden fazla turda uzatmayı ve belirli zaman aralıklarına yönelik düzenleme komutlarını da destekliyor. API'deki model kimliği dreamina-seedance-2-5-flash-261115 olarak yayımlandı; Flash sürümünde standart Seedance 2.5'te bulunan taslak modu ile 1080p ve 4K çıktı seçenekleri yer almıyor."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Yeni API seçeneği, sesli ve referans kontrollü yapay zekâ videosunu uygulamalara doğrudan eklemek isteyen geliştiricilere daha hafif bir üretim katmanı sağlıyor. Bu erişim, uzun klip ve ayrıntılı düzenleme özelliklerinin tüketici uygulamalarının ötesinde otomatik içerik iş akışlarına taşınmasını kolaylaştırabilir."
+    }
+  ],
+  "category": "Üretken yapay zekâ",
+  "source": {
+    "name": "BytePlus",
+    "url": "https://docs.byteplus.com/en/docs/modelark/seedance-2-5"
+  }
 }
 ]
