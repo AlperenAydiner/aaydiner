@@ -3102,5 +3102,77 @@
     "name": "BytePlus",
     "url": "https://docs.byteplus.com/en/docs/modelark/seedance-2-5"
   }
-}
+},
+  {
+    "date": "2026-11-16",
+    "title": "Alibaba, Qwen4-Max modelini genel kullanıma açtı",
+    "summary": "Alibaba, 2,4 trilyon parametreli Qwen4-Max'i API ve kendi ürünleri üzerinden kullanıma sundu. Çok kipli model bir milyon token bağlam penceresiyle geliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Qwen4-Max; metin, görsel ve video girdilerini işleyebilen seyrek uzmanlar karışımı mimarisinde toplam 2,4 trilyon parametreye sahip. Alibaba'ya göre her token için 71 milyar parametre etkinleşiyor; model QwenCloud API'nin yanı sıra QwenWork, Qoder ve QwenStudio'da erişilebilir durumda."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Bir milyon token bağlam ve daha düşük görev maliyeti iddiası, uzun süreli ajan işleri ile kurumsal yapay zekâ kullanımında rekabeti artırıyor. Alibaba ayrıca Qwen4 ailesinin daha küçük açık ağırlıklı modellerini ileride yayımlayacağını belirtiyor."
+      }
+    ],
+    "category": "Yapay Zekâ",
+    "source": {
+      "name": "Qwen",
+      "url": "https://qwen.ai/blog?id=qwen4-max"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "OpenAI, sağlık yazılımlarında çalışan bilgisayar kullanım ajanlarını açtı",
+    "summary": "OpenAI, sağlık ekiplerinin mevcut yazılımlarda çok adımlı klinik ve idari işlemleri yürütebilmesi için bilgisayar kullanım ajanlarını erişime açtı. Sistem; ChatGPT for Healthcare, ChatGPT for Clinicians ve API üzerinden sunuluyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Ajanlar ekranlarda tıklama ve yazma yoluyla provizyon, sevk, taburcu planlama ve hasta iletişimi gibi iş akışlarını destekliyor. OpenAI; Abridge, Ambience, Cigna Healthcare ve CVS Health ile uygulamalar geliştirdiğini, kurumların erişim sınırları, insan onayı ve denetim kayıtları belirleyebildiğini açıkladı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Bu adım, sağlıkta üretken yapay zekâyı yanıt hazırlayan bir araçtan mevcut klinik sistemlerde işlem yapan bir ajana dönüştürüyor. Hassas hasta verileri ve klinik eylemler nedeniyle insan denetimi, yetkilendirme ve kayıt tutma gereksinimleri ürünün güvenli kullanımı açısından belirleyici olacak."
+      }
+    ],
+    "category": "Sağlık Teknolojileri",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/advancing-computer-use-for-healthcare-teams/"
+    }
+  },
+  {
+    "date": "2026-11-16",
+    "title": "OpenAI, yapay üretim dâhil çocuk istismarı görsellerini saptayan araç yayımladı",
+    "summary": "OpenAI, çocukların cinsel istismarına ilişkin görselleri ve yapay zekâyla üretilen içerikleri saptamaya yönelik yeni bir sınıflandırıcı duyurdu. Onaylı kuruluşlar araca API üzerinden ücretsiz erişebilecek.",
+    "body": [
+      {
+        "type": "p",
+        "text": "NCMEC desteğiyle geliştirilen araç, daha önce kataloglanmamış görsellerdeki istismar işaretlerini puanlayarak insan incelemecilerin önceliklendirme yapmasına yardımcı oluyor. OpenAI ayrıca ChatGPT'de zararlı talepleri kesen uyarılar, geliştirici rehberleri ve çocuk güvenliği soruşturmaları için yeni destek araçları sundu."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Üretken modeller, bilinen içeriklerin dijital parmak izleriyle eşleştirilmesini yetersiz bırakabilecek yeni görseller oluşturabiliyor. Yeni sınıflandırıcı bu boşluğu hedeflerken nihai değerlendirmeyi insan uzmanlara bırakarak yanlış olumlu ve yanlış olumsuz sonuçların hukuki riskini sınırlamaya çalışıyor."
+      }
+    ],
+    "category": "Yapay Zekâ Güvenliği",
+    "source": {
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam"
+    }
+  }
 ]
