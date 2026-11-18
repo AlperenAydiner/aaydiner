@@ -3175,4 +3175,77 @@
       "url": "https://techcrunch.com/2026/11/16/openai-releases-a-new-image-classifier-and-chatgpt-warnings-to-combat-csam"
     }
   }
+,
+  {
+    "date": "2026-11-17",
+    "title": "OpenAI, GPT-6.2 Astra ve Sol modellerini kullanıma sundu",
+    "summary": "OpenAI, karmaşık profesyonel işler için GPT-6.2 Astra'yı ve günlük kodlama ile yazma görevleri için GPT-6.2 Sol'u yayımladı. İki model ChatGPT Work, Codex ve API üzerinden erişime açıldı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "GPT-6.2 Astra; çok kaynaklı araştırma, yazılım hatalarını servisler boyunca izleme ve karmaşık çıktı üretimi için konumlandırılıyor. Daha ekonomik GPT-6.2 Sol ise kod inceleme, metin düzenleme ve çok adımlı günlük işlere odaklanıyor; API'de gpt-6.2-astra ve gpt-6.2-sol adlarıyla sunuluyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Aynı ürün ailesinde farklı maliyet ve yetenek düzeylerine ayrılmış iki modelin birlikte sunulması, kullanıcıların her göreve en güçlü modeli atamak yerine iş yüküne göre seçim yapmasını kolaylaştırıyor. Modellerin hem etkileşimli ürünlerde hem de API'de aynı anda açılması, kurumsal ve geliştirici kullanımına hızlı geçiş sağlıyor."
+      }
+    ],
+    "category": "Yapay Zekâ",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://learn.chatgpt.com/docs/whats-new/gpt-62-astra-sol"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "Google, Gemini'nin görev yürüten özelliklerini ücretsiz kullanıma açtı",
+    "summary": "Google, Gemini'nin arama yapma, telefonla arama, ödeme ve takvim işlemleri gibi çok adımlı görevleri kullanıcı adına yürüten özelliklerini altı ülkede ücretsiz sunmaya başladı. Dağıtım Gemini 4 Hydrogen modeliyle yapılıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Gemini; kullanıcının izniyle Haritalar, Takvim, e-posta, dosya ve ödeme bilgilerini birleştirerek randevu ayarlama, faturaları ödeme ve alışveriş tamamlama gibi görevleri yerine getirebiliyor. Ücretsiz dağıtım ABD, Japonya, Güney Kore, Kanada, Avustralya ve Hindistan'da başlarken bazı gelişmiş özellikler ilk aşamada ABD ile sınırlı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Bu adım, yapay zekâ asistanlarını yalnızca öneri veren sohbet araçlarından kullanıcı adına dış sistemlerde işlem yapan ajanlara dönüştürüyor. Yüz milyonlarca kullanıcıya ücretsiz erişim hedefi, ajan tabanlı hizmetlerin yaygınlaşmasını hızlandırırken izin yönetimi ve hassas verilerin kullanımı konularını da öne çıkarıyor."
+      }
+    ],
+    "category": "Yapay Zekâ",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/tasks-in-gemini-free-new-features/"
+    }
+  },
+  {
+    "date": "2026-11-17",
+    "title": "NATO, siber savunmada OpenAI'ın Daybreak modellerini kullanıyor",
+    "summary": "NATO, müttefik ağlarını korumak için OpenAI'ın Daybreak kapsamındaki gelişmiş siber güvenlik modellerine erişim sağladı. Araçlar yazılım inceleme, şüpheli faaliyet araştırma, açık doğrulama ve düzeltme geliştirme işlerinde kullanılıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenAI ile NATO İletişim ve Bilgi Ajansı arasındaki çalışma, NATO'nun temel kurumlarına yapay zekâ destekli siber savunma kapasitesi sunuyor. Daybreak ayrıca 2026 Crossed Swords tatbikatında katılımcıların insan denetimi altında siber operasyon ajanları geliştirmesi, çalıştırması ve değerlendirmesi için kullanıldı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Sınır düzeyindeki modellerin büyük bir savunma ittifakının ağlarında kullanılması, yapay zekâ ajanlarının kritik altyapı güvenliğinde deneysel aşamadan operasyonel kullanıma geçtiğini gösteriyor. Açık bulma ve düzeltme süresini kısaltma potansiyeline karşılık yetkilendirme, insan denetimi ve saldırı amaçlı kötüye kullanım riskleri belirleyici olmaya devam ediyor."
+      }
+    ],
+    "category": "Yapay Zekâ Güvenliği",
+    "source": {
+      "name": "Defense One",
+      "url": "https://www.defenseone.com/technology/2026/11/openai-gives-nato-access-most-advanced-cybersecurity-ai/417296/"
+    }
+  }
 ]
