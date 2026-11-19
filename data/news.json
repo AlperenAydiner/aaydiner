@@ -3247,5 +3247,77 @@
       "name": "Defense One",
       "url": "https://www.defenseone.com/technology/2026/11/openai-gives-nato-access-most-advanced-cybersecurity-ai/417296/"
     }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Anthropic, halka arz fiyatını 83 dolar olarak belirledi",
+    "summary": "Anthropic, halka arzında 980 milyon hisseyi hisse başına 83 dolardan fiyatlandırdı. Claude geliştiricisinin hisselerinin 19 Kasım'da Nasdaq'ta ANT koduyla işlem görmeye başlaması bekleniyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Şirket, arz edilen hisselerin 956.351.354 adedinin Anthropic, 23.648.646 adedinin ise mevcut hissedarlar tarafından satılacağını açıkladı. Ayrıca yüklenicilere 30 gün içinde 147 milyon ek hisse alma seçeneği verildi; kapanışın olağan koşullara bağlı olarak 20 Kasım'da yapılması planlanıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Önde gelen üretken yapay zekâ şirketlerinden birinin halka açılması, yatırımcılara doğrudan bir temel model geliştiricisine ortak olma olanağı sağlıyor. Halka açık finansal sonuçlar da yapay zekâ modellerinin gelirleri, maliyetleri ve sermaye gereksinimleri hakkında daha düzenli görünürlük yaratacak."
+      }
+    ],
+    "category": "Yapay Zekâ Sektörü",
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "Google, etkileşimli dünyalar üreten Genie 4'ü kullanıma açtı",
+    "summary": "Google, Genie 4 dünya modelini yenilenen Project Genie deneyimi içinde uygun Google AI Ultra abonelerine açtı. Model, oluşturulan dünyaların oturum sırasında metinle değiştirilmesini ve görüntüye uyum sağlayan gerçek zamanlı ses üretilmesini destekliyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Kullanıcılar gezinme sırasında yeni istemler yazarak hava durumunu değiştirebiliyor, karakter ekleyebiliyor veya eylemi farklı bir yöne çevirebiliyor. Project Genie güncellemesi ayrıca oluşturma sürecini yöneten bir ajanı ve kullanıcıların dünyaları keşfedip yeniden düzenleyebildiği topluluk galerisini içeriyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Dünya modellerinin metin ya da video üretiminin ötesine geçerek anlık müdahaleye açık, sesli ve gezilebilir ortamlar oluşturması; oyun, simülasyon ve robotik araştırmaları için yeni bir üretim aracı sunuyor. Genie 4'ün doğrudan kullanıcı ürünü içinde açılması, bu teknolojinin laboratuvar gösteriminden uygulamalı denemelere geçtiğini gösteriyor."
+      }
+    ],
+    "category": "Yapay Zekâ",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie"
+    }
+  },
+  {
+    "date": "2026-11-18",
+    "title": "NVIDIA'nın yerel yapay zekâya yönelik RTX Spark masaüstü bilgisayarları satışa çıktı",
+    "summary": "NVIDIA, ASUS, Dell ve MSI üretimi RTX Spark kompakt masaüstü bilgisayarların satışa çıktığını duyurdu. Sistemler, 128 GB'a kadar birleşik bellek ve 1 petaflopa kadar yapay zekâ performansıyla büyük modelleri yerel olarak çalıştırmaya odaklanıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "RTX Spark sistemleri 20 çekirdekli NVIDIA Grace işlemciyi, 6.144 CUDA çekirdekli Blackwell RTX grafik işlemcisini ve 10 gigabit Ethernet bağlantısını bir araya getiriyor. Şirket, cihazların 120 milyar parametreli büyük dil modellerini yerelde çalıştırabildiğini; Acer, GIGABYTE, HP ve Microsoft modellerinin de daha sonra geleceğini belirtiyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yüksek bellekli kompakt sistemlerin yaygın üreticiler üzerinden satışa çıkması, ajanların, üretken medya araçlarının ve model ince ayarının sürekli bulut bağlantısı olmadan yürütülmesini kolaylaştırıyor. Bu yaklaşım; veri gizliliği, gecikme ve kullanım başına bulut maliyeti hassasiyeti olan geliştiriciler için yerel yapay zekâyı daha erişilebilir kılıyor."
+      }
+    ],
+    "category": "Yapay Zekâ Donanımı",
+    "source": {
+      "name": "NVIDIA Blog",
+      "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/"
+    }
   }
 ]
