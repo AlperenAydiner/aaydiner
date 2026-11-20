@@ -3319,5 +3319,89 @@
       "name": "NVIDIA Blog",
       "url": "https://blogs.nvidia.com/blog/rtx-spark-desktop-local-ai-available-now/"
     }
+  },
+  {
+    "date": "2026-11-19",
+    "title": "OpenAI, ChatGPT performans sorunlarını Codex ajanlarıyla otomatik çözüyor",
+    "summary": "OpenAI, ChatGPT'deki performans gerilemelerini araştıran, düzeltme öneren ve sonucu doğrulayan Performance Factory sistemini açıkladı. Sistem üç ayı aşkın sürede 1.700'den fazla incelemeyi takip etti ve 600'den fazla vakanın temel nedenini belirledi.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Performance Factory; görev izleyici, dağıtım döngüsü, bulutta Codex çalıştırma altyapısı ve olay aboneliklerinden oluşuyor. Bir performans uyarısı geldiğinde ajan sorunu inceliyor, bulguları kaydediyor ve mühendisin incelemesi için düzeltme öneriyor."
+      },
+      {
+        "type": "p",
+        "text": "Düzeltme üretime alındıktan sonra başka bir ajan performansın başlangıç düzeyine dönüp dönmediğini denetliyor. İnsanlar kod inceleme ve dağıtım gibi kritik aşamalarda sürece dâhil olmaya devam ediyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Duyuru, yazılım operasyonlarında yapay zekâ ajanlarının yalnızca öneri vermek yerine tespit, düzeltme ve doğrulama zincirinin tamamında kullanılabildiğini gösteriyor."
+      }
+    ],
+    "category": "Yapay Zekâ Altyapısı",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Gemini, Mac uygulamalarında görevleri kullanıcı adına yürütebiliyor",
+    "summary": "Google, Gemini'nin Mac uygulamasına yerel dosyalar, masaüstü uygulamaları ve web sitelerinde çok adımlı görevleri yürüten bilgisayar kullanımı özelliğini ekledi. Özellik ABD'de, İngilizce olarak ücretli Google AI abonelerine sunuluyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Kullanıcı bir iş akışını tarif ettiğinde Gemini menülerde gezebiliyor, metin yazabiliyor ve formları doldurabiliyor. İşlemler ayrı bir pencerede yürütülürken kullanıcı canlı önizlemeyi izleyebiliyor, eylemleri durdurabiliyor veya onaylayabiliyor."
+      },
+      {
+        "type": "p",
+        "text": "Google; toplu dosya düzenleme, yerel PDF'lerden form doldurma, panolardaki verilerden sunum hazırlama ve satış ilanı taslakları oluşturma gibi kullanım örnekleri veriyor. Uygulama izinlerini kullanıcı belirliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Bilgisayar kullanımı, sohbet botlarını öneri üreten araçlardan uygulamalar arasında doğrudan iş yapan ajanlara dönüştüren rekabetin tüketici masaüstüne taşındığını gösteriyor."
+      }
+    ],
+    "category": "Yapay Zekâ Ürünleri",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+    }
+  },
+  {
+    "date": "2026-11-19",
+    "title": "Google, Gemini API'de araç şemalarını gerektiğinde yükleyen sistemi tanıttı",
+    "summary": "Google, büyük araç kütüphanelerine bağlanan ajanlar için Gemini API'de Tool Retrieval önizlemesini başlattı. Sistem, tüm parametre şemalarını her isteğe eklemek yerine yalnızca gereken aracın şemasını yüklüyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Tool Retrieval, ertelenmiş araçların ad ve açıklamalarını modele gösterirken ayrıntılı parametre şemalarını bağlamın dışında tutuyor. Model bir araca ihtiyaç duyduğunda şema aynı istek içinde yükleniyor ve işlev çağrısı yapılıyor."
+      },
+      {
+        "type": "p",
+        "text": "Google'a göre yaklaşım, çok sayıda aracı olan ajanlarda girdi belirteci kullanımını ve gecikmeyi azaltmayı, araç seçiminin doğruluğunu korumayı amaçlıyor. Önizleme Gemini Interactions API üzerinden kullanılabiliyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Ajanların yüzlerce araca ölçeklenmesinde bağlam maliyeti temel bir darboğaz; şemaların talep üzerine yüklenmesi daha büyük entegrasyon kümelerini daha verimli hâle getirebilir."
+      }
+    ],
+    "category": "Geliştirici Araçları",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+    }
   }
 ]
