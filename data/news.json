@@ -3403,5 +3403,91 @@
       "name": "Google",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
     }
+  },
+
+  {
+    "date": "2026-11-20",
+    "title": "OpenAI, ilaç adaylarını değerlendiren MedChemBench testini yayımladı",
+    "summary": "OpenAI, yapay zekâ modellerinin molekül yapılarını okuyup deney sonuçlarını yorumlama ve sonraki bileşiği seçme becerisini ölçen MedChemBench testini tanıttı. Test, yayımlanmış araştırmalardan alınan 99 problemden oluşuyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "MedChemBench, 117 makale ve patentteki 761 ayrı molekül yapısını kapsıyor. Modeller; molekül yapısı, bilimsel gerekçelendirme, bileşik sıralama ve sayısal özellik tahmini başlıklarında değerlendiriliyor."
+      },
+      {
+        "type": "p",
+        "text": "OpenAI'ın paylaştığı sonuçlara göre GPT-6.2 Astra, en yüksek akıl yürütme ayarında toplam puanın yüzde 84,5'ini aldı. Bileşik seçimi ve sayısal özellik tahmini, model için daha zor alanlar arasında kaldı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Standart bir test, yapay zekânın ilaç keşfindeki yararını daha somut biçimde ölçmeye yardım edebilir; ancak test başarısı laboratuvar veya klinik doğrulamanın yerini tutmuyor."
+      }
+    ],
+    "category": "Araştırma",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/introducing-medchembench/"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "OpenAI, model damıtma saldırılarına karşı korumalarını güçlendirdi",
+    "summary": "OpenAI, gelişmiş modellerin yeteneklerini izinsiz kopyalamayı amaçlayan damıtma girişimlerine karşı yeni savunmalarını açıkladı. Şirket, korunan akıl yürütme izlerinin özellikle siber güvenlik ve biyoloji alanlarında risk taşıdığını belirtiyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Yaklaşım; karşıt testleri, model eğitimi, sınıflandırıcılar, API korumaları ve koordineli veri çekme kampanyalarına yönelik incelemeleri birleştiriyor. Amaç, bir modelin yeteneklerinin daha zayıf güvenlik önlemlerine sahip başka bir modele aktarılmasını zorlaştırmak."
+      },
+      {
+        "type": "p",
+        "text": "OpenAI, kurum içi uyarlamalı testinde korunan akıl yürütmeyi geri çıkarma başarısının GPT-6 Astra'da yüzde 54,0 iken güncellenmiş korumalara sahip GPT-6.2 Astra'da yüzde 0,2'ye indiğini bildiriyor. Sonuçlar şirketin kendi değerlendirmesine dayanıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Model yeteneklerinin izinsiz aktarımı, fikrî mülkiyetin yanında güvenlik önlemlerinin aşılması riskini de büyütüyor; duyuru, laboratuvarlar arasında ortak savunma standartları ihtiyacını öne çıkarıyor."
+      }
+    ],
+    "category": "Yapay Zekâ Güvenliği",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/combatting-adversarial-distillation/"
+    }
+  },
+  {
+    "date": "2026-11-20",
+    "title": "Anthropic, 93,5 milyar dolarlık halka arzını tamamladı",
+    "summary": "Anthropic, hisse başına 83 dolardan 1,127 milyar A sınıfı hissenin satıldığı halka arzın kapandığını duyurdu. Halka arzın brüt geliri yaklaşık 93,5 milyar dolar olurken bunun 91,6 milyar doları şirkete gitti.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Satışa, aracı kurumların 147 milyon ek hisse alma seçeneğinin tamamını kullanması da dâhil edildi. Anthropic hisseleri 19 Kasım'da Nasdaq'ta ANT koduyla işlem görmeye başlamıştı."
+      },
+      {
+        "type": "p",
+        "text": "Anthropic aynı anda AMD, Broadcom, Google, Micron, Microsoft, NVIDIA ve TSMC Partners'a yaklaşık 26 milyar dolarlık özel hisse satışını da kapattı. Halka arz ve özel satışın toplam brüt tutarı yaklaşık 119,5 milyar dolara ulaştı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Bu ölçekte sermaye, ileri yapay zekâ modellerinin hesaplama ve araştırma maliyetlerini karşılama kapasitesini artırırken büyük teknoloji şirketleriyle finansal bağları da derinleştiriyor."
+      }
+    ],
+    "category": "Yapay Zekâ Ekonomisi",
+    "source": {
+      "name": "Anthropic",
+      "url": "https://www.anthropic.com/news/ipo-close"
+    }
   }
+
 ]
