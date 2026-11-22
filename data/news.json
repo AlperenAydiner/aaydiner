@@ -3488,6 +3488,61 @@
       "name": "Anthropic",
       "url": "https://www.anthropic.com/news/ipo-close"
     }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Anthropic araştırmacısı, Claude ile Riemann hipotezini kanıtladığını öne sürdü",
+    "summary": "Anthropic araştırmacısı Levent Alpöge, Claude yardımıyla Riemann hipotezini kanıtladığını ve çalışmayı Lean kodu olarak yayımladığını açıkladı. İddia henüz bağımsız matematiksel inceleme ve resmî kabul sürecini tamamlamadı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Alpöge, 1859'dan beri çözülemeyen Riemann hipotezi için geliştirdiği kanıtı yaklaşık 17 milyon satırlık Lean koduyla paylaştı. NPR'nin Associated Press kaynaklı haberine göre çalışma, bir bilgisayarın adımları biçimsel olarak denetleyebilmesine imkân veriyor."
+      },
+      {
+        "type": "p",
+        "text": "Clay Matematik Enstitüsü haber yayımlandığında problemi hâlâ çözülmemiş olarak listeliyordu. Matematikçiler, biçimsel kodun doğrulanmasının kanıtın kavramsal olarak anlaşılması ve bağımsız uzmanlarca değerlendirilmesi gereğini ortadan kaldırmadığını vurguladı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "İddia doğrulanırsa, üretken yapay zekânın insanlarla birlikte en zor matematik problemlerinden birinde sonuç üretebildiğini gösteren tarihî bir örnek olacak; doğrulanmasa bile biçimsel ispat araçlarının yapay zekâ araştırmasındaki rolünü öne çıkarıyor."
+      }
+    ],
+    "category": "Araştırma",
+    "source": {
+      "name": "NPR / Associated Press",
+      "url": "https://www.npr.org/2026/11/21/g-s1-154922/anthropic-worker-claims-to-have-solved-a-holy-grail-of-math-problems-with-the-help-of-ai"
+    }
+  },
+  {
+    "date": "2026-11-21",
+    "title": "Google, Hindistan'da yapay zekâ araştırmalarına 5 milyon dolar ayırdı",
+    "summary": "Google, Hindistan Teknoloji Enstitüsü Kharagpur'da ileri yapay zekâ araştırmaları ve yetenek gelişimi için 5 milyon dolar fon sağlayacağını duyurdu. Kaynak; Hint dilleri, malzeme bilimi, tarım ve eğitim teknolojilerine odaklanacak.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Google'ın açıkladığı destek, IIT Kharagpur'daki araştırmacı ve öğrencilerin uygulamalı yapay zekâ çalışmalarını hızlandırmayı amaçlıyor. Programın araştırma başlıkları arasında Hint dilleri, malzeme bilimi, tarım ve eğitim teknolojileri bulunuyor."
+      },
+      {
+        "type": "p",
+        "text": "Fon ayrıca öğrenci, akademisyen ve öğretmenlere yönelik yapay zekâ eğitiminin genişletilmesini; üniversitenin araç, altyapı ve araştırma kapasitesinin güçlendirilmesini kapsıyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Yatırım, yapay zekâ araştırmalarının yalnızca büyük şirket laboratuvarlarında değil, yerel diller ve bölgesel sorunlar üzerinde çalışan üniversitelerde de ölçeklenmesine katkı sağlayabilir."
+      }
+    ],
+    "category": "Eğitim ve Araştırma",
+    "source": {
+      "name": "Google",
+      "url": "https://blog.google/intl/en-in/company-news/supporting-ai-research-and-talent-development-with-iit-kharagpur/"
+    }
   }
-
 ]
