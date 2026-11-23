@@ -3545,4 +3545,89 @@
       "url": "https://blog.google/intl/en-in/company-news/supporting-ai-research-and-talent-development-with-iit-kharagpur/"
     }
   }
+,
+{
+    "date": "2026-11-22",
+    "title": "OpenAI başbilimcisi, gelişmiş modeller için ortak ilerleme sınırları önerdi",
+    "summary": "OpenAI Başbilimcisi Jakub Pachocki, yapay zekâ laboratuvarlarının model gelişimini karşılaştırmak ve güvenlik sınırları koymak için perplexity ölçümünü ortak bir gösterge olarak kullanmasını önerdi. Öneri, izleme kapasitesi belirli eşiklere ulaşmadan önce geliştiricilerin üzerinde uzlaşacağı sınırlar öngörüyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Pachocki, modellerin bir sonraki belirteci tahmin etme başarısını ölçen perplexity değerinin, farklı laboratuvarlardaki ön eğitim ilerlemesini karşılaştırmak için kullanılabileceğini savundu. OpenAI ayrıca GPT-3.5'ten bu yana kendi modellerine ait bazı iç ölçümleri yayımladı."
+      },
+      {
+        "type": "p",
+        "text": "Yazıda, geliştiricilerin yapay zekâ davranışını anlama ve izleme yöntemleri somut bir olgunluk düzeyine erişene kadar belirli ölçüm eşiklerini aşmamayı ortaklaşa taahhüt etmesi istendi. Pachocki, tek bir ölçütün bütün riskleri açıklamayacağını da belirtti."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Öneri benimsenirse, ileri modellerin geliştirilme hızını laboratuvarlar arasında karşılaştırılabilen teknik eşiklere bağlayan yeni bir sektör standardının temelini oluşturabilir."
+      }
+    ],
+    "category": "Yapay Zekâ Güvenliği",
+    "source": {
+      "name": "OpenAI",
+      "url": "https://openai.com/index/perplexity-and-intelligence/"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "OpenRouter, veri politikası ihlalleri sonrası üç sağlayıcıyı platformdan çıkardı",
+    "summary": "OpenRouter, bazı çıkarım sağlayıcılarında müşteri verilerinin tehlikeye girdiğine veya açıklanan veri politikalarının uygulanmadığına dair bulgular üzerine üç sağlayıcıyı platformdan çıkardı. Şirket ayrıca 125 uç noktanın sıfır veri saklama uygunluğunu kaldırdı.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenRouter, güvenlik araştırmacılarının bulgularını sağlayıcılarla birlikte incelediğini ve soruşturma sonuçlarına dayanarak üç sağlayıcıyla çalışmayı durdurduğunu açıkladı. Etkilenmiş olabilecek müşterilere bildirim yapıldığını da duyurdu."
+      },
+      {
+        "type": "p",
+        "text": "Şirket, araştırmacıların işaretlediği hizmetlerin yanı sıra önlem amacıyla başka hizmetleri de kapsayacak biçimde toplam 125 uç noktayı sıfır veri saklama listesinden çıkardı. Bu etiket, istek ve yanıtların sağlayıcı tarafından saklanmaması taahhüdünü ifade ediyor."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "Olay, modelleri farklı altyapı sağlayıcılarına yönlendiren platformlarda veri gizliliğinin yalnızca sözleşmeye değil, bağımsız teknik denetime de ihtiyaç duyduğunu gösteriyor."
+      }
+    ],
+    "category": "Güvenlik",
+    "source": {
+      "name": "OpenRouter",
+      "url": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers"
+    }
+  },
+  {
+    "date": "2026-11-22",
+    "title": "ABD valileri, federal ve eyalet düzeyinde ortak yapay zekâ ilkeleri açıkladı",
+    "summary": "ABD Ulusal Valiler Birliği, yapay zekâ yönetiminde federal hükümet ile eyaletlerin rollerini netleştirmeyi amaçlayan iki partili ilkeler yayımladı. Çerçeve; kamu güvenliği, çalışanların korunması, rekabet ve kanıta dayalı önlemleri birlikte ele alıyor.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Ulusal Valiler Birliğinin iki partili konseyi, federal hükümetin ulusal ve uluslararası risklere odaklanmasını; eyaletlerin ise kendi sorumluluk alanlarında yapay zekâ kullanımını düzenleme esnekliğini korumasını istedi. İlkeler, yaklaşan Kongre çalışmalarına yön vermeyi hedefliyor."
+      },
+      {
+        "type": "p",
+        "text": "Belgede güvenlik, medeni haklar ve mahremiyet korumalarının yenilikçilikle birlikte yürütülmesi; çalışan geçişlerinin desteklenmesi ve yükümlülüklerin kanıtlanmış risklerle orantılı olması savunuldu. Kuralların büyük şirketleri kayırmaması da öncelikler arasında sayıldı."
+      },
+      {
+        "type": "h3",
+        "text": "Neden önemli?"
+      },
+      {
+        "type": "p",
+        "text": "İlkeler bağlayıcı yasa değil; ancak farklı eyalet kuralları ile federal düzenleme arasındaki yetki tartışmasında iki partili ve ortak bir siyasi zemin oluşturabilir."
+      }
+    ],
+    "category": "Politika ve Düzenleme",
+    "source": {
+      "name": "National Governors Association",
+      "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/"
+    }
+  }
 ]
