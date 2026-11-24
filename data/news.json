@@ -3630,4 +3630,89 @@
       "url": "https://www.nga.org/news/press-releases/governors-call-for-ai-action/"
     }
   }
+,
+{
+  "date": "2026-11-23",
+  "title": "OpenAI, GPT-6.2'yi ChatGPT'nin ücretli kullanıcılarına sundu",
+  "summary": "OpenAI, sohbet sekmesi için optimize edilen GPT-6.2 sürümünü ChatGPT Plus ve Pro kullanıcılarına açtı. Şirketin sistem kartına göre model, siber güvenlikte kritik; biyolojik-kimyasal yetenekler ile yapay zekâ öz geliştirmesinde yüksek hazırlık eşiğine ulaşıyor.",
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI, GPT-6.2'nin kendi değerlendirmelerinde şimdiye kadar devreye aldığı sohbet modelleri arasındaki en güçlü genel güvenlik performansını gösterdiğini belirtti. Model, önceki GPT-6.2 çeşitlerine benzer biyogüvenlik, siber güvenlik, hizalama ve damıtma önlemleriyle yayımlandı."
+    },
+    {
+      "type": "p",
+      "text": "Sistem kartı, modelin kritik siber güvenlik eşiğine ulaştığını; biyolojik ve kimyasal yetenekler ile yapay zekâ öz geliştirme alanlarında yüksek eşikte bulunduğunu bildiriyor. Bu sınıflandırmalar OpenAI'ın kendi Hazırlık Çerçevesi ve testlerine dayanıyor."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Yaygın kullanılan bir sohbet modelinin kritik siber yetenek eşiğine ulaşması, savunma amaçlı kullanım kadar kötüye kullanım risklerinin de daha sıkı izlenmesini ve erişim önlemlerini gerekli kılıyor."
+    }
+  ],
+  "category": "Yapay Zekâ Modelleri",
+  "source": {
+    "name": "OpenAI",
+    "url": "https://deploymentsafety.openai.com/gpt-6-2-chatgpt"
+  }
+},
+{
+  "date": "2026-11-23",
+  "title": "OpenAI ve Cisco, çalışan Linux sistemlerini yamasız koruyan Shirudo'yu açtı",
+  "summary": "OpenAI ve Cisco, kalıcı yama hazırlanırken çalışan Linux hizmetlerine geçici eBPF korumaları uygulayan açık kaynaklı Shirudo çalışma zamanını tanıttı. Koruma kuralları devreye alınmadan önce insan onayından geçiyor.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Shirudo, güvenlik ekiplerinin bir açığı kullanan davranışı engelleyen geçici 'kalkanları' hizmeti yeniden başlatmadan sınamasına ve yüklemesine imkân veriyor. Kalkanlar kriptografik olarak imzalanıyor; Linux eBPF doğrulayıcısı ve çekirdek güvenlik kontrolleri de yüklemeyi denetliyor."
+    },
+    {
+      "type": "p",
+      "text": "OpenAI, kontrollü bir testte Codex ile oluşturulan kalkanın çalışan Elasticsearch hizmetindeki Java4Shell istismarını hizmeti durdurmadan engellediğini bildirdi. BSD 2-Clause lisanslı proje; geliştiricilerin, araştırmacıların ve altyapı işletmecilerinin katkısına açıldı."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Açıkların bulunmasıyla kalıcı yamaların kurulması arasındaki süre saldırganlara fırsat veriyor; doğrulanabilir ve geçici çalışma zamanı korumaları bu riskli aralığı daraltabilir."
+    }
+  ],
+  "category": "Yapay Zekâ Güvenliği",
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/introducing-shirudo/"
+  }
+},
+{
+  "date": "2026-11-23",
+  "title": "Gemini API, büyük dosyaların yalnızca seçili bölümlerini işleyebiliyor",
+  "summary": "Google, Gemini API'ye PDF, ofis belgesi, hesap tablosu, ses ve videoların yalnızca istenen bölümlerini sunucu tarafında işleyen dosya dilimleme kontrolleri ekledi. Sistem, incelenmeyen kısımlar için belirteç maliyeti oluşturmuyor.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Geliştiriciler belge ve slaytlarda sayfa aralığını, hesap tablolarında sekme ile hücre aralığını, ses ve videoda ise zaman aralığını seçebiliyor. Çözünürlük ve metin, görüntü, formül, kare ya da ses gibi içerik katmanları da ayrı ayrı belirlenebiliyor."
+    },
+    {
+      "type": "p",
+      "text": "Dosyalar bir kez yüklenip farklı konuşma turlarında yeniden kullanılabiliyor; bir ajan da araç yanıtı içinde hangi bölümü inceleyeceğine karar verebiliyor. Özellik Google AI Studio ve Gemini platformunda, tüm Gemini 4 modelleriyle kullanıma sunuldu."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Büyük ve çok biçimli dosyaların tamamını modele göndermek yerine gerekli parçaları seçmek, ajanların belirteç maliyetini ve yerel ön işleme yükünü azaltabilir."
+    }
+  ],
+  "category": "Geliştirici Araçları",
+  "source": {
+    "name": "Google",
+    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls"
+  }
+}
 ]
