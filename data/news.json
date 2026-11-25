@@ -3714,5 +3714,61 @@
     "name": "Google",
     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls"
   }
+},
+{
+  "date": "2026-11-24",
+  "title": "GPT-6.2'nin tasarladığı proteinler laboratuvarda hedeflerine bağlandı",
+  "summary": "OpenAI, GPT-6 ailesinin genel amaçlı akıl yürütme ve kodlama araçlarıyla yeni protein yapıları tasarlayabildiğini bildirdi. GPT-6.2 tasarımlarından üretilen küçük proteinler, laboratuvar deneylerinde seçilen beş hedefin tamamında en az bir bağlanma sonucu verdi.",
+  "body": [
+    {
+      "type": "p",
+      "text": "OpenAI ve araştırma ortağı Onava, GPT-6.2'nin tasarladığı yapılardan 322 küçük bağlayıcı protein üretti; bunların 35'i amaçlanan hedefe bağlanma sinyali gösterdi. Şirket, daha yeni bir iç modelin birçok hesaplamalı protein tasarımı görevinde uzmanlaşmış modellere denk ya da onlardan daha iyi sonuç verdiğini açıkladı."
+    },
+    {
+      "type": "p",
+      "text": "Çalışma uçtan uca yalnızca genel amaçlı modelle yürütülmedi: amino asit dizilerinin sağlanması ve deney adaylarının seçilmesinde uzmanlaşmış modeller de kullanıldı. OpenAI ayrıca tam protein yapısı tahmininin kendi modelleri için belirgin bir zayıflık olarak kaldığını vurguladı."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Laboratuvarda doğrulanan ilk sonuçlar, doğal dil ve kod kullanan genel amaçlı modellerin ilaç ve biyoteknoloji araştırmalarında molekül tasarımına katkı sağlayabileceğini gösteriyor; ancak terapötik kullanım için özgüllük, kararlılık, güvenlik ve etkinlik testleri gerekiyor."
+    }
+  ],
+  "category": "Yapay Zekâ ve Bilim",
+  "source": {
+    "name": "OpenAI",
+    "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/"
+  }
+},
+{
+  "date": "2026-11-24",
+  "title": "Google DeepMind, modellerin tutarlılığını ölçen Humanity's First Exam'i yayımladı",
+  "summary": "Google DeepMind, büyük dil modellerinin basit gündelik soruları farklı anlatımlarda ve tekrarlı denemelerde ne kadar güvenilir yanıtladığını ölçen Humanity's First Exam değerlendirmesini başlattı. Veri kümesi, 20 temel yetenek alanında 544 metin ve görüntü isteminden oluşuyor.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Humanity's First Exam, bir modelin bir soruyu bir kez çözebilmesinden çok aynı görevi ve kontrollü varyasyonlarını her seferinde doğru yanıtlayıp yanıtlamadığına odaklanıyor. Değerlendirmede nesne sayma, mekânsal akıl yürütme, aritmetik ve yanlış öncülleri fark etme gibi temel görevler yer alıyor."
+    },
+    {
+      "type": "p",
+      "text": "Google DeepMind, canlı bir liderlik tablosunu Kaggle'da açtı ve veri kümesini güncel tutmak amacıyla 15 Aralık'a kadar sürecek üç haftalık bir yarışma başlattı. Katılımcılardan güncel modellerin hâlâ yanlış yanıtladığı gündelik sorular önermeleri isteniyor."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Ajanların gerçek iş akışlarında güvenilir olması, yalnızca zor bir görevi ara sıra çözmelerine değil, küçük değişiklikler karşısında tutarlı kalmalarına bağlı. Bu değerlendirme, tek seferlik başarı puanlarının gizleyebildiği kararlılık sorunlarını görünür kılmayı amaçlıyor."
+    }
+  ],
+  "category": "Araştırma",
+  "source": {
+    "name": "Google DeepMind",
+    "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
+  }
 }
 ]
