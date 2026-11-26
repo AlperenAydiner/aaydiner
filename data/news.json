@@ -3770,5 +3770,61 @@
     "name": "Google DeepMind",
     "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
   }
+},
+{
+  "date": "2026-11-25",
+  "title": "Google DeepMind, kütle spektrumlarından molekül belirleyen Antigravity becerilerini yayımladı",
+  "summary": "Google DeepMind, tandem kütle spektrumlarını yorumlamak için Gemini'nin kimya akıl yürütmesini yerleşik analiz araçları ve açık veri tabanlarıyla birleştiren Mass Spec Skills paketini kullanıma sundu. Şirketin 100 bileşik üzerindeki değerlendirmesinde sistem, referans kütüphanesindeki doğru molekülü denemelerin yaklaşık %97'sinde belirleyip doğruladı.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Mass Spec Skills, Google Antigravity içinde spektrum kütüphanelerini tarıyor, molekül formülü çıkarıyor, kimyasal veri tabanlarından aday yapıları getiriyor ve gözlenen parçalanma izlerini adaylarla karşılaştırıyor. Sistem sonuçla birlikte kimyagerlerin inceleyebileceği kanıtları ve açıklama tablosunu da sunuyor."
+    },
+    {
+      "type": "p",
+      "text": "Google DeepMind, beceriler eklendiğinde hafif Gemini 3.8 Flash modelinin 100 bileşik üzerinde daha büyük Gemini 4 modelleriyle benzer doğruluğa ulaştığını bildirdi. Ekip, birbirinin ayna görüntüsü olan moleküller gibi yalnızca kütle spektrumuyla ayırt edilemeyen yapıların ek ölçümler gerektirdiğini vurguladı."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Kütle spektrometrisinde ölçülen sinyallerin büyük bölümü bugün yapısal olarak tanımlanamıyor. Araç destekli bir yapay zekâ ajanının rutin incelemeyi hızlandırması, ilaç keşfi, çevre analizi ve biyoloji çalışmalarında uzmanların daha fazla adayı değerlendirmesine yardımcı olabilir."
+    }
+  ],
+  "category": "Yapay Zekâ ve Bilim",
+  "source": {
+    "name": "Google DeepMind",
+    "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity/"
+  }
+},
+{
+  "date": "2026-11-25",
+  "title": "New York, yapay zekâ sohbet robotlu oyuncaklara beş yıllık yasak getirdi",
+  "summary": "New York Valisi Kathy Hochul, internete bağlı yapay zekâ sohbet robotu içeren oyuncakların eyalette üretimini, dağıtımını ve satışını beş yıl durduran yasayı imzaladı. Düzenleme imzadan 90 gün sonra yürürlüğe girecek.",
+  "body": [
+    {
+      "type": "p",
+      "text": "S.9408A/A.11144B sayılı düzenleme; çocuklarla internet üzerinden konuşan pelüş oyuncaklar, bebekler ve robotlar gibi ürünleri kapsıyor. Her ihlal için günlük 15 bin dolara kadar para cezası öngören yasanın uygulanmasından New York Başsavcılığı sorumlu olacak."
+    },
+    {
+      "type": "p",
+      "text": "Eyalet yönetimi kararın gerekçesi olarak uygunsuz konuşmalar, duygusal manipülasyon ve çocukların ses ya da yüz verilerinin toplanması gibi güvenlik ve mahremiyet risklerini gösterdi. Beş yıllık ara, bu ürünlerin etkilerini incelemek ve kalıcı kurallar geliştirmek için zaman sağlamayı amaçlıyor."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "New York'un satışın yanı sıra üretim ve dağıtımı da kapsayan moratoryumu, tüketiciye yönelik yapay zekâ ürünlerinde çocuk güvenliği için en sert bölgesel müdahalelerden biri. Karar, oyuncak üreticilerinin tasarım, veri toplama ve yaşa uygun koruma önlemlerini yeniden değerlendirmesine yol açabilir."
+    }
+  ],
+  "category": "Yapay Zekâ Politikası",
+  "source": {
+    "name": "New York Eyaleti Valiliği",
+    "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
+  }
 }
 ]
