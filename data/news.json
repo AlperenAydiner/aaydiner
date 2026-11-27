@@ -1,4 +1,88 @@
 [
+{
+  "date": "2026-11-26",
+  "title": "DeepL, gerçek zamanlı çeviri modeli Aure v2'yi kullanıma sundu",
+  "summary": "DeepL, sesli görüşmeler için geliştirdiği Aure v2 modelini yayımladı. Şirket, modelin önceki sürüme göre ortanca çeviri gecikmesini yüzde 50 azalttığını belirtiyor.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Aure v2; İngilizce, Almanca, Fransızca, İspanyolca, Japonca ve Korece dillerini destekliyor. Model, DeepL Voice'un çevrim içi toplantı ve yüz yüze görüşme ürünleriyle ses API'sinde kullanıma açıldı."
+    },
+    {
+      "type": "p",
+      "text": "DeepL, yeni uçtan uca mimari ve pekiştirmeli öğrenme kullanan modelin kendi testlerinde altı rakip sistemi çeviri kalitesinde geçtiğini söylüyor. Gecikme ve kalite sonuçları şirketin kendi ölçümlerine dayanıyor."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Daha düşük gecikme, yapay zekâ destekli canlı çevirinin toplantılarda ve müşteri hizmetlerinde konuşma akışını daha az keserek kullanılmasını sağlayabilir."
+    }
+  ],
+  "category": "Yapay Zekâ Ürünleri",
+  "source": {
+    "name": "DeepL",
+    "url": "https://www.deepl.com/en/press-release/aure-v2"
+  }
+},
+{
+  "date": "2026-11-26",
+  "title": "Hindistan destekli Chariot-1 model ailesi tanıtıldı",
+  "summary": "IndiaAI Mission kapsamında geliştirilen Chariot-1 dil ve metinden sese modelleri tanıtıldı. Model ailesi, İngilizcenin yanı sıra 10 Hint diline odaklanıyor.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Chariot-1 dil modeli, toplam 11 milyar ve her belirteçte 4 milyar etkin parametre kullanan uzman karışımı mimarisine sahip. Aile, farklı donanımlara yönelik 10,7 milyar, 1,7 milyar ve 745 milyon parametreli üç boyut içeriyor."
+    },
+    {
+      "type": "p",
+      "text": "Hindistan hükümetinin açıklamasına göre metinden sese modeli İngilizceyle birlikte 10 Hint dilini destekliyor. Paylaşılan verimlilik ve başarı oranları geliştirici ekibin bildirdiği test sonuçlarıdır."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Çalışma, büyük dil ve konuşma modellerinin çok dilli yerel gereksinimlere göre ülke içinde geliştirilmesine yönelik kamu destekli yatırımların somut bir ürüne dönüştüğünü gösteriyor."
+    }
+  ],
+  "category": "Dil Modelleri",
+  "source": {
+    "name": "Hindistan Basın Enformasyon Bürosu",
+    "url": "https://www.pib.gov.in/PressReleseDetailm.aspx?PRID=2341725&lang=1&reg=3"
+  }
+},
+{
+  "date": "2026-11-26",
+  "title": "BharatGen, açık ağırlıklı belge modeli Patram 1.5'i yayımladı",
+  "summary": "BharatGen, taranmış, el yazılı ve karma dilli belgeleri görüntü olarak işleyen 7 milyar parametreli Patram 1.5'i duyurdu. Modelin ağırlıkları Apache 2.0 lisansıyla erişime açıldı.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Patram 1.5; belge ayrıştırma, soru yanıtlama ve anahtar-değer çıkarma görevlerini tek bir görsel-dil modeliyle gerçekleştirebiliyor. Model, okunamayan ya da belgede bulunmayan bilgiler için yanıt vermekten kaçınacak şekilde eğitildi."
+    },
+    {
+      "type": "p",
+      "text": "BharatGen modeli 34 açık test ve 15 şirket içi görevde değerlendirdiğini, ağırlıkları Hugging Face üzerinden sunduğunu açıkladı. Karşılaştırmalı performans iddiaları geliştiricinin kendi değerlendirmelerine dayanıyor."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Açık ağırlıklı ve kurum içinde çalıştırılabilen belge modelleri, hassas finans, sağlık ve kamu belgelerinin dış hizmetlere gönderilmeden işlenebilmesine yardımcı olabilir."
+    }
+  ],
+  "category": "Açık Modeller",
+  "source": {
+    "name": "BharatGen",
+    "url": "https://bharatgen.com/assets/media-kit/files/press/patram-1-5-press-release.pdf?v=9d7bae135a"
+  }
+},
   {
     "date": "2026-10-27",
     "title": "OpenAI, üç alanda bilimsel sonuç iddiası açıkladı",
