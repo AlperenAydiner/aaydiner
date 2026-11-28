@@ -3910,5 +3910,89 @@
     "name": "New York Eyaleti Valiliği",
     "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot"
   }
+},
+{
+  "date": "2026-11-27",
+  "title": "Liquid AI, d1.3-ultra karar modelini kullanıma sundu",
+  "summary": "Liquid AI, metin ve görüntü girdilerinden olasılıklı kararlar üreten d1.3-ultra modelini yayımladı. Yeni sürüm; seçenekleri sıralama, görüntü ve sesten sayı ya da tarih çıkarma ve ses içindeki zaman aralıklarını belirleme yetenekleri ekliyor.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Liquid AI, d1.3-ultra'nın şirketin şimdiye kadarki en güçlü karar modeli olduğunu ve Liquid Console üzerinden kullanıma açıldığını duyurdu. Model; politika, kılavuz ve sözleşmelere göre karar verme ile emin olmadığı durumlarda yanıtı reddetme üzerine geliştirildi."
+    },
+    {
+      "type": "p",
+      "text": "Şirket, modelin Artificial Analysis Decision Index 2.1'de 76,4 puan aldığını bildirdi. Dış değerlendirme sayfası da modeli 27 karar modeli arasında ilk sırada gösteriyor; ancak şirketin 100'den fazla iç testte iyileşme iddiasına ilişkin ayrıntılı sonuçlar yayımlanmadı."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Üretken metin yerine seçeneklere olasılık atayan karar modelleri; belge yönlendirme, denetim ve sınıflandırma gibi yüksek hacimli işlerde daha düşük gecikmeyle kullanılabiliyor. Çok biçimli çıkarım ve sıralama desteği, bu yaklaşımın uygulama alanını genişletiyor."
+    }
+  ],
+  "category": "Yapay Zekâ Modelleri",
+  "source": {
+    "name": "Liquid AI",
+    "url": "https://x.com/liquidai/status/2126374995399975380"
+  }
+},
+{
+  "date": "2026-11-27",
+  "title": "Sber, görüntü, ses ve videoyu birlikte işleyen GigaChat 3.5 Omni'yi açtı",
+  "summary": "Sber'in ai-sage ekibi, metin, görüntü, ses ve sesli videoyu birlikte kabul eden GigaChat 3.5 Omni modelinin ağırlıklarını MIT lisansıyla yayımladı. Model 432 milyar toplam, 28 milyar etkin parametreye ve 131 bin belirteçlik bağlam penceresine sahip.",
+  "body": [
+    {
+      "type": "p",
+      "text": "GigaChat 3.5 Omni, farklı girdi türlerini aynı istemde işleyip metin yanıtı üretiyor. Video karelerini ses parçaları ve zaman damgalarıyla sırayla modele vererek görüntü ile sesi zaman içinde eşleştirmeyi amaçlıyor."
+    },
+    {
+      "type": "p",
+      "text": "Hugging Face'te yayımlanan FP8 kontrol noktası SGLang ile çalışıyor; Sber'in belgelenen kurulumu sekiz adet 80 GB H100 GPU kullanıyor. Model kartındaki görüntü, ses ve video test sonuçları geliştirici ekibin ölçümleri olduğundan bağımsız doğrulama niteliği taşımıyor."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "MIT lisanslı ağırlıkların yayımlanması, araştırmacıların uzun sesli videoları tek modelle inceleyen sistemleri kendi altyapılarında denemesine ve uyarlamasına imkân veriyor; yüksek donanım gereksinimi ise erişimi sınırlıyor."
+    }
+  ],
+  "category": "Çok Modlu Yapay Zekâ",
+  "source": {
+    "name": "Hugging Face / ai-sage",
+    "url": "https://huggingface.co/ai-sage/GigaChat3.5-Omni-432B-A28B"
+  }
+},
+{
+  "date": "2026-11-27",
+  "title": "OpenAI, yapay zekâ cihazları anlaşmazlığında Apple'a karşı dava açtı",
+  "summary": "OpenAI, Apple'ın ticari sırlarını aldığı ve tedarikçilere baskı yaparak gelecekteki yapay zekâ cihazlarını engellemeye çalıştığı iddiasıyla karşı dava açtı. Apple suçlamaları reddederek başvurunun kendi davasından dikkat dağıtmayı amaçladığını savundu.",
+  "body": [
+    {
+      "type": "p",
+      "text": "Reuters'ın incelediği federal mahkeme başvurusuna göre OpenAI, Apple'ın eski bir çalışan üzerinden prototip ve donanım yol haritasına ilişkin gizli bilgilere ulaştığını ileri sürdü. Şirket ayrıca bazı tedarikçilerin Apple işlerini kaybetme korkusuyla OpenAI ile görüşmeleri değiştirdiğini veya planlanan çalışmaları bıraktığını iddia etti."
+    },
+    {
+      "type": "p",
+      "text": "Karşı dava, Apple'ın temmuz ayında OpenAI ve iki eski Apple çalışanına yönelttiği ticari sır suçlamalarının ardından geldi. Tarafların iddiaları henüz mahkemece karara bağlanmadı; Reuters, OpenAI'ın tüketiciye yönelik yapay zekâ destekli elektronik cihazlar geliştirdiğini aktardı."
+    },
+    {
+      "type": "h3",
+      "text": "Neden önemli?"
+    },
+    {
+      "type": "p",
+      "text": "Uyuşmazlık, OpenAI ile Apple'ın yazılım ortaklığından yapay zekâ donanımında doğrudan rekabete yöneldiğini gösteriyor. Mahkeme süreci; çalışan geçişleri, tedarikçi ilişkileri ve yeni cihazların geliştirilme takvimi üzerinde etkili olabilir."
+    }
+  ],
+  "category": "Yapay Zekâ ve İş Dünyası",
+  "source": {
+    "name": "Al Jazeera / Reuters",
+    "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up"
+  }
 }
 ]
